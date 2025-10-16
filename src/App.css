@@ -28,4 +28,41 @@ body {
   color: var(--accent);
   border: 1px solid rgba(111,66,193,0.18);
 }
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(111,66,193,0.08);
+  color: #4b2fa3;
+  border: 1px solid rgba(111,66,193,0.18);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 .repo-desc { color: var(--muted); }
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #111827;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform .12s ease, background .12s;
+}
+
+.contact-badge:hover { transform: translateY(-2px); background: #141827; }
+
+.contact-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+}

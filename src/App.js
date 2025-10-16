@@ -23,7 +23,7 @@ function App() {
 
 						<h5>Introdução</h5>
 						<p style={{ textAlign: "justify" }}>
-							Meu nome é Ruth Mira e sou estudante do quarto ano do curso de Banco de Dados. Tenho experiência como desenvolvedora full stack,
+							Meu nome é Ruth Mira e sou estudante do TERCEIRO ano do curso de Banco de Dados. Tenho experiência como desenvolvedora full stack,
 							interesse por novas tecnologias e dedicação à leitura de documentação técnica.
 						</p>
 
@@ -78,21 +78,19 @@ function App() {
 								</h2>
 								<div id="sem1Collapse" className="accordion-collapse collapse" aria-labelledby="sem1Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-2), em parceria com a GSW (Global Solutions & Web), desenvolvemos a Porygon2, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. Nosso objetivo foi permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com alta performance e usabilidade.</p>
+										<p>No primeiro semestre do curso da FATEC, desenvolvemos uma aplicação para a instituição de ensino PBLTex, especializada em cursos baseados em Problem Based Learning (PBL). O projeto teve como objetivo construir um sistema de informação voltado à gestão e acompanhamento de scores de alunos, permitindo o controle de turmas, grupos, entregas e métricas de desempenho acadêmico. O sistema busca proporcionar uma visão consolidada do progresso dos estudantes e facilitar o trabalho dos coordenadores e professores no acompanhamento de atividades e resultados, promovendo a integração entre tecnologia, aprendizado ativo e gestão educacional.</p>
 
 										<p>GitHub do Projeto: <a href="#" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
 
 										<h6 className="mt-3">Tecnologias Utilizadas</h6>
 										<ul>
-											<li>Java 22 – linguagem base da aplicação, aproveitando os recursos modernos da JVM</li>
-											<li>Spring Boot 3.3.3 (Web, Data JPA, Thymeleaf, DevTools)</li>
-											<li>MySQL – banco relacional</li>
-											<li>Lombok – redução de boilerplate</li>
-											<li>Jsoup – web scraping</li>
-											<li>Jackson – conversão JSON/XML</li>
-											<li>Maven – gerenciamento de dependências</li>
-											<li>Thymeleaf – template engine</li>
-											<li>Bootstrap – estilização responsiva</li>
+											<li>Python – linguagem principal de desenvolvimento.</li>
+											<li>HTML e CSS – estrutura e estilização das interfaces.</li>
+											<li>JavaScript – interatividade e dinamicidade do front-end.</li>
+											<li>Canva – design e prototipação visual.</li>
+											<li>Git e GitHub – versionamento e colaboração de código.</li>
+											<li>JExcalidraw – criação de diagramas e modelagem visual.</li>
+											<li>JSON/CSV – armazenamento e manipulação de dados.</li>
 										</ul>
 
 										<h6>Contribuições Pessoais</h6>

@@ -73,14 +73,14 @@ function App() {
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem1Heading">
 									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem1Collapse" aria-expanded="false" aria-controls="sem1Collapse">
-										Semestre 1 — Modelo (texto do 3º semestre)
+										Semestre 1 — PBLTex (2023-2)
 									</button>
 								</h2>
 								<div id="sem1Collapse" className="accordion-collapse collapse" aria-labelledby="sem1Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 										<p>No primeiro semestre do curso da FATEC, desenvolvemos uma aplicação para a instituição de ensino PBLTex, especializada em cursos baseados em Problem Based Learning (PBL). O projeto teve como objetivo construir um sistema de informação voltado à gestão e acompanhamento de scores de alunos, permitindo o controle de turmas, grupos, entregas e métricas de desempenho acadêmico. O sistema busca proporcionar uma visão consolidada do progresso dos estudantes e facilitar o trabalho dos coordenadores e professores no acompanhamento de atividades e resultados, promovendo a integração entre tecnologia, aprendizado ativo e gestão educacional.</p>
 
-										<p>GitHub do Projeto: <a href="#" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<p>GitHub do Projeto: <a href="#https://github.com/RuthMira/API1BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
 
 										<h6 className="mt-3">Tecnologias Utilizadas</h6>
 										<ul>
@@ -93,52 +93,50 @@ function App() {
 											<li>JSON/CSV – armazenamento e manipulação de dados.</li>
 										</ul>
 
-										<h6>Contribuições Pessoais</h6>
+										<h6 className="mt-3">Contribuições Pessoais</h6>
 										<p><strong>💻 Backend e Arquitetura</strong></p>
 										<ul>
-											<li>Criação do projeto inicial com dependências Maven, estrutura MVC e configuração de banco.</li>
-											<li>Modelagem do banco de dados: diagrama físico e scripts SQL.</li>
-											<li>Desenvolvimento dos CRUDs completos para Portais, Tags, Notícias, Jornalistas e APIs.</li>
-											<li>Criação de método para requisição às APIs cadastradas e salvamento em ApiDados.</li>
-											<li>Refatoração da lógica de raspagem para execução assíncrona.</li>
-											<li>Tratamento de erros, prevenção de duplicidade e validações.</li>
-											<li>Criação de testes unitários para casos específicos.</li>
+											<li>Criação e estilização das telas principais do sistema (cadastro de alunos, registro de notas, login, dashboard).</li>
+											<li>Desenvolvimento da estrutura inicial do projeto com organização de pastas e arquivos.</li>
+											<li>Implementação das funcionalidades de CRUD (Create, Read, Update, Delete) para gerenciamento de alunos, turmas e grupos.</li>
+											<li>Criação de rotinas para cálculo e atualização automática dos scores dos alunos com base nas entregas realizadas.</li>
+											<li>Desenvolvimento de scripts para importação e exportação de dados em formatos JSON e CSV.</li>
 										</ul>
 
 										<h6 className="mt-3">🧠 Lógica de Negócio e Recursos Avançados</h6>
 										<ul>
-											<li>Tabela de sinônimos ligada à Tag para buscas inteligentes.</li>
-											<li>Rotina de análise textual para vincular tags às notícias durante a coleta.</li>
-											<li>Sugestão automática de seletores HTML com base em dados salvos.</li>
+											<li>Colaboração na validação de dados de entrada no front-end.</li>
+											<li>Participação na criação e testes de funções CRUD básicas (cadastro, edição e exclusão de registros).</li>
+											<li>Suporte à integração das telas com o backend da aplicação web.</li>
 										</ul>
 
-										<h6 className="mt-3">🌐 Front-end</h6>
+										<h6 className="mt-3">🎨 Identidade Visual e Branding</h6>
 										<ul>
-											<li>Home com navbar e footer reutilizáveis.</li>
-											<li>Caixa de seleção com tipos de arquivo da API (XML, CSV, JSON).</li>
-											<li>Formato global de datas e validações no front-end.</li>
-											<li>Responsividade em tabelas e padronização visual.</li>
+											<li>Criação do logo oficial do sistema e definição da identidade visual.</li>
+											<li>Criação do logo oficial do sistema e definição da identidade visual.</li>
+											<li>Escolha de paleta de cores, tipografia e elementos visuais para coerência do design.</li>
+											<li>Ajustes de layout e responsividade para diferentes tamanhos de tela.</li>
 										</ul>
 
 										<h6 className="mt-3">🧪 Organização e Estruturação do Código</h6>
 										<ul>
-											<li>Criação da pasta /codebase para organização por domínio.</li>
-											<li>Documentação no README.md sobre decisões e fluxo de uso.</li>
+											<li>Participação ativa na organização do repositório e estrutura do projeto.</li>
+											<li>Contribuição em revisões de código e testes de interface.</li>
+											<li>Trabalho colaborativo em ambiente de versionamento Git.</li>
 										</ul>
 
 										<h6 className="mt-3">💡 Hard Skills</h6>
 										<ul>
-											<li>Java (JDK 22) – autonomia total</li>
-											<li>Spring Boot 3.3.3 – nível avançado</li>
-											<li>Thymeleaf – nível autônomo</li>
-											<li>Bootstrap – nível intermediário</li>
-											<li>MySQL – nível avançado</li>
-											<li>Maven, Jsoup, Jackson, Bean Validation, Git, JUnit</li>
+											<li>HTML5 / CSS3 – nível avançado.</li>
+											<li>JavaScript – nível intermediário.</li>
+											<li>Bibliotecas de Framework Front-end (ex: Bootstrap) – nível intermediário.</li>
+											<li>Git e GitHub – nível intermediário.</li>
+											<li>Design Gráfico (logo e UI) – nível autônomo.</li>
 										</ul>
 
 										<h6 className="mt-3">🤝 Soft Skills</h6>
 										<ul>
-											<li>Organização, Proatividade, Resolução de Problemas, Comunicação, Trabalho em Equipe, Atenção aos Detalhes</li>
+											<li>Colaboração, Comunicação, Proatividade, Atenção aos Detalhes, Aprendizado Contínuo, Trabalho em Equipe.</li>
 										</ul>
 									</div>
 								</div>
@@ -148,78 +146,67 @@ function App() {
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem2Heading">
 									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem2Collapse" aria-expanded="false" aria-controls="sem2Collapse">
-										Semestre 2 — Modelo (texto do 3º semestre)
+										Semestre 2 — PorygonAPI (2024-1)
 									</button>
 								</h2>
 								<div id="sem2Collapse" className="accordion-collapse collapse" aria-labelledby="sem2Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-2), em parceria com a GSW (Global Solutions & Web), desenvolvemos a Porygon2, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. Nosso objetivo foi permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com alta performance e usabilidade.</p>
 
-										<p>GitHub do Projeto: <a href="#" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<p>Durante o segundo semestre (2024-1), desenvolvemos a aplicação <strong>EMA (Estação Meteorológica Automatizada)</strong>, um sistema desktop voltado à <strong>consolidação e análise de dados climáticos</strong> de cidades do estado de São Paulo. O projeto foi construído em Java, com integração a banco de dados relacional e geração de relatórios estatísticos (médias, periodicidades e boxplots) para pesquisa acadêmica.</p>
 
-										<h6 className="mt-3">Tecnologias Utilizadas</h6>
+										<p><strong>GitHub do Projeto:</strong> <a href="https://github.com/RuthMira/API2BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+
+										<h6 className="mt-3">🧰 Tecnologias Utilizadas</h6>
 										<ul>
-											<li>Java 22 – linguagem base da aplicação, aproveitando os recursos modernos da JVM</li>
-											<li>Spring Boot 3.3.3 (Web, Data JPA, Thymeleaf, DevTools)</li>
-											<li>MySQL – banco relacional</li>
-											<li>Lombok – redução de boilerplate</li>
-											<li>Jsoup – web scraping</li>
-											<li>Jackson – conversão JSON/XML</li>
-											<li>Maven – gerenciamento de dependências</li>
-											<li>Thymeleaf – template engine</li>
-											<li>Bootstrap – estilização responsiva</li>
+											<li>Java SE (JDK 22) – base da aplicação desktop</li>
+											<li>JDBC – conexão e persistência com banco de dados relacional</li>
+											<li>MySQL – armazenamento e manipulação dos dados climáticos</li>
+											<li>Swing – interface gráfica do usuário (GUI)</li>
+											<li>Git e GitHub – controle de versão e colaboração</li>
 										</ul>
 
-										<h6>Contribuições Pessoais</h6>
-										<p><strong>💻 Backend e Arquitetura</strong></p>
+										<h6 className="mt-3">👩‍💻 Contribuições Pessoais</h6>
+										<p><strong>💻 Interface e Experiência do Usuário</strong></p>
 										<ul>
-											<li>Criação do projeto inicial com dependências Maven, estrutura MVC e configuração de banco.</li>
-											<li>Modelagem do banco de dados: diagrama físico e scripts SQL.</li>
-											<li>Desenvolvimento dos CRUDs completos para Portais, Tags, Notícias, Jornalistas e APIs.</li>
-											<li>Criação de método para requisição às APIs cadastradas e salvamento em ApiDados.</li>
-											<li>Refatoração da lógica de raspagem para execução assíncrona.</li>
-											<li>Tratamento de erros, prevenção de duplicidade e validações.</li>
-											<li>Criação de testes unitários para casos específicos.</li>
+											<li>Criação e estilização das telas principais da aplicação (menu inicial, cadastro de cidades, variáveis climáticas e registros).</li>
+											<li>Desenvolvimento da identidade visual da aplicação, incluindo <strong>logo e paleta de cores</strong>.</li>
+											<li>Implementação de componentes gráficos reutilizáveis e responsivos no layout.</li>
+											<li>Construção da navegação entre telas e validações visuais de entrada de dados.</li>
+											<li>Colaboração direta no design da interface usando conceitos de UX/UI.</li>
 										</ul>
 
-										<h6 className="mt-3">🧠 Lógica de Negócio e Recursos Avançados</h6>
+										<h6 className="mt-3">🧠 Lógica e Funcionalidades</h6>
 										<ul>
-											<li>Tabela de sinônimos ligada à Tag para buscas inteligentes.</li>
-											<li>Rotina de análise textual para vincular tags às notícias durante a coleta.</li>
-											<li>Sugestão automática de seletores HTML com base em dados salvos.</li>
+											<li>Participação na implementação de operações CRUD (criação, edição, exclusão e listagem de registros).</li>
+											<li>Auxílio na rotina de geração de relatórios de média e boxplot dos dados climáticos.</li>
+											<li>Contribuição na verificação e tratamento de registros suspeitos (valores anômalos).</li>
+											<li>Suporte na validação de dados e integração entre GUI e banco via JDBC.</li>
 										</ul>
 
-										<h6 className="mt-3">🌐 Front-end</h6>
+										<h6 className="mt-3">🧪 Organização e Colaboração</h6>
 										<ul>
-											<li>Home com navbar e footer reutilizáveis.</li>
-											<li>Caixa de seleção com tipos de arquivo da API (XML, CSV, JSON).</li>
-											<li>Formato global de datas e validações no front-end.</li>
-											<li>Responsividade em tabelas e padronização visual.</li>
-										</ul>
-
-										<h6 className="mt-3">🧪 Organização e Estruturação do Código</h6>
-										<ul>
-											<li>Criação da pasta /codebase para organização por domínio.</li>
-											<li>Documentação no README.md sobre decisões e fluxo de uso.</li>
+											<li>Participação em reuniões de sprint e revisões de backlog seguindo metodologia ágil.</li>
+											<li>Pair programming para correção de bugs e integração de módulos.</li>
+											<li>Documentação das telas e fluxos no repositório do projeto.</li>
 										</ul>
 
 										<h6 className="mt-3">💡 Hard Skills</h6>
 										<ul>
-											<li>Java (JDK 22) – autonomia total</li>
-											<li>Spring Boot 3.3.3 – nível avançado</li>
-											<li>Thymeleaf – nível autônomo</li>
-											<li>Bootstrap – nível intermediário</li>
-											<li>MySQL – nível avançado</li>
-											<li>Maven, Jsoup, Jackson, Bean Validation, Git, JUnit</li>
+											<li>Java SE – nível intermediário</li>
+											<li>JDBC – nível intermediário</li>
+											<li>MySQL – nível intermediário</li>
+											<li>Swing – nível intermediário</li>
+											<li>Git e GitHub – nível intermediário</li>
 										</ul>
 
 										<h6 className="mt-3">🤝 Soft Skills</h6>
 										<ul>
-											<li>Organização, Proatividade, Resolução de Problemas, Comunicação, Trabalho em Equipe, Atenção aos Detalhes</li>
+											<li>Trabalho em equipe, Comunicação, Proatividade, Atenção aos detalhes, Aprendizado contínuo, Organização</li>
 										</ul>
 									</div>
 								</div>
 							</div>
+
 
 							{/* Semestre 3 (texto original mantido) */}
 							<div className="accordion-item">
@@ -230,9 +217,9 @@ function App() {
 								</h2>
 								<div id="sem3Collapse" className="accordion-collapse collapse show" aria-labelledby="sem3Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-2), em parceria com a GSW (Global Solutions & Web), desenvolvemos a Porygon2, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. Nosso objetivo foi permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com alta performance e usabilidade.</p>
+										<p>No terceiro semestre (2024-1), em parceria com a GSW (Global Solutions & Web), desenvolvemos a Porygon2, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. Nosso objetivo foi permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com alta performance e usabilidade.</p>
 
-										<p>GitHub do Projeto: <a href="#" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<p>GitHub do Projeto: <a href="#https://github.com/RuthMira/API3BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
 
 										<h6 className="mt-3">Tecnologias Utilizadas</h6>
 										<ul>
@@ -247,7 +234,7 @@ function App() {
 											<li>Bootstrap – estilização responsiva</li>
 										</ul>
 
-										<h6>Contribuições Pessoais</h6>
+										<h6 className="mt-3">Contribuições Pessoais</h6>
 										<p><strong>💻 Backend e Arquitetura</strong></p>
 										<ul>
 											<li>Criação do projeto inicial com dependências Maven, estrutura MVC e configuração de banco.</li>
@@ -294,8 +281,6 @@ function App() {
 										<ul>
 											<li>Organização, Proatividade, Resolução de Problemas, Comunicação, Trabalho em Equipe, Atenção aos Detalhes</li>
 										</ul>
-
-										<p className="mt-2"><strong>Outros semestres</strong>: Em 2022-1, 2022-2, 2023-1 e 2023-2 — mesmo formato.</p>
 									</div>
 								</div>
 							</div>
@@ -304,84 +289,88 @@ function App() {
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem4Heading">
 									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem4Collapse" aria-expanded="false" aria-controls="sem4Collapse">
-										Semestre 4 — Modelo (texto do 3º semestre + template)
+										Semestre 4 — Porygon3 (2025-1)
 									</button>
 								</h2>
 								<div id="sem4Collapse" className="accordion-collapse collapse" aria-labelledby="sem4Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-2), em parceria com a GSW (Global Solutions & Web), desenvolvemos a Porygon2, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. Nosso objetivo foi permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com alta performance e usabilidade.</p>
 
-										<p>GitHub do Projeto: <a href="#" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<p>
+										No quarto semestre (2025-1), em parceria com a <strong>Visiona</strong>, desenvolvemos a <strong>AgroDataAPI</strong>, uma solução voltada à manipulação e visualização de <strong>dados agrícolas armazenados em banco relacional</strong>. A aplicação foi composta por
+										módulos <strong>backend e frontend</strong>, permitindo acesso aos dados tanto via <strong>interface web interativa</strong> quanto por meio de <strong>APIs RESTful</strong>.
+										</p>
+
+										<p>
+										O principal objetivo do projeto foi criar uma plataforma capaz de consolidar informações sobre
+										áreas, safras e produtividade, oferecendo aos analistas e consultores ferramentas de apoio à
+										decisão por meio de dashboards, relatórios de desempenho e mapas interativos. O projeto reforçou
+										a integração entre <strong>banco de dados, API e visualização em tempo real</strong>,
+										seguindo práticas ágeis e padrões de arquitetura modular.
+										</p>
+
+										<p>GitHub do Projeto: <a href="#https://github.com/RuthMira/API4BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
 
 										<h6 className="mt-3">Tecnologias Utilizadas</h6>
 										<ul>
-											<li>Java 22 – linguagem base da aplicação, aproveitando os recursos modernos da JVM</li>
-											<li>Spring Boot 3.3.3 (Web, Data JPA, Thymeleaf, DevTools)</li>
-											<li>MySQL – banco relacional</li>
-											<li>Lombok – redução de boilerplate</li>
-											<li>Jsoup – web scraping</li>
-											<li>Jackson – conversão JSON/XML</li>
-											<li>Maven – gerenciamento de dependências</li>
-											<li>Thymeleaf – template engine</li>
-											<li>Bootstrap – estilização responsiva</li>
+											<li>Java 22 e Spring Boot 3.3.3 (Web, Data JPA, Security, DevTools)</li>
+											<li>MySQL – banco de dados relacional</li>
+											<li>Docker – containerização do ambiente</li>
+											<li>Vue.js – interface web dinâmica e reativa</li>
+											<li>Spring Security – autenticação JWT</li>
+											<li>Hibernate e JPA – persistência de dados</li>
+											<li>GitHub Projects e Issues – controle das Sprints</li>
 										</ul>
 
-										<h6>Contribuições Pessoais</h6>
-										<p><strong>💻 Backend e Arquitetura</strong></p>
+										<h6 className="mt-3">Contribuições Pessoais</h6>
+										<p><strong>🧩 Backend e Integrações</strong></p>
 										<ul>
-											<li>Criação do projeto inicial com dependências Maven, estrutura MVC e configuração de banco.</li>
-											<li>Modelagem do banco de dados: diagrama físico e scripts SQL.</li>
-											<li>Desenvolvimento dos CRUDs completos para Portais, Tags, Notícias, Jornalistas e APIs.</li>
-											<li>Criação de método para requisição às APIs cadastradas e salvamento em ApiDados.</li>
-											<li>Refatoração da lógica de raspagem para execução assíncrona.</li>
-											<li>Tratamento de erros, prevenção de duplicidade e validações.</li>
-											<li>Criação de testes unitários para casos específicos.</li>
+											<li>Criação e manutenção de endpoints RESTful com Spring Boot.</li>
+											<li>Implementação de entidades e relacionamentos (Safra, Talhão, Área, Usuário).</li>
+											<li>Refatoração de serviços e controllers para padronização da nomenclatura.</li>
+											<li>Correção de queries SQL e Dtos para relatórios de produtividade e quantitativo.</li>
+											<li>Criação de endpoints para exportação de dados (GeoJSON) e relatórios.</li>
+											<li>Integração com camadas de segurança (JWT e controle de perfis).</li>
 										</ul>
 
-										<h6 className="mt-3">🧠 Lógica de Negócio e Recursos Avançados</h6>
+										<p><strong>🌐 Front-end e Integração com a API</strong></p>
 										<ul>
-											<li>Tabela de sinônimos ligada à Tag para buscas inteligentes.</li>
-											<li>Rotina de análise textual para vincular tags às notícias durante a coleta.</li>
-											<li>Sugestão automática de seletores HTML com base em dados salvos.</li>
+											<li>Participação nas telas de cadastro e visualização de áreas agrícolas.</li>
+											<li>Implementação de componentes Vue para dashboards e relatórios.</li>
+											<li>Integração das rotas do front com endpoints do backend.</li>
+											<li>Ajustes de layout e feedback visual com base em testes de usabilidade.</li>
 										</ul>
 
-										<h6 className="mt-3">🌐 Front-end</h6>
+										<p><strong>🧭 Gestão Ágil e Liderança</strong></p>
 										<ul>
-											<li>Home com navbar e footer reutilizáveis.</li>
-											<li>Caixa de seleção com tipos de arquivo da API (XML, CSV, JSON).</li>
-											<li>Formato global de datas e validações no front-end.</li>
-											<li>Responsividade em tabelas e padronização visual.</li>
+											<li>Atuação como <strong>Scrum Master</strong> no início do projeto, conduzindo cerimônias ágeis (daily, review e retrospective).</li>
+											<li>Posteriormente, assumi o papel de <strong>Product Owner</strong>, priorizando backlog, refinando histórias e validando entregas de sprint.</li>
+											<li>Responsável pela atualização do <strong>README</strong> e documentação técnica das entregas.</li>
+											<li>Supervisão das branches, merges e padronização de commits nas PRs.</li>
 										</ul>
 
 										<h6 className="mt-3">🧪 Organização e Estruturação do Código</h6>
 										<ul>
-											<li>Criação da pasta /codebase para organização por domínio.</li>
-											<li>Documentação no README.md sobre decisões e fluxo de uso.</li>
+											<li>Separação entre camadas de domínio, controller e service.</li>
+											<li>Criação e padronização dos DTOs e Controllers no backend.</li>
+											<li>Documentação de rotas e endpoints principais.</li>
 										</ul>
 
 										<h6 className="mt-3">💡 Hard Skills</h6>
 										<ul>
-											<li>Java (JDK 22) – autonomia total</li>
+											<li>Java (JDK 22) – nível avançado</li>
 											<li>Spring Boot 3.3.3 – nível avançado</li>
-											<li>Thymeleaf – nível autônomo</li>
-											<li>Bootstrap – nível intermediário</li>
+											<li>Vue.js – nível intermediário</li>
+											<li>Docker – nível intermediário</li>
 											<li>MySQL – nível avançado</li>
-											<li>Maven, Jsoup, Jackson, Bean Validation, Git, JUnit</li>
+											<li>Git/GitHub – nível avançado (branches, merges e versionamento)</li>
 										</ul>
 
 										<h6 className="mt-3">🤝 Soft Skills</h6>
 										<ul>
-											<li>Organização, Proatividade, Resolução de Problemas, Comunicação, Trabalho em Equipe, Atenção aos Detalhes</li>
+											<li>
+											Liderança, Organização, Comunicação, Trabalho em Equipe, Proatividade, Resolução de Conflitos, Atenção aos Detalhes
+											</li>
 										</ul>
-
-										{/* Template reutilizável para o 4º semestre */}
-										<ApiTemplate
-											title="Novo Projeto - 4º Semestre (título aqui)"
-											repoLink="#"
-											description="Descrição breve do projeto/ API desenvolvida no 4º semestre."
-											technologies={["ex: Java", "Spring Boot", "MySQL"]}
-											contributions={["Implementação do backend", "Integração com API", "Testes"]}
-										/>
 									</div>
 								</div>
 							</div>

@@ -166,57 +166,68 @@ function App() {
 								<div id="sem2Collapse" className="accordion-collapse collapse" aria-labelledby="sem2Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 
-										<p>Durante o segundo semestre (2024-1), desenvolvemos a aplicação <strong>EMA (Estação Meteorológica Automatizada)</strong>, um sistema desktop voltado à <strong>consolidação e análise de dados climáticos</strong> de cidades do estado de São Paulo. O projeto foi construído em Java, com integração a banco de dados relacional e geração de relatórios estatísticos (médias, periodicidades e boxplots) para pesquisa acadêmica.</p>
+										<p>Durante o segundo semestre (2024-1), desenvolvemos a aplicação <strong>EMA (Estação Meteorológica Automatizada)</strong>, um sistema desktop voltado à <strong>consolidação e análise de dados climáticos</strong> de cidades do estado de São Paulo. O projeto foi construído em Java, com integração a banco de dados relacional e geração de relatórios estatísticos, como médias, periodicidades e boxplots, para apoiar análises acadêmicas.</p>
 
-										<p><strong>GitHub do Projeto:</strong> <a href="https://github.com/RuthMira/API2BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<div className="project-link-box">
+											<span>Repositório do projeto</span>
+											<a href="https://github.com/RuthMira/API2BD" target="_blank" rel="noopener noreferrer">Acessar no GitHub</a>
+										</div>
 
-										<h6 className="mt-3">🧰 Tecnologias Utilizadas</h6>
-										<ul>
-											<li>Java SE (JDK 22) – base da aplicação desktop</li>
-											<li>JDBC – conexão e persistência com banco de dados relacional</li>
-											<li>MySQL – armazenamento e manipulação dos dados climáticos</li>
-											<li>Swing – interface gráfica do usuário (GUI)</li>
-											<li>Git e GitHub – controle de versão e colaboração</li>
-										</ul>
+										<h6 className="section-title">Tecnologias Utilizadas</h6>
+										<div className="tech-list">
+											<div className="tech-item">
+												<span className="tech-name">Java SE</span>
+												<span className="tech-desc">Base da aplicação desktop</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JavaFX</span>
+												<span className="tech-desc">Construção da interface gráfica</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JDBC</span>
+												<span className="tech-desc">Integração entre aplicação e banco</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">MySQL</span>
+												<span className="tech-desc">Armazenamento dos dados climáticos</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JAR</span>
+												<span className="tech-desc">Empacotamento da aplicação</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Git e GitHub</span>
+												<span className="tech-desc">Versionamento e colaboração</span>
+											</div>
+										</div>
 
-										<h6 className="mt-3">👩‍💻 Contribuições Pessoais</h6>
-										<p><strong>💻 Interface e Experiência do Usuário</strong></p>
-										<ul>
-											<li>Criação e estilização das telas principais da aplicação (menu inicial, cadastro de cidades, variáveis climáticas e registros).</li>
-											<li>Desenvolvimento da identidade visual da aplicação, incluindo <strong>logo e paleta de cores</strong>.</li>
-											<li>Implementação de componentes gráficos reutilizáveis e responsivos no layout.</li>
-											<li>Construção da navegação entre telas e validações visuais de entrada de dados.</li>
-											<li>Colaboração direta no design da interface usando conceitos de UX/UI.</li>
-										</ul>
+										<h6 className="section-title">Contribuições Pessoais</h6>
+										<div className="contribution-text">
+											<p>No segundo semestre, eu já estava trabalhando em tempo integral no cartório e começando a desenvolver mais meu lado na programação. Também passei por uma mudança de grupo: parte dos colegas do semestre anterior trancou o curso ou foi para outros grupos, então pedi para entrar no Porygon, onde encontrei uma nova equipe e uma pessoa que acabou se tornando minha dupla em vários momentos de código.</p>
+											<p>Minha atuação começou novamente pelo front-end, por ser a parte em que eu já tinha mais segurança para contribuir. A diferença é que o projeto era uma aplicação desktop em Java, usando JavaFX e empacotamento em JAR, um formato bem diferente do que eu tinha visto até então. Por isso, precisei estudar mais para entender a estrutura do projeto, a organização das telas e a forma de integrar a interface com a lógica da aplicação.</p>
+											<p>Atuei principalmente no design e na construção das telas, mas também comecei a participar de algumas funcionalidades de CRUD, validações e integração entre a interface gráfica e o banco via JDBC. Tive dificuldade em entregar algumas tarefas no ritmo esperado, principalmente por causa da organização do projeto e por ainda estar aprendendo a aplicar os conceitos na prática, mas consegui contribuir mais no final com a ajuda de um dos desenvolvedores do grupo.</p>
+											<div className="project-media">
+												<img
+													src={`${process.env.PUBLIC_URL}/assets/api2/boxplot.png`}
+													alt="Estudo visual sobre boxplot e identificação de outliers"
+													className="project-image"
+												/>
+												<p className="project-caption">Estudo usado para entender a lógica dos relatórios estatísticos, boxplot e identificação de registros suspeitos.</p>
+											</div>
+											<p>Na parte final do projeto, ajudei principalmente nas rotinas relacionadas aos relatórios, no entendimento do que era esperado para as médias e boxplots, na verificação de registros suspeitos e nos testes manuais da plataforma. Essa API foi importante porque ampliou minha experiência além da interface e me aproximou mais da lógica de negócio, da persistência de dados e da análise dos dados climáticos.</p>
+										</div>
 
-										<h6 className="mt-3">🧠 Lógica e Funcionalidades</h6>
-										<ul>
-											<li>Participação na implementação de operações CRUD (criação, edição, exclusão e listagem de registros).</li>
-											<li>Auxílio na rotina de geração de relatórios de média e boxplot dos dados climáticos.</li>
-											<li>Contribuição na verificação e tratamento de registros suspeitos (valores anômalos).</li>
-											<li>Suporte na validação de dados e integração entre GUI e banco via JDBC.</li>
-										</ul>
+										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>As hard skills mais trabalhadas nessa API foram <strong>Java SE</strong>, <strong>JavaFX</strong>, <strong>JDBC</strong> e <strong>MySQL</strong>. O contato com JavaFX foi um desafio importante, porque a construção de interface desktop era diferente do front-end web que eu conhecia melhor. Também pratiquei <strong>CRUD</strong>, validações, integração entre GUI e banco de dados, além de acompanhar a geração de relatórios estatísticos.</p>
+											<p>Na parte de relatórios, desenvolvi melhor o entendimento sobre <strong>médias</strong>, <strong>boxplot</strong>, registros suspeitos e valores anômalos. Também continuei praticando <strong>Git e GitHub</strong>, organização de código, documentação e testes manuais.</p>
+										</div>
 
-										<h6 className="mt-3">🧪 Organização e Colaboração</h6>
-										<ul>
-											<li>Participação em reuniões de sprint e revisões de backlog seguindo metodologia ágil.</li>
-											<li>Pair programming para correção de bugs e integração de módulos.</li>
-											<li>Documentação das telas e fluxos no repositório do projeto.</li>
-										</ul>
-
-										<h6 className="mt-3">💡 Hard Skills</h6>
-										<ul>
-											<li>Java SE – nível intermediário</li>
-											<li>JDBC – nível intermediário</li>
-											<li>MySQL – nível intermediário</li>
-											<li>Swing – nível intermediário</li>
-											<li>Git e GitHub – nível intermediário</li>
-										</ul>
-
-										<h6 className="mt-3">🤝 Soft Skills</h6>
-										<ul>
-											<li>Trabalho em equipe, Comunicação, Proatividade, Atenção aos detalhes, Aprendizado contínuo, Organização</li>
-										</ul>
+										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Essa API exigiu bastante <strong>adaptação</strong>, porque precisei entrar em um novo grupo, lidar com uma tecnologia diferente e conciliar o projeto com o trabalho em tempo integral. A mudança de equipe também fortaleceu minha <strong>comunicação</strong>, já que eu precisava entender como o grupo trabalhava, pedir ajuda quando necessário e alinhar minhas entregas com pessoas que já tinham mais experiência.</p>
+											<p>O projeto também desenvolveu meu <strong>trabalho em equipe</strong> e meu <strong>aprendizado contínuo</strong>. Mesmo com dificuldades na organização e no ritmo das entregas, procurei estudar por fora, acompanhar quem tinha mais domínio técnico e contribuir nas partes em que eu conseguia avançar. No final, essa experiência fortaleceu minha <strong>persistência</strong>, minha <strong>atenção aos detalhes</strong> e minha confiança para participar de funcionalidades mais próximas da lógica do sistema.</p>
+										</div>
 									</div>
 								</div>
 							</div>

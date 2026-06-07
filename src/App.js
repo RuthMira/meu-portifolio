@@ -86,9 +86,12 @@ function App() {
 									<div className="accordion-body">
 										<p>No primeiro semestre do curso da FATEC, desenvolvemos uma aplicação para a instituição de ensino PBLTex, especializada em cursos baseados em Problem Based Learning (PBL). O projeto teve como objetivo construir um sistema de informação voltado à gestão e acompanhamento de scores de alunos, permitindo o controle de turmas, grupos, entregas e métricas de desempenho acadêmico. O sistema busca proporcionar uma visão consolidada do progresso dos estudantes e facilitar o trabalho dos coordenadores e professores no acompanhamento de atividades e resultados, promovendo a integração entre tecnologia, aprendizado ativo e gestão educacional.</p>
 
-										<p>GitHub do Projeto: <a href="https://github.com/RuthMira/API1BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<div className="project-link-box">
+											<span>Repositório do projeto</span>
+											<a href="https://github.com/RuthMira/API1BD" target="_blank" rel="noopener noreferrer">Acessar no GitHub</a>
+										</div>
 
-										<h6 className="mt-3">Tecnologias Utilizadas</h6>
+										<h6 className="section-title">Tecnologias Utilizadas</h6>
 										<div className="tech-list">
 											<div className="tech-item">
 												<span className="tech-name">Python</span>
@@ -120,13 +123,11 @@ function App() {
 											</div>
 										</div>
 
-										<h6 className="mt-3">Contribuições Pessoais</h6>
+										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>No primeiro projeto, eu ainda estava iniciando minha trajetória em desenvolvimento. Por isso, comecei contribuindo principalmente com HTML e CSS, atuando na construção, estilização e padronização visual das telas do sistema.</p>
-											<p>Fiquei responsável por apoiar o design responsivo das páginas criadas, ajustando elementos visuais para que as telas ficassem mais organizadas, consistentes e fáceis de usar. Também participei da estruturação inicial do projeto, ajudando a separar melhor os arquivos de front-end, back-end, imagens e estilos, evitando que os arquivos ficassem espalhados no repositório.</p>
-											<p>Além da parte visual, ajudei na documentação e no entendimento das regras de negócio. Esse processo foi importante para compreender melhor o problema, registrar o que o grupo precisava desenvolver e alinhar as funcionalidades com a proposta da aplicação.</p>
+											<p>Minha participação na API 1 começou principalmente pelo front-end, pois eu ainda estava no início da minha trajetória em desenvolvimento. Atuei com HTML e CSS na construção, estilização, padronização visual e responsividade das telas, buscando deixar a aplicação mais organizada e fácil de usar.</p>
+											<p>Também contribuí na estruturação inicial do projeto, ajudando a separar melhor os arquivos de front-end, back-end, imagens e estilos. Além disso, participei da documentação e do entendimento das regras de negócio, registrando o que precisava ser desenvolvido e alinhando as funcionalidades com a proposta da aplicação.</p>
 											<div className="project-media">
-												<h6>Planejamento das telas e fluxos</h6>
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api1/telas-api.png`}
 													alt="Diagrama das telas do projeto PBLTex"
@@ -134,23 +135,30 @@ function App() {
 												/>
 												<p className="project-caption">Diagrama utilizado para organizar as telas, entidades e fluxos principais da aplicação durante o desenvolvimento.</p>
 											</div>
-											<p>No início, as pessoas mais experientes do grupo ficaram com as partes mais complexas, como CRUDs e regras de cálculo. Conforme fui estudando JavaScript e entendendo melhor a lógica da aplicação, passei a contribuir de forma mais ativa em tarefas pontuais de CRUD, funcionalidades de cálculo e testes manuais da plataforma.</p>
-											<p>Essa API foi importante para minha evolução porque marcou minha transição de uma participação mais focada em interface para contribuições também ligadas à lógica e ao funcionamento do sistema.</p>
+											<p>Com a evolução do projeto e dos meus estudos em JavaScript, passei a apoiar tarefas pontuais de CRUD, funcionalidades de cálculo e testes manuais da plataforma. Esse projeto marcou minha transição de uma atuação mais focada em interface para contribuições também ligadas à lógica e ao funcionamento do sistema.</p>
 										</div>
 
-										<h6 className="mt-3">💡 Hard Skills</h6>
-										<ul>
-											<li>HTML5 / CSS3 – nível avançado.</li>
-											<li>JavaScript – nível intermediário.</li>
-											<li>Bibliotecas de Framework Front-end (ex: Bootstrap) – nível intermediário.</li>
-											<li>Git e GitHub – nível intermediário.</li>
-											<li>Design Gráfico (logo e UI) – nível autônomo.</li>
-										</ul>
+										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="compact-badge-list">
+											<span className="compact-badge">HTML5</span>
+											<span className="compact-badge">CSS3</span>
+											<span className="compact-badge">JavaScript</span>
+											<span className="compact-badge">Bootstrap</span>
+											<span className="compact-badge">Git e GitHub</span>
+											<span className="compact-badge">UI Design</span>
+											<span className="compact-badge">Documentação</span>
+											<span className="compact-badge">Testes manuais</span>
+										</div>
 
-										<h6 className="mt-3">🤝 Soft Skills</h6>
-										<ul>
-											<li>Colaboração, Comunicação, Proatividade, Atenção aos Detalhes, Aprendizado Contínuo, Trabalho em Equipe.</li>
-										</ul>
+										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="compact-badge-list">
+											<span className="compact-badge">Colaboração</span>
+											<span className="compact-badge">Comunicação</span>
+											<span className="compact-badge">Proatividade</span>
+											<span className="compact-badge">Atenção aos detalhes</span>
+											<span className="compact-badge">Aprendizado contínuo</span>
+											<span className="compact-badge">Trabalho em equipe</span>
+										</div>
 									</div>
 								</div>
 							</div>

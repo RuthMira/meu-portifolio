@@ -88,25 +88,6 @@ function App() {
 
 										<p>GitHub do Projeto: <a href="https://github.com/RuthMira/API1BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
 
-										<div className="accordion project-media-accordion" id="api1Media">
-											<div className="accordion-item">
-												<h2 className="accordion-header" id="api1MediaHeading">
-													<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#api1MediaLogo" aria-expanded="false" aria-controls="api1MediaLogo">
-														Imagem do projeto
-													</button>
-												</h2>
-												<div id="api1MediaLogo" className="accordion-collapse collapse" aria-labelledby="api1MediaHeading" data-bs-parent="#api1Media">
-													<div className="accordion-body">
-														<img
-															src={`${process.env.PUBLIC_URL}/assets/api1/pbltex-logo.png`}
-															alt="Logo do projeto PBLTex"
-															className="project-image"
-														/>
-													</div>
-												</div>
-											</div>
-										</div>
-
 										<h6 className="mt-3">Tecnologias Utilizadas</h6>
 										<div className="tech-list">
 											<div className="tech-item">
@@ -140,60 +121,21 @@ function App() {
 										</div>
 
 										<h6 className="mt-3">Contribuições Pessoais</h6>
-										<div className="accordion contribution-accordion" id="api1Contributions">
-											<div className="accordion-item">
-												<h2 className="accordion-header" id="api1ContributionStartHeading">
-													<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#api1ContributionStart" aria-expanded="false" aria-controls="api1ContributionStart">
-														Início no front-end e estilização
-													</button>
-												</h2>
-												<div id="api1ContributionStart" className="accordion-collapse collapse" aria-labelledby="api1ContributionStartHeading" data-bs-parent="#api1Contributions">
-													<div className="accordion-body">
-														<p>No primeiro projeto, eu ainda estava iniciando minha trajetória em desenvolvimento. Por isso, comecei contribuindo principalmente com HTML e CSS, atuando na construção, estilização e padronização visual das telas do sistema.</p>
-														<p>Fiquei responsável por apoiar o design responsivo das páginas criadas, ajustando elementos visuais para que as telas ficassem mais organizadas, consistentes e fáceis de usar.</p>
-													</div>
-												</div>
+										<div className="contribution-text">
+											<p>No primeiro projeto, eu ainda estava iniciando minha trajetória em desenvolvimento. Por isso, comecei contribuindo principalmente com HTML e CSS, atuando na construção, estilização e padronização visual das telas do sistema.</p>
+											<p>Fiquei responsável por apoiar o design responsivo das páginas criadas, ajustando elementos visuais para que as telas ficassem mais organizadas, consistentes e fáceis de usar. Também participei da estruturação inicial do projeto, ajudando a separar melhor os arquivos de front-end, back-end, imagens e estilos, evitando que os arquivos ficassem espalhados no repositório.</p>
+											<p>Além da parte visual, ajudei na documentação e no entendimento das regras de negócio. Esse processo foi importante para compreender melhor o problema, registrar o que o grupo precisava desenvolver e alinhar as funcionalidades com a proposta da aplicação.</p>
+											<div className="project-media">
+												<h6>Planejamento das telas e fluxos</h6>
+												<img
+													src={`${process.env.PUBLIC_URL}/assets/api1/telas-api.png`}
+													alt="Diagrama das telas do projeto PBLTex"
+													className="project-image"
+												/>
+												<p className="project-caption">Diagrama utilizado para organizar as telas, entidades e fluxos principais da aplicação durante o desenvolvimento.</p>
 											</div>
-
-											<div className="accordion-item">
-												<h2 className="accordion-header" id="api1ContributionStructureHeading">
-													<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#api1ContributionStructure" aria-expanded="false" aria-controls="api1ContributionStructure">
-														Organização do projeto
-													</button>
-												</h2>
-												<div id="api1ContributionStructure" className="accordion-collapse collapse" aria-labelledby="api1ContributionStructureHeading" data-bs-parent="#api1Contributions">
-													<div className="accordion-body">
-														<p>Também participei da estruturação inicial do projeto, ajudando a organizar as pastas e separar melhor os arquivos de front-end, back-end, imagens e estilos. Essa organização foi importante para evitar arquivos espalhados e facilitar o trabalho do grupo durante o desenvolvimento.</p>
-													</div>
-												</div>
-											</div>
-
-											<div className="accordion-item">
-												<h2 className="accordion-header" id="api1ContributionDocsHeading">
-													<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#api1ContributionDocs" aria-expanded="false" aria-controls="api1ContributionDocs">
-														Documentação e regras de negócio
-													</button>
-												</h2>
-												<div id="api1ContributionDocs" className="accordion-collapse collapse" aria-labelledby="api1ContributionDocsHeading" data-bs-parent="#api1Contributions">
-													<div className="accordion-body">
-														<p>Como parte do meu aprendizado, ajudei na documentação do projeto e no entendimento das regras de negócio. Esse processo foi essencial para compreender melhor o problema, registrar o que o grupo precisava desenvolver e alinhar as funcionalidades com a proposta da aplicação.</p>
-													</div>
-												</div>
-											</div>
-
-											<div className="accordion-item">
-												<h2 className="accordion-header" id="api1ContributionGrowthHeading">
-													<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#api1ContributionGrowth" aria-expanded="false" aria-controls="api1ContributionGrowth">
-														Evolução nas funcionalidades
-													</button>
-												</h2>
-												<div id="api1ContributionGrowth" className="accordion-collapse collapse" aria-labelledby="api1ContributionGrowthHeading" data-bs-parent="#api1Contributions">
-													<div className="accordion-body">
-														<p>No início, as pessoas mais experientes do grupo ficaram com as partes mais complexas, como CRUDs e regras de cálculo. Conforme fui estudando JavaScript e entendendo melhor a lógica da aplicação, passei a contribuir de forma mais ativa em tarefas pontuais de CRUD, funcionalidades de cálculo e testes manuais da plataforma.</p>
-														<p>Essa API foi importante para minha evolução porque marcou minha transição de uma participação mais focada em interface para contribuições também ligadas à lógica e ao funcionamento do sistema.</p>
-													</div>
-												</div>
-											</div>
+											<p>No início, as pessoas mais experientes do grupo ficaram com as partes mais complexas, como CRUDs e regras de cálculo. Conforme fui estudando JavaScript e entendendo melhor a lógica da aplicação, passei a contribuir de forma mais ativa em tarefas pontuais de CRUD, funcionalidades de cálculo e testes manuais da plataforma.</p>
+											<p>Essa API foi importante para minha evolução porque marcou minha transição de uma participação mais focada em interface para contribuições também ligadas à lógica e ao funcionamento do sistema.</p>
 										</div>
 
 										<h6 className="mt-3">💡 Hard Skills</h6>

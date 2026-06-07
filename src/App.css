@@ -108,6 +108,21 @@ body {
   background: #5d35a8;
 }
 
+.project-link-box-muted {
+  background: rgba(108,117,125,0.06);
+  border-color: rgba(108,117,125,0.18);
+}
+
+.project-link-pending {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.project-placeholder {
+  color: var(--muted);
+  font-style: italic;
+}
+
 .contribution-text {
   color: #343a40;
   line-height: 1.55;

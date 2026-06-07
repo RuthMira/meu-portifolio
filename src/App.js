@@ -1,6 +1,5 @@
 import React from "react";
 import ReposList from "./components/ReposList";
-import ApiTemplate from "./components/ApiTemplate";
 import "./App.css";
 
 function App() {
@@ -403,6 +402,80 @@ function App() {
 											Liderança, Organização, Comunicação, Trabalho em Equipe, Proatividade, Resolução de Conflitos, Atenção aos Detalhes
 											</li>
 										</ul>
+									</div>
+								</div>
+							</div>
+
+							{/* Semestre 5 (estrutura para preenchimento) */}
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="sem5Heading">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem5Collapse" aria-expanded="false" aria-controls="sem5Collapse">
+										Semestre 5 — API 5 (2025-2)
+									</button>
+								</h2>
+								<div id="sem5Collapse" className="accordion-collapse collapse" aria-labelledby="sem5Heading" data-bs-parent="#semestersAccordion">
+									<div className="accordion-body">
+										<p className="project-placeholder">Conteúdo em desenvolvimento. Esta seção será preenchida com o resumo do projeto, tecnologias utilizadas, contribuições pessoais, hard skills e soft skills trabalhadas.</p>
+
+										<div className="project-link-box project-link-box-muted">
+											<span>Repositório do projeto</span>
+											<span className="project-link-pending">A definir</span>
+										</div>
+
+										<h6 className="section-title">Tecnologias Utilizadas</h6>
+										<p className="project-placeholder">Adicionar as principais tecnologias utilizadas no projeto.</p>
+
+										<h6 className="section-title">Contribuições Pessoais</h6>
+										<div className="contribution-text">
+											<p>Adicionar a narrativa da sua participação no projeto, destacando responsabilidades, desafios, evolução técnica e entregas realizadas.</p>
+										</div>
+
+										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Adicionar as habilidades técnicas desenvolvidas, com as principais tecnologias e práticas em <strong>negrito</strong>.</p>
+										</div>
+
+										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Adicionar o contexto do semestre e explicar como ele contribuiu para desenvolver habilidades comportamentais.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							{/* Semestre 6 (estrutura para preenchimento) */}
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="sem6Heading">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem6Collapse" aria-expanded="false" aria-controls="sem6Collapse">
+										Semestre 6 — API 6 (2026-1)
+									</button>
+								</h2>
+								<div id="sem6Collapse" className="accordion-collapse collapse" aria-labelledby="sem6Heading" data-bs-parent="#semestersAccordion">
+									<div className="accordion-body">
+										<p className="project-placeholder">Conteúdo em desenvolvimento. Esta seção será preenchida com o resumo do projeto, tecnologias utilizadas, contribuições pessoais, hard skills e soft skills trabalhadas.</p>
+
+										<div className="project-link-box project-link-box-muted">
+											<span>Repositório do projeto</span>
+											<span className="project-link-pending">A definir</span>
+										</div>
+
+										<h6 className="section-title">Tecnologias Utilizadas</h6>
+										<p className="project-placeholder">Adicionar as principais tecnologias utilizadas no projeto.</p>
+
+										<h6 className="section-title">Contribuições Pessoais</h6>
+										<div className="contribution-text">
+											<p>Adicionar a narrativa da sua participação no projeto, destacando responsabilidades, desafios, evolução técnica e entregas realizadas.</p>
+										</div>
+
+										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Adicionar as habilidades técnicas desenvolvidas, com as principais tecnologias e práticas em <strong>negrito</strong>.</p>
+										</div>
+
+										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Adicionar o contexto do semestre e explicar como ele contribuiu para desenvolver habilidades comportamentais.</p>
+										</div>
 									</div>
 								</div>
 							</div>

@@ -72,6 +72,41 @@ body {
   margin-top: 0.25rem;
 }
 
+.contribution-accordion {
+  margin-top: 0.75rem;
+}
+
+.contribution-accordion .accordion-item {
+  border-color: rgba(111,66,193,0.14);
+}
+
+.contribution-accordion .accordion-button {
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+}
+
+.contribution-accordion .accordion-body {
+  color: #343a40;
+  line-height: 1.55;
+}
+
+.contribution-accordion .accordion-body p:last-child {
+  margin-bottom: 0;
+}
+
+.project-media-accordion {
+  margin-top: 1rem;
+}
+
+.project-image {
+  display: block;
+  width: min(100%, 520px);
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #111827;
+  padding: 1rem;
+}
+
 .repo-desc { color: var(--muted); }
 
 .contact-badge {

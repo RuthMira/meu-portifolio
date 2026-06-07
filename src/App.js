@@ -242,70 +242,77 @@ function App() {
 								</h2>
 								<div id="sem3Collapse" className="accordion-collapse collapse show" aria-labelledby="sem3Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-1), em parceria com a GSW (Global Solutions & Web), desenvolvemos a Porygon2, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. Nosso objetivo foi permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com alta performance e usabilidade.</p>
+										<p>No terceiro semestre (2024-2), em parceria com a GSW (Global Solutions & Web), desenvolvemos a <strong>Porygon2</strong>, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. O objetivo era permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com boa performance, rastreabilidade e usabilidade.</p>
 
-										<p>GitHub do Projeto: <a href="#https://github.com/RuthMira/API3BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<div className="project-link-box">
+											<span>Repositório do projeto</span>
+											<a href="https://github.com/RuthMira/API3BD" target="_blank" rel="noopener noreferrer">Acessar no GitHub</a>
+										</div>
 
-										<h6 className="mt-3">Tecnologias Utilizadas</h6>
-										<ul>
-											<li>Java 22 – linguagem base da aplicação, aproveitando os recursos modernos da JVM</li>
-											<li>Spring Boot 3.3.3 (Web, Data JPA, Thymeleaf, DevTools)</li>
-											<li>MySQL – banco relacional</li>
-											<li>Lombok – redução de boilerplate</li>
-											<li>Jsoup – web scraping</li>
-											<li>Jackson – conversão JSON/XML</li>
-											<li>Maven – gerenciamento de dependências</li>
-											<li>Thymeleaf – template engine</li>
-											<li>Bootstrap – estilização responsiva</li>
-										</ul>
+										<h6 className="section-title">Tecnologias Utilizadas</h6>
+										<div className="tech-list">
+											<div className="tech-item">
+												<span className="tech-name">Java 22</span>
+												<span className="tech-desc">Linguagem base da aplicação</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Spring Boot</span>
+												<span className="tech-desc">Backend, MVC e APIs</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">MySQL</span>
+												<span className="tech-desc">Banco de dados relacional</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Vertabelo</span>
+												<span className="tech-desc">Modelagem física do banco</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Jsoup</span>
+												<span className="tech-desc">Raspagem de dados em sites</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Thymeleaf</span>
+												<span className="tech-desc">Templates da interface web</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Maven</span>
+												<span className="tech-desc">Gerenciamento de dependências</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Jira</span>
+												<span className="tech-desc">Organização das tarefas</span>
+											</div>
+										</div>
 
-										<h6 className="mt-3">Contribuições Pessoais</h6>
-										<p><strong>💻 Backend e Arquitetura</strong></p>
-										<ul>
-											<li>Criação do projeto inicial com dependências Maven, estrutura MVC e configuração de banco.</li>
-											<li>Modelagem do banco de dados: diagrama físico e scripts SQL.</li>
-											<li>Desenvolvimento dos CRUDs completos para Portais, Tags, Notícias, Jornalistas e APIs.</li>
-											<li>Criação de método para requisição às APIs cadastradas e salvamento em ApiDados.</li>
-											<li>Refatoração da lógica de raspagem para execução assíncrona.</li>
-											<li>Tratamento de erros, prevenção de duplicidade e validações.</li>
-											<li>Criação de testes unitários para casos específicos.</li>
-										</ul>
+										<h6 className="section-title">Contribuições Pessoais</h6>
+										<div className="contribution-text">
+											<p>No terceiro semestre, eu já tinha mais confiança técnica e acabei atuando quase como uma referência técnica dentro da equipe. Não era um cargo formal como Product Owner ou Scrum Master, mas eu contribuía ativamente para as entregas, principalmente no entendimento do projeto, na estruturação das regras de negócio e no apoio à PO na organização do backlog e dos critérios de aceite.</p>
+											<p>Esse semestre também teve um desafio importante: um dos membros com maior conhecimento técnico se ausentou em alguns momentos, e isso fez com que eu assumisse mais responsabilidade na resolução de problemas. Em situações de bugs que não avançavam, eu entrava para investigar, debugar e finalizar correções mais críticas, junto com o apoio de outros colegas da equipe.</p>
+											<p>Foi nesse projeto que comecei a atuar com mais profundidade em banco de dados. Trabalhamos com um banco real para armazenar as informações coletadas, e eu foquei bastante na modelagem, especialmente no modelo físico feito no Vertabelo. Mesmo tendo dificuldade na parte teórica da disciplina de modelagem, consegui aplicar melhor esses conceitos na prática, criando estruturas, desenvolvendo CRUDs e conectando o banco à aplicação.</p>
+											<div className="project-media">
+												<img
+													src={`${process.env.PUBLIC_URL}/assets/api3/modelo-fisico.png`}
+													alt="Modelo físico do banco de dados da API 3"
+													className="project-image"
+												/>
+												<p className="project-caption">Modelo físico criado no Vertabelo para organizar as entidades, relacionamentos e estrutura do banco de dados da aplicação.</p>
+											</div>
+											<p>Também participei do desenvolvimento dos CRUDs, da organização do backend com Spring Boot, da criação de estruturas relacionadas a portais, tags, notícias, APIs e jornalistas, além de apoiar a lógica de raspagem de dados com Jsoup. A parte de scraping chamou bastante minha atenção, porque envolvia capturar informações de sites reais e transformar esses dados em algo útil dentro da aplicação.</p>
+										</div>
 
-										<h6 className="mt-3">🧠 Lógica de Negócio e Recursos Avançados</h6>
-										<ul>
-											<li>Tabela de sinônimos ligada à Tag para buscas inteligentes.</li>
-											<li>Rotina de análise textual para vincular tags às notícias durante a coleta.</li>
-											<li>Sugestão automática de seletores HTML com base em dados salvos.</li>
-										</ul>
+										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>As hard skills mais trabalhadas nessa API foram <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>MySQL</strong>, <strong>modelagem de banco de dados</strong> e <strong>Vertabelo</strong>. Foi o projeto em que tive contato mais forte com banco de dados aplicado, criando estruturas reais, relacionamentos, tabelas de apoio e funcionalidades conectadas à persistência.</p>
+											<p>Também aprofundei meu uso de <strong>Maven</strong>, <strong>Thymeleaf</strong>, <strong>Bootstrap</strong>, <strong>Jsoup</strong>, <strong>Jackson</strong>, <strong>Git</strong> e organização de tarefas com <strong>Jira</strong>. A experiência com scraping foi especialmente importante, porque me aproximou de um tipo de problema mais complexo: buscar dados externos, tratar respostas, lidar com seletores, evitar duplicidades e salvar as informações de forma estruturada.</p>
+										</div>
 
-										<h6 className="mt-3">🌐 Front-end</h6>
-										<ul>
-											<li>Home com navbar e footer reutilizáveis.</li>
-											<li>Caixa de seleção com tipos de arquivo da API (XML, CSV, JSON).</li>
-											<li>Formato global de datas e validações no front-end.</li>
-											<li>Responsividade em tabelas e padronização visual.</li>
-										</ul>
-
-										<h6 className="mt-3">🧪 Organização e Estruturação do Código</h6>
-										<ul>
-											<li>Criação da pasta /codebase para organização por domínio.</li>
-											<li>Documentação no README.md sobre decisões e fluxo de uso.</li>
-										</ul>
-
-										<h6 className="mt-3">💡 Hard Skills</h6>
-										<ul>
-											<li>Java (JDK 22) – autonomia total</li>
-											<li>Spring Boot 3.3.3 – nível avançado</li>
-											<li>Thymeleaf – nível autônomo</li>
-											<li>Bootstrap – nível intermediário</li>
-											<li>MySQL – nível avançado</li>
-											<li>Maven, Jsoup, Jackson, Bean Validation, Git, JUnit</li>
-										</ul>
-
-										<h6 className="mt-3">🤝 Soft Skills</h6>
-										<ul>
-											<li>Organização, Proatividade, Resolução de Problemas, Comunicação, Trabalho em Equipe, Atenção aos Detalhes</li>
-										</ul>
+										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Esse semestre desenvolveu muito minha <strong>proatividade</strong> e minha <strong>resolução de problemas</strong>. Como a equipe passou por mudanças e teve ausência de pessoas importantes tecnicamente, precisei assumir mais responsabilidade, investigar bugs, apoiar decisões técnicas e ajudar a manter as entregas andando.</p>
+											<p>Também trabalhei bastante minha <strong>comunicação</strong> e minha <strong>organização</strong>, principalmente por causa do uso do Jira e da necessidade de transformar regras de negócio em tarefas mais claras, com critérios de aceite melhor definidos. A troca de membros e a adaptação a uma nova Scrum Master tornaram esse processo mais desafiador, mas também ajudaram a amadurecer minha forma de colaborar.</p>
+											<p>Ao final da API, senti que evoluí em <strong>liderança técnica informal</strong>, <strong>atenção aos detalhes</strong> e <strong>trabalho em equipe</strong>, porque passei a ser uma pessoa de referência para desbloquear problemas, apoiar colegas e conectar entendimento de negócio com implementação técnica.</p>
+										</div>
 									</div>
 								</div>
 							</div>

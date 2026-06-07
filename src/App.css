@@ -144,25 +144,6 @@ body {
   text-align: center;
 }
 
-.compact-badge-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.compact-badge {
-  display: inline-flex;
-  align-items: center;
-  border: 1px solid rgba(111,66,193,0.16);
-  border-radius: 999px;
-  background: rgba(255,255,255,0.72);
-  color: #4b2fa3;
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1;
-  padding: 0.5rem 0.72rem;
-}
-
 @media (max-width: 576px) {
   .project-link-box {
     align-items: stretch;

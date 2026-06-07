@@ -142,33 +142,15 @@ function App() {
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>As principais hard skills trabalhadas nessa API vieram da prática com front-end e organização de projeto. HTML5 e CSS3 foram as tecnologias que mais utilizei, principalmente na criação das telas, ajustes visuais, padronização de componentes e responsividade. Também tive contato com JavaScript durante a evolução das funcionalidades, especialmente ao acompanhar e apoiar tarefas ligadas a CRUD, cálculos e validações.</p>
-											<p>Além disso, desenvolvi noções importantes de Git e GitHub para versionamento, organização de repositório, documentação técnica e testes manuais. A experiência com UI Design e documentação também foi relevante, porque precisei pensar não só no código, mas na clareza das telas, na estrutura dos arquivos e no entendimento das regras de negócio.</p>
-										</div>
-										<div className="compact-badge-list">
-											<span className="compact-badge">HTML5</span>
-											<span className="compact-badge">CSS3</span>
-											<span className="compact-badge">JavaScript</span>
-											<span className="compact-badge">Bootstrap</span>
-											<span className="compact-badge">Git e GitHub</span>
-											<span className="compact-badge">UI Design</span>
-											<span className="compact-badge">Documentação</span>
-											<span className="compact-badge">Testes manuais</span>
+											<p>As principais hard skills trabalhadas nessa API vieram da prática com front-end e organização de projeto. <strong>HTML5</strong> e <strong>CSS3</strong> foram as tecnologias que mais utilizei, principalmente na criação das telas, ajustes visuais, padronização de componentes e responsividade. Também tive contato com <strong>JavaScript</strong> durante a evolução das funcionalidades, especialmente ao acompanhar e apoiar tarefas ligadas a <strong>CRUD</strong>, cálculos e validações.</p>
+											<p>Além disso, desenvolvi noções importantes de <strong>Git e GitHub</strong> para versionamento, organização de repositório, <strong>documentação técnica</strong> e <strong>testes manuais</strong>. A experiência com <strong>UI Design</strong> e documentação também foi relevante, porque precisei pensar não só no código, mas na clareza das telas, na estrutura dos arquivos e no entendimento das regras de negócio.</p>
 										</div>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Por ser o primeiro semestre, o trabalho em equipe foi um dos maiores desafios. O grupo ainda estava se conhecendo, as relações ainda estavam sendo construídas e existiam perfis de liderança fortes. Como eu era mais tímida e ainda estava aprendendo programação, precisei desenvolver melhor minha comunicação para acompanhar as decisões, tirar dúvidas e entender onde poderia contribuir.</p>
-											<p>Esse contexto fortaleceu minha colaboração e meu trabalho em equipe, porque muitas vezes eu ajudava de forma mais indireta: organizando telas, documentando regras, ajustando detalhes visuais, apoiando testes e observando como as pessoas mais experientes resolviam os problemas técnicos. A proatividade apareceu justamente nessa busca por contribuir dentro do que eu já conseguia fazer, sem deixar de aprender com as partes mais difíceis do projeto.</p>
-											<p>A experiência também desenvolveu minha atenção aos detalhes e meu aprendizado contínuo. Mesmo não conseguindo colocar tudo em prática de imediato, usei a API como uma oportunidade para aprender a programar, entender melhor a dinâmica de um projeto real e ganhar mais confiança para participar tecnicamente nos semestres seguintes.</p>
-										</div>
-										<div className="compact-badge-list">
-											<span className="compact-badge">Colaboração</span>
-											<span className="compact-badge">Comunicação</span>
-											<span className="compact-badge">Proatividade</span>
-											<span className="compact-badge">Atenção aos detalhes</span>
-											<span className="compact-badge">Aprendizado contínuo</span>
-											<span className="compact-badge">Trabalho em equipe</span>
+											<p>Por ser o primeiro semestre, o <strong>trabalho em equipe</strong> foi um dos maiores desafios. O grupo ainda estava se conhecendo, as relações ainda estavam sendo construídas e existiam perfis de liderança fortes. Como eu era mais tímida e ainda estava aprendendo programação, precisei desenvolver melhor minha <strong>comunicação</strong> para acompanhar as decisões, tirar dúvidas e entender onde poderia contribuir.</p>
+											<p>Esse contexto fortaleceu minha <strong>colaboração</strong>, porque muitas vezes eu ajudava de forma mais indireta: organizando telas, documentando regras, ajustando detalhes visuais, apoiando testes e observando como as pessoas mais experientes resolviam os problemas técnicos. A <strong>proatividade</strong> apareceu justamente nessa busca por contribuir dentro do que eu já conseguia fazer, sem deixar de aprender com as partes mais difíceis do projeto.</p>
+											<p>A experiência também desenvolveu minha <strong>atenção aos detalhes</strong> e meu <strong>aprendizado contínuo</strong>. Mesmo não conseguindo colocar tudo em prática de imediato, usei a API como uma oportunidade para aprender a programar, entender melhor a dinâmica de um projeto real e ganhar mais confiança para participar tecnicamente nos semestres seguintes.</p>
 										</div>
 									</div>
 								</div>

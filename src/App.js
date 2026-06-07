@@ -125,8 +125,9 @@ function App() {
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>Minha participação na API 1 começou principalmente pelo front-end, pois eu ainda estava no início da minha trajetória em desenvolvimento. Atuei com HTML e CSS na construção, estilização, padronização visual e responsividade das telas, buscando deixar a aplicação mais organizada e fácil de usar.</p>
-											<p>Também contribuí na estruturação inicial do projeto, ajudando a separar melhor os arquivos de front-end, back-end, imagens e estilos. Além disso, participei da documentação e do entendimento das regras de negócio, registrando o que precisava ser desenvolvido e alinhando as funcionalidades com a proposta da aplicação.</p>
+											<p>Na API 1, eu ainda estava iniciando minha trajetória em desenvolvimento, então minha participação começou de forma mais concentrada no front-end. Atuei principalmente com HTML e CSS, ajudando na construção, estilização e padronização visual das telas do sistema, enquanto as pessoas mais experientes do grupo assumiam as partes mais complexas de CRUD, regras de cálculo e implementação em JavaScript.</p>
+											<p>Fiquei envolvida na responsividade e organização visual das telas criadas, buscando deixar a aplicação mais clara, consistente e fácil de usar. Também contribuí na estruturação inicial do projeto, ajudando a separar melhor os arquivos de front-end, back-end, imagens e estilos, para evitar que o repositório ficasse desorganizado conforme o sistema crescia.</p>
+											<p>Além da parte visual, participei da documentação e do entendimento das regras de negócio. Esse processo foi importante para compreender o problema que estávamos resolvendo, registrar o que precisava ser desenvolvido e alinhar as funcionalidades com a proposta da aplicação.</p>
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api1/telas-api.png`}
@@ -135,10 +136,15 @@ function App() {
 												/>
 												<p className="project-caption">Diagrama utilizado para organizar as telas, entidades e fluxos principais da aplicação durante o desenvolvimento.</p>
 											</div>
-											<p>Com a evolução do projeto e dos meus estudos em JavaScript, passei a apoiar tarefas pontuais de CRUD, funcionalidades de cálculo e testes manuais da plataforma. Esse projeto marcou minha transição de uma atuação mais focada em interface para contribuições também ligadas à lógica e ao funcionamento do sistema.</p>
+											<p>Ao longo da API, conforme fui estudando e entendendo melhor JavaScript e a lógica do sistema, passei a contribuir de forma mais ativa em tarefas pontuais de CRUD, funcionalidades relacionadas aos cálculos de scores e testes manuais da plataforma. Mesmo não assumindo as decisões mais complexas no início, aproveitei as oportunidades para aprender programação na prática e evoluir dentro do projeto.</p>
+											<p>Esse projeto marcou uma transição importante para mim: comecei atuando mais na interface e na organização, mas terminei participando também de pontos ligados à lógica, validação e funcionamento da aplicação.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>As principais hard skills trabalhadas nessa API vieram da prática com front-end e organização de projeto. HTML5 e CSS3 foram as tecnologias que mais utilizei, principalmente na criação das telas, ajustes visuais, padronização de componentes e responsividade. Também tive contato com JavaScript durante a evolução das funcionalidades, especialmente ao acompanhar e apoiar tarefas ligadas a CRUD, cálculos e validações.</p>
+											<p>Além disso, desenvolvi noções importantes de Git e GitHub para versionamento, organização de repositório, documentação técnica e testes manuais. A experiência com UI Design e documentação também foi relevante, porque precisei pensar não só no código, mas na clareza das telas, na estrutura dos arquivos e no entendimento das regras de negócio.</p>
+										</div>
 										<div className="compact-badge-list">
 											<span className="compact-badge">HTML5</span>
 											<span className="compact-badge">CSS3</span>
@@ -151,6 +157,11 @@ function App() {
 										</div>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Por ser o primeiro semestre, o trabalho em equipe foi um dos maiores desafios. O grupo ainda estava se conhecendo, as relações ainda estavam sendo construídas e existiam perfis de liderança fortes. Como eu era mais tímida e ainda estava aprendendo programação, precisei desenvolver melhor minha comunicação para acompanhar as decisões, tirar dúvidas e entender onde poderia contribuir.</p>
+											<p>Esse contexto fortaleceu minha colaboração e meu trabalho em equipe, porque muitas vezes eu ajudava de forma mais indireta: organizando telas, documentando regras, ajustando detalhes visuais, apoiando testes e observando como as pessoas mais experientes resolviam os problemas técnicos. A proatividade apareceu justamente nessa busca por contribuir dentro do que eu já conseguia fazer, sem deixar de aprender com as partes mais difíceis do projeto.</p>
+											<p>A experiência também desenvolveu minha atenção aos detalhes e meu aprendizado contínuo. Mesmo não conseguindo colocar tudo em prática de imediato, usei a API como uma oportunidade para aprender a programar, entender melhor a dinâmica de um projeto real e ganhar mais confiança para participar tecnicamente nos semestres seguintes.</p>
+										</div>
 										<div className="compact-badge-list">
 											<span className="compact-badge">Colaboração</span>
 											<span className="compact-badge">Comunicação</span>

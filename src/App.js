@@ -86,18 +86,39 @@ function App() {
 									<div className="accordion-body">
 										<p>No primeiro semestre do curso da FATEC, desenvolvemos uma aplicação para a instituição de ensino PBLTex, especializada em cursos baseados em Problem Based Learning (PBL). O projeto teve como objetivo construir um sistema de informação voltado à gestão e acompanhamento de scores de alunos, permitindo o controle de turmas, grupos, entregas e métricas de desempenho acadêmico. O sistema busca proporcionar uma visão consolidada do progresso dos estudantes e facilitar o trabalho dos coordenadores e professores no acompanhamento de atividades e resultados, promovendo a integração entre tecnologia, aprendizado ativo e gestão educacional.</p>
 
-										<p>GitHub do Projeto: <a href="#https://github.com/RuthMira/API1BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<p>GitHub do Projeto: <a href="https://github.com/RuthMira/API1BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
 
 										<h6 className="mt-3">Tecnologias Utilizadas</h6>
-										<ul>
-											<li>Python – linguagem principal de desenvolvimento.</li>
-											<li>HTML e CSS – estrutura e estilização das interfaces.</li>
-											<li>JavaScript – interatividade e dinamicidade do front-end.</li>
-											<li>Canva – design e prototipação visual.</li>
-											<li>Git e GitHub – versionamento e colaboração de código.</li>
-											<li>JExcalidraw – criação de diagramas e modelagem visual.</li>
-											<li>JSON/CSV – armazenamento e manipulação de dados.</li>
-										</ul>
+										<div className="tech-list">
+											<div className="tech-item">
+												<span className="tech-name">Python</span>
+												<span className="tech-desc">Linguagem principal do sistema</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">HTML e CSS</span>
+												<span className="tech-desc">Estrutura e estilização das telas</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JavaScript</span>
+												<span className="tech-desc">Interatividade no front-end</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Canva</span>
+												<span className="tech-desc">Design e prototipação visual</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Git e GitHub</span>
+												<span className="tech-desc">Versionamento e colaboração</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JExcalidraw</span>
+												<span className="tech-desc">Diagramas e modelagem visual</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JSON/CSV</span>
+												<span className="tech-desc">Armazenamento e manipulação de dados</span>
+											</div>
+										</div>
 
 										<h6 className="mt-3">Contribuições Pessoais</h6>
 										<p><strong>💻 Backend e Arquitetura</strong></p>

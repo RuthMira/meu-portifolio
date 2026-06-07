@@ -42,6 +42,36 @@ body {
   font-size: 0.9rem;
 }
 
+.tech-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.tech-item {
+  border: 1px solid rgba(111,66,193,0.14);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.7);
+  padding: 0.75rem;
+}
+
+.tech-name {
+  display: block;
+  color: #4b2fa3;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.tech-desc {
+  display: block;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.35;
+  margin-top: 0.25rem;
+}
+
 .repo-desc { color: var(--muted); }
 
 .contact-badge {

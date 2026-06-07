@@ -23,8 +23,13 @@ function App() {
 
 						<h5>Introdução</h5>
 						<p style={{ textAlign: "justify" }}>
-							Meu nome é Ruth Mira e sou estudante do TERCEIRO ano do curso de Banco de Dados. Tenho experiência como desenvolvedora full stack,
-							interesse por novas tecnologias e dedicação à leitura de documentação técnica.
+							Sou Ruth Mira, estudante do 6º semestre de Banco de Dados e desenvolvedora full stack no Grupo TXAI. Minha trajetória na tecnologia começou durante minha primeira graduação em Engenharia na UNIFESP, onde tive contato com lógica de programação e algoritmos. Apesar de sempre gostar de computadores e games, foi nesse período que descobri maior interesse pela área de desenvolvimento.
+						</p>
+						<p style={{ textAlign: "justify" }}>
+							Antes de migrar para TI, trabalhei com recrutamento e seleção. Depois decidi seguir carreira em tecnologia, ingressei na FATEC e iniciei o curso de Banco de Dados. Desde então, participei de projetos acadêmicos e profissionais, atuando como desenvolvedora no 1º Cartório de Registro de Imóveis de São José dos Campos ainda no primeiro ano da faculdade, e posteriormente no Grupo TXAI, empresa voltada a soluções para cartórios.
+						</p>
+						<p style={{ textAlign: "justify" }}>
+							Busco evoluir constantemente, estudando documentação técnica, boas práticas, novas tecnologias, bibliotecas e ferramentas que surgem no mercado. Tenho interesse em desafios reais de desenvolvimento e em soluções que conectem banco de dados, backend e frontend de forma eficiente.
 						</p>
 
 						<h6>Contatos</h6>
@@ -36,7 +41,7 @@ function App() {
 								</svg>
 								<span className="ms-1">GitHub</span>
 							</a>
-							<a href="#" target="_blank" rel="noopener noreferrer" className="contact-badge" aria-label="LinkedIn">
+							<a href="https://www.linkedin.com/in/ruth-mira" target="_blank" rel="noopener noreferrer" className="contact-badge" aria-label="LinkedIn">
 								{/* LinkedIn SVG icon */}
 								<svg className="contact-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 									<path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.22 8h4.56V24H.22zM8.98 8h4.38v2.18h.06c.61-1.16 2.1-2.38 4.33-2.38 4.63 0 5.48 3.04 5.48 6.99V24h-4.56v-7.5c0-1.79-.03-4.09-2.5-4.09-2.5 0-2.88 1.95-2.88 3.97V24H8.98z"/>
@@ -50,6 +55,7 @@ function App() {
 							<span className="skill-badge">⚙️ C#</span>
 							<span className="skill-badge">☕ Java / Spring Boot</span>
 							<span className="skill-badge">🟨 JavaScript</span>
+							<span className="skill-badge">🔷 TypeScript</span>
 							<span className="skill-badge">🖖 Vue.js</span>
 							<span className="skill-badge">🐍 Python</span>
 							<span className="skill-badge">🐬 MySQL</span>

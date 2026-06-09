@@ -53,17 +53,29 @@ function App() {
 						<div className="d-flex flex-wrap gap-2">
 							<span className="skill-badge">⚙️ C#</span>
 							<span className="skill-badge">☕ Java / Spring Boot</span>
+							<span className="skill-badge">🌱 Spring Security</span>
 							<span className="skill-badge">🟨 JavaScript</span>
 							<span className="skill-badge">🔷 TypeScript</span>
 							<span className="skill-badge">🖖 Vue.js</span>
+							<span className="skill-badge">⚛️ React</span>
+							<span className="skill-badge">⚡ FastAPI</span>
+							<span className="skill-badge">🌐 Django</span>
 							<span className="skill-badge">🐍 Python</span>
 							<span className="skill-badge">🐬 MySQL</span>
-							<span className="skill-badge">⚛️ React</span>
-							<span className="skill-badge">🟩 Node.js</span>
-							<span className="skill-badge">�.NET</span>
 							<span className="skill-badge">🐘 PostgreSQL</span>
+							<span className="skill-badge">🍃 MongoDB</span>
+							<span className="skill-badge">🔶 Oracle</span>
+							<span className="skill-badge">🗄️ Data Warehouse</span>
+							<span className="skill-badge">📊 OLAP</span>
+							<span className="skill-badge">🧭 ETL</span>
+							<span className="skill-badge">🟩 Node.js</span>
+							<span className="skill-badge">🟣 .NET</span>
 							<span className="skill-badge">🧠 Redis</span>
 							<span className="skill-badge">🐳 Docker</span>
+							<span className="skill-badge">🔐 Keycloak</span>
+							<span className="skill-badge">✅ GitHub Actions</span>
+							<span className="skill-badge">📌 Jira</span>
+							<span className="skill-badge">🔍 SonarQube</span>
 						</div>
 					</div>
 				</div>
@@ -209,9 +221,9 @@ function App() {
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>No segundo semestre, eu já estava trabalhando em tempo integral no cartório e começando a desenvolver mais meu lado na programação. Também passei por uma mudança de grupo: parte dos colegas do semestre anterior trancou o curso ou foi para outros grupos, então pedi para entrar no Porygon, onde encontrei uma nova equipe e uma pessoa que acabou se tornando minha dupla em vários momentos de código.</p>
-											<p>Minha atuação começou novamente pelo front-end, por ser a parte em que eu já tinha mais segurança para contribuir. A diferença é que o projeto era uma aplicação desktop em Java, usando JavaFX e empacotamento em JAR, um formato bem diferente do que eu tinha visto até então. Por isso, precisei estudar mais para entender a estrutura do projeto, a organização das telas e a forma de integrar a interface com a lógica da aplicação.</p>
-											<p>Atuei principalmente no design e na construção das telas, mas também comecei a participar de algumas funcionalidades de CRUD, validações e integração entre a interface gráfica e o banco via JDBC. Tive dificuldade em entregar algumas tarefas no ritmo esperado, principalmente por causa da organização do projeto e por ainda estar aprendendo a aplicar os conceitos na prática, mas consegui contribuir mais no final com a ajuda de um dos desenvolvedores do grupo.</p>
+											<p>No segundo semestre, eu já trabalhava em tempo integral no cartório e começava a desenvolver mais o meu lado de programação. Esse semestre trouxe também uma virada de contexto: parte dos colegas anteriores trancou o curso ou mudou de grupo, então pedi para entrar no Porygon, onde encontrei uma nova equipe e uma pessoa que acabou se tornando minha dupla em vários momentos de código.</p>
+											<p>Comecei novamente pelo <strong>front-end</strong>, por ser onde eu tinha mais segurança, mas dessa vez o terreno era diferente: uma aplicação <strong>desktop em Java</strong>, com <strong>JavaFX</strong> e empacotamento em <strong>JAR</strong>, um formato que eu nunca tinha visto. Isso me obrigou a <strong>estudar a estrutura do projeto</strong> do zero, entendendo a organização das telas e, principalmente, a forma de integrar a interface com a lógica da aplicação.</p>
+											<p>Atuei no <strong>design e na construção das telas</strong> e, a partir daí, comecei a participar de funcionalidades de <strong>CRUD</strong>, <strong>validações</strong> e da <strong>integração entre a interface gráfica e o banco via JDBC</strong>. Não foi um percurso linear: tive dificuldade em entregar algumas tarefas no ritmo esperado, em parte pela organização do projeto, em parte por ainda estar aplicando os conceitos na prática pela primeira vez. Em vez de travar nisso, me apoiei em um dos desenvolvedores do grupo e fui destravando as entregas conforme o projeto avançava.</p>
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api2/boxplot.png`}
@@ -220,7 +232,7 @@ function App() {
 												/>
 												<p className="project-caption">Estudo usado para entender a lógica dos relatórios estatísticos, boxplot e identificação de registros suspeitos.</p>
 											</div>
-											<p>Na parte final do projeto, ajudei principalmente nas rotinas relacionadas aos relatórios, no entendimento do que era esperado para as médias e boxplots, na verificação de registros suspeitos e nos testes manuais da plataforma. Essa API foi importante porque ampliou minha experiência além da interface e me aproximou mais da lógica de negócio, da persistência de dados e da análise dos dados climáticos.</p>
+											<p>Na reta final, concentrei minha atuação nas rotinas de <strong>relatórios</strong>, e foi aqui que mais cresci tecnicamente nesse projeto. Precisei entender de fato a lógica por trás das <strong>médias por cidade e período</strong>, dos <strong>boxplots</strong> e da <strong>identificação de registros suspeitos e valores anômalos</strong>, além de fazer os <strong>testes manuais</strong> da plataforma. Essa API foi importante justamente por isso: me tirou do território apenas da interface e me aproximou da <strong>lógica de negócio</strong>, da <strong>persistência de dados</strong> e da <strong>análise dos dados climáticos</strong>.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
@@ -230,6 +242,8 @@ function App() {
 											<li><strong>JDBC</strong> — básico</li>
 											<li><strong>MySQL</strong> — básico/intermediário</li>
 											<li><strong>CRUD</strong> — básico/intermediário</li>
+											<li><strong>Validações</strong> — básico/intermediário</li>
+											<li><strong>Integração GUI-banco</strong> — básico/intermediário</li>
 											<li><strong>Relatórios estatísticos</strong> — básico</li>
 											<li><strong>Boxplot e valores anômalos</strong> — básico</li>
 											<li><strong>Git e GitHub</strong> — intermediário</li>
@@ -238,8 +252,8 @@ function App() {
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Essa API exigiu bastante <strong>adaptação</strong>, porque precisei entrar em um novo grupo, lidar com uma tecnologia diferente e conciliar o projeto com o trabalho em tempo integral. A mudança de equipe também fortaleceu minha <strong>comunicação</strong>, já que eu precisava entender como o grupo trabalhava, pedir ajuda quando necessário e alinhar minhas entregas com pessoas que já tinham mais experiência.</p>
-											<p>O projeto também desenvolveu meu <strong>trabalho em equipe</strong> e meu <strong>aprendizado contínuo</strong>. Mesmo com dificuldades na organização e no ritmo das entregas, procurei estudar por fora, acompanhar quem tinha mais domínio técnico e contribuir nas partes em que eu conseguia avançar. No final, essa experiência fortaleceu minha <strong>persistência</strong>, minha <strong>atenção aos detalhes</strong> e minha confiança para participar de funcionalidades mais próximas da lógica do sistema.</p>
+											<p>Esse semestre exigiu <strong>adaptação</strong> em três frentes ao mesmo tempo: entrar em um grupo novo, aprender uma tecnologia que eu não dominava e conciliar tudo isso com o trabalho em tempo integral. A mudança de equipe fortaleceu minha <strong>comunicação</strong>, porque eu precisava entender como o grupo trabalhava, <strong>pedir ajuda no momento certo</strong> e alinhar minhas entregas com pessoas que já tinham mais experiência, algo que foi uma evolução concreta em relação à timidez do primeiro semestre.</p>
+											<p>O projeto também desenvolveu meu <strong>trabalho em equipe</strong> e meu <strong>aprendizado contínuo</strong>. Mesmo com dificuldades de ritmo, procurei estudar por fora, acompanhar quem tinha mais domínio técnico e avançar nas partes em que eu conseguia contribuir. Foi onde mais exercitei a <strong>persistência</strong>: em vez de recuar diante do que não saía no ritmo esperado, insisti até destravar. No fim, isso reforçou minha <strong>atenção aos detalhes</strong> e minha confiança para participar de funcionalidades mais próximas da lógica do sistema nos semestres seguintes.</p>
 										</div>
 									</div>
 								</div>
@@ -301,9 +315,9 @@ function App() {
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>No terceiro semestre, eu já tinha mais confiança técnica e acabei atuando quase como uma referência técnica dentro da equipe. Não era um cargo formal como Product Owner ou Scrum Master, mas eu contribuía ativamente para as entregas, principalmente no entendimento do projeto, na estruturação das regras de negócio e no apoio à PO na organização do backlog e dos critérios de aceite.</p>
-											<p>Esse semestre também teve um desafio importante: um dos membros com maior conhecimento técnico se ausentou em alguns momentos, e isso fez com que eu assumisse mais responsabilidade na resolução de problemas. Em situações de bugs que não avançavam, eu entrava para investigar, debugar e finalizar correções mais críticas, junto com o apoio de outros colegas da equipe.</p>
-											<p>Foi nesse projeto que comecei a atuar com mais profundidade em banco de dados. Trabalhamos com um banco real para armazenar as informações coletadas, e eu foquei bastante na modelagem, especialmente no modelo físico feito no Vertabelo. Mesmo tendo dificuldade na parte teórica da disciplina de modelagem, consegui aplicar melhor esses conceitos na prática, criando estruturas, desenvolvendo CRUDs e conectando o banco à aplicação.</p>
+											<p>No terceiro semestre, eu já tinha mais confiança técnica, e isso se materializou de uma forma que não estava planejada: <strong>atuei como tech lead na prática</strong>. Não foi um cargo formal como Product Owner ou Scrum Master, mas um papel que assumi quando o membro com maior conhecimento técnico precisou se ausentar em vários momentos. Com essa lacuna, acabei me tornando uma <strong>referência técnica para os colegas</strong>, que passaram a me procurar para destravar problemas e apoiar decisões de implementação.</p>
+											<p>Esse contexto me empurrou para a frente justamente nas situações mais críticas. Quando havia <strong>bugs que não avançavam</strong>, eu entrava para investigar, debugar e finalizar as correções, com o apoio de outros colegas. Foi nesse semestre que desenvolvi de verdade minha <strong>segurança no código</strong>: ter que ser a pessoa que fecha o problema, e não só a que ajuda, mudou minha relação com o desenvolvimento.</p>
+											<p>Foi também aqui que comecei a atuar com mais profundidade em <strong>banco de dados</strong>. Trabalhamos com um banco real e foquei bastante na <strong>modelagem</strong>, em especial no <strong>modelo físico feito no Vertabelo</strong>. Tinha dificuldade com a parte teórica da disciplina de modelagem, mas foi aplicando na prática, criando estruturas, desenvolvendo CRUDs e conectando o banco à aplicação, que os conceitos começaram a fazer mais sentido.</p>
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api3/modelo-fisico.png`}
@@ -312,7 +326,7 @@ function App() {
 												/>
 												<p className="project-caption">Modelo físico criado no Vertabelo para organizar as entidades, relacionamentos e estrutura do banco de dados da aplicação.</p>
 											</div>
-											<p>Também participei do desenvolvimento dos CRUDs, da organização do backend com Spring Boot, da criação de estruturas relacionadas a portais, tags, notícias, APIs e jornalistas, além de apoiar a lógica de raspagem de dados com Jsoup. A parte de scraping chamou bastante minha atenção, porque envolvia capturar informações de sites reais e transformar esses dados em algo útil dentro da aplicação.</p>
+											<p>No backend, participei do desenvolvimento dos <strong>CRUDs</strong> e da organização da aplicação com <strong>Spring Boot</strong>, criando estruturas relacionadas a portais, tags, notícias, APIs e jornalistas. Também apoiei a <strong>lógica de raspagem de dados com Jsoup</strong>, uma das partes que mais me chamou atenção, porque envolvia capturar informação de sites reais e transformá-la em algo útil dentro do sistema.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
@@ -326,15 +340,16 @@ function App() {
 											<li><strong>Thymeleaf</strong> — intermediário</li>
 											<li><strong>Jsoup / Web scraping</strong> — intermediário</li>
 											<li><strong>Jackson</strong> — básico/intermediário</li>
+											<li><strong>Debugging</strong> — intermediário</li>
 											<li><strong>Jira</strong> — básico/intermediário</li>
 											<li><strong>Git e GitHub</strong> — intermediário/avançado</li>
 										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Esse semestre desenvolveu muito minha <strong>proatividade</strong> e minha <strong>resolução de problemas</strong>. Como a equipe passou por mudanças e teve ausência de pessoas importantes tecnicamente, precisei assumir mais responsabilidade, investigar bugs, apoiar decisões técnicas e ajudar a manter as entregas andando.</p>
-											<p>Também trabalhei bastante minha <strong>comunicação</strong> e minha <strong>organização</strong>, principalmente por causa do uso do Jira e da necessidade de transformar regras de negócio em tarefas mais claras, com critérios de aceite melhor definidos. A troca de membros e a adaptação a uma nova Scrum Master tornaram esse processo mais desafiador, mas também ajudaram a amadurecer minha forma de colaborar.</p>
-											<p>Ao final da API, senti que evoluí em <strong>liderança técnica informal</strong>, <strong>atenção aos detalhes</strong> e <strong>trabalho em equipe</strong>, porque passei a ser uma pessoa de referência para desbloquear problemas, apoiar colegas e conectar entendimento de negócio com implementação técnica.</p>
+											<p>Esse semestre desenvolveu fortemente minha <strong>liderança técnica</strong>, minha <strong>proatividade</strong> e minha <strong>resolução de problemas</strong>. Com as mudanças na equipe e a ausência de pessoas tecnicamente importantes, não dava para esperar: precisei assumir responsabilidade, investigar bugs, apoiar decisões técnicas e manter as entregas andando. O ponto de virada foi perceber que os colegas me viam como a pessoa que destravava os problemas, e responder a essa expectativa em vez de recuar dela.</p>
+											<p>Trabalhei bastante também a <strong>comunicação</strong> e a <strong>organização</strong>, principalmente pelo uso do <strong>Jira</strong> e pela necessidade de traduzir regras de negócio em tarefas claras, com critérios de aceite bem definidos, papel em que apoiei diretamente a PO. A troca de membros e a adaptação a uma nova Scrum Master tornaram esse processo mais desafiador, mas também amadureceram minha forma de colaborar.</p>
+											<p>No fim da API, saí com uma evolução clara em <strong>liderança técnica</strong>, <strong>atenção aos detalhes</strong> e <strong>trabalho em equipe</strong>: passei a ser uma pessoa de referência para desbloquear problemas, apoiar os colegas e <strong>conectar o entendimento de negócio à implementação técnica</strong>, que talvez tenha sido a habilidade mais valiosa que esse semestre me deu.</p>
 										</div>
 									</div>
 								</div>

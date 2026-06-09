@@ -72,6 +72,34 @@ function App() {
 					<div className="card p-3 mb-4">
 						<h4 className="mb-3">Meus Projetos / Semestres</h4>
 
+						<div className="skill-legend mb-4">
+							<h6>Legenda dos níveis técnicos</h6>
+							<div className="table-responsive">
+								<table className="table table-sm align-middle mb-0">
+									<thead>
+										<tr>
+											<th>Nível</th>
+											<th>Descrição</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><strong>Básico</strong></td>
+											<td>Contato inicial com a ferramenta, apoio em tarefas simples e aprendizado guiado.</td>
+										</tr>
+										<tr>
+											<td><strong>Intermediário</strong></td>
+											<td>Uso prático em entregas do projeto, com autonomia parcial e apoio em funcionalidades reais.</td>
+										</tr>
+										<tr>
+											<td><strong>Avançado</strong></td>
+											<td>Atuação com maior autonomia, resolução de problemas, decisões técnicas e apoio à equipe.</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
 						<div className="accordion" id="semestersAccordion">
 
 							{/* Semestre 1 (modelo: texto do Semestre 3) */}
@@ -93,34 +121,34 @@ function App() {
 
 										<h6 className="section-title">Tecnologias Utilizadas</h6>
 										<div className="tech-list">
-											<div className="tech-item">
+											<a className="tech-item" href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Python</span>
 												<span className="tech-desc">Linguagem principal do sistema</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">HTML e CSS</span>
 												<span className="tech-desc">Estrutura e estilização das telas</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JavaScript</span>
 												<span className="tech-desc">Interatividade no front-end</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Canva</span>
 												<span className="tech-desc">Design e prototipação visual</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.github.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Git e GitHub</span>
 												<span className="tech-desc">Versionamento e colaboração</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://excalidraw.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JExcalidraw</span>
 												<span className="tech-desc">Diagramas e modelagem visual</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://www.json.org/json-en.html" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JSON/CSV</span>
 												<span className="tech-desc">Armazenamento e manipulação de dados</span>
-											</div>
+											</a>
 										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
@@ -141,10 +169,16 @@ function App() {
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
-										<div className="contribution-text">
-											<p>As principais hard skills trabalhadas nessa API vieram da prática com front-end e organização de projeto. <strong>HTML5</strong> e <strong>CSS3</strong> foram as tecnologias que mais utilizei, principalmente na criação das telas, ajustes visuais, padronização de componentes e responsividade. Também tive contato com <strong>JavaScript</strong> durante a evolução das funcionalidades, especialmente ao acompanhar e apoiar tarefas ligadas a <strong>CRUD</strong>, cálculos e validações.</p>
-											<p>Além disso, desenvolvi noções importantes de <strong>Git e GitHub</strong> para versionamento, organização de repositório, <strong>documentação técnica</strong> e <strong>testes manuais</strong>. A experiência com <strong>UI Design</strong> e documentação também foi relevante, porque precisei pensar não só no código, mas na clareza das telas, na estrutura dos arquivos e no entendimento das regras de negócio.</p>
-										</div>
+										<ul className="skill-level-list">
+											<li><strong>HTML5</strong> — básico/intermediário</li>
+											<li><strong>CSS3</strong> — básico/intermediário</li>
+											<li><strong>JavaScript</strong> — básico</li>
+											<li><strong>Python</strong> — básico</li>
+											<li><strong>Git e GitHub</strong> — básico</li>
+											<li><strong>UI Design e responsividade</strong> — básico</li>
+											<li><strong>Documentação técnica</strong> — básico</li>
+											<li><strong>Testes manuais</strong> — básico</li>
+										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -176,30 +210,30 @@ function App() {
 
 										<h6 className="section-title">Tecnologias Utilizadas</h6>
 										<div className="tech-list">
-											<div className="tech-item">
+											<a className="tech-item" href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Java SE</span>
 												<span className="tech-desc">Base da aplicação desktop</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://openjfx.io/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JavaFX</span>
 												<span className="tech-desc">Construção da interface gráfica</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.oracle.com/javase/tutorial/jdbc/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JDBC</span>
 												<span className="tech-desc">Integração entre aplicação e banco</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">MySQL</span>
 												<span className="tech-desc">Armazenamento dos dados climáticos</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.oracle.com/javase/tutorial/deployment/jar/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JAR</span>
 												<span className="tech-desc">Empacotamento da aplicação</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.github.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Git e GitHub</span>
 												<span className="tech-desc">Versionamento e colaboração</span>
-											</div>
+											</a>
 										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
@@ -219,10 +253,17 @@ function App() {
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
-										<div className="contribution-text">
-											<p>As hard skills mais trabalhadas nessa API foram <strong>Java SE</strong>, <strong>JavaFX</strong>, <strong>JDBC</strong> e <strong>MySQL</strong>. O contato com JavaFX foi um desafio importante, porque a construção de interface desktop era diferente do front-end web que eu conhecia melhor. Também pratiquei <strong>CRUD</strong>, validações, integração entre GUI e banco de dados, além de acompanhar a geração de relatórios estatísticos.</p>
-											<p>Na parte de relatórios, desenvolvi melhor o entendimento sobre <strong>médias</strong>, <strong>boxplot</strong>, registros suspeitos e valores anômalos. Também continuei praticando <strong>Git e GitHub</strong>, organização de código, documentação e testes manuais.</p>
-										</div>
+										<ul className="skill-level-list">
+											<li><strong>Java SE</strong> — básico/intermediário</li>
+											<li><strong>JavaFX</strong> — básico/intermediário</li>
+											<li><strong>JDBC</strong> — básico</li>
+											<li><strong>MySQL</strong> — básico/intermediário</li>
+											<li><strong>CRUD</strong> — básico/intermediário</li>
+											<li><strong>Relatórios estatísticos</strong> — básico</li>
+											<li><strong>Boxplot e valores anômalos</strong> — básico</li>
+											<li><strong>Git e GitHub</strong> — intermediário</li>
+											<li><strong>Testes manuais</strong> — intermediário</li>
+										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -243,8 +284,8 @@ function App() {
 								</h2>
 								<div id="sem3Collapse" className="accordion-collapse collapse show" aria-labelledby="sem3Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-2), o projeto foi desenvolvido em parceria com a <strong>GSW (Global Solutions & Web)</strong>, que trouxe a necessidade de uma ferramenta para capturar, armazenar e organizar notícias estratégicas e dados relevantes vindos de diferentes fontes. O problema envolvia lidar com portais de notícias e APIs públicas, cada um com formatos, estruturas e frequências de atualização diferentes, tornando difícil acompanhar informações de interesse de forma manual, padronizada e confiável.</p>
-										<p>Como solução, desenvolvemos o projeto da <strong>Porygon</strong>, uma aplicação web em Java com Spring Boot voltada ao cadastro de tags, portais, seletores HTML e APIs externas. O sistema permitia configurar fontes de dados, validar URLs e seletores, realizar web scraping com Jsoup, consumir APIs em formatos como JSON, XML e CSV, armazenar as informações em banco relacional e organizar os dados coletados por tags e sinônimos. Com isso, a aplicação transformava fontes dispersas em uma base consultável, estruturada e mais útil para análise.</p>
+										<p>No terceiro semestre (2024-2), o projeto foi desenvolvido em parceria com a <strong>GSW (Global Solutions & Web)</strong>, que trouxe a necessidade de uma ferramenta para capturar, armazenar e organizar notícias estratégicas e dados relevantes vindos de diferentes fontes. O problema envolvia lidar com portais de notícias e APIs públicas, cada um com formatos, estruturas e frequências de atualização diferentes, o que tornava inviável acompanhar manualmente, de forma padronizada e confiável, as informações de interesse. Sem uma forma de centralizar e estruturar esse conteúdo disperso, ficava difícil identificar tendências e enxergar o que o mercado dizia sobre determinados assuntos a tempo de embasar decisões.</p>
+										<p>Como solução, desenvolvemos a <strong>Porygon</strong>, uma aplicação web em Java com Spring Boot voltada ao cadastro de tags, portais, seletores HTML e APIs externas. O sistema permitia configurar fontes de dados, validar URLs e seletores, realizar web scraping com Jsoup, consumir APIs em formatos como JSON, XML e CSV, armazenar as informações em banco relacional e organizar os dados coletados por tags e sinônimos. A organização por tags era o que dava inteligência à ferramenta: ao agrupar e cruzar notícias de fontes distintas sobre um mesmo tema, era possível comparar informações e acompanhar tendências de mercado, transformando fontes dispersas em uma base consultável e estruturada que ajudava os usuários a ler o que é relevante sobre um assunto e tomar decisões fundamentadas.</p>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>
@@ -253,38 +294,38 @@ function App() {
 
 										<h6 className="section-title">Tecnologias Utilizadas</h6>
 										<div className="tech-list">
-											<div className="tech-item">
+											<a className="tech-item" href="https://docs.oracle.com/en/java/javase/22/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Java 22</span>
 												<span className="tech-desc">Linguagem base da aplicação</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Spring Boot</span>
 												<span className="tech-desc">Backend, MVC e APIs</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">MySQL</span>
 												<span className="tech-desc">Banco de dados relacional</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://vertabelo.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Vertabelo</span>
 												<span className="tech-desc">Modelagem física do banco</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://jsoup.org/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Jsoup</span>
 												<span className="tech-desc">Raspagem de dados em sites</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://www.thymeleaf.org/documentation.html" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Thymeleaf</span>
 												<span className="tech-desc">Templates da interface web</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://maven.apache.org/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Maven</span>
 												<span className="tech-desc">Gerenciamento de dependências</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Jira</span>
 												<span className="tech-desc">Organização das tarefas</span>
-											</div>
+											</a>
 										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
@@ -304,10 +345,19 @@ function App() {
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
-										<div className="contribution-text">
-											<p>As hard skills mais trabalhadas nessa API foram <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>MySQL</strong>, <strong>modelagem de banco de dados</strong> e <strong>Vertabelo</strong>. Foi o projeto em que tive contato mais forte com banco de dados aplicado, criando estruturas reais, relacionamentos, tabelas de apoio e funcionalidades conectadas à persistência.</p>
-											<p>Também aprofundei meu uso de <strong>Maven</strong>, <strong>Thymeleaf</strong>, <strong>Bootstrap</strong>, <strong>Jsoup</strong>, <strong>Jackson</strong>, <strong>Git</strong> e organização de tarefas com <strong>Jira</strong>. A experiência com scraping foi especialmente importante, porque me aproximou de um tipo de problema mais complexo: buscar dados externos, tratar respostas, lidar com seletores, evitar duplicidades e salvar as informações de forma estruturada.</p>
-										</div>
+										<ul className="skill-level-list">
+											<li><strong>Java</strong> — intermediário/avançado</li>
+											<li><strong>Spring Boot</strong> — intermediário</li>
+											<li><strong>MySQL</strong> — intermediário/avançado</li>
+											<li><strong>Modelagem de banco de dados</strong> — intermediário</li>
+											<li><strong>Vertabelo</strong> — intermediário</li>
+											<li><strong>Maven</strong> — intermediário</li>
+											<li><strong>Thymeleaf</strong> — intermediário</li>
+											<li><strong>Jsoup / Web scraping</strong> — intermediário</li>
+											<li><strong>Jackson</strong> — básico/intermediário</li>
+											<li><strong>Jira</strong> — básico/intermediário</li>
+											<li><strong>Git e GitHub</strong> — intermediário/avançado</li>
+										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -329,9 +379,9 @@ function App() {
 								<div id="sem4Collapse" className="accordion-collapse collapse" aria-labelledby="sem4Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 
-										<p>No quarto semestre (2025-1), o projeto foi desenvolvido em parceria com a <strong>Visiona</strong>, com o tema de manipulação de dados armazenados em banco relacional com visualização em tela e acesso por meio de APIs. O problema envolvia apoiar o acompanhamento de áreas agrícolas, mapas de classificação automática, atividades de analistas e métricas de produtividade, garantindo que consultores, analistas e administradores tivessem acesso às informações corretas conforme suas permissões.</p>
+										<p>No quarto semestre (2025-1), o projeto foi desenvolvido em parceria com a <strong>Visiona</strong>, com o tema de manipulação de dados armazenados em banco relacional, visualização em tela e acesso por meio de APIs. O problema envolvia apoiar o acompanhamento de áreas agrícolas, mapas de classificação automática, atividades de analistas e métricas de produtividade, garantindo que consultores, analistas e administradores tivessem acesso às informações corretas conforme suas permissões. O desafio central estava nos <strong>dados geoespaciais</strong>: as áreas agrícolas eram representadas por pontos e vetores em formato <strong>GeoJSON</strong>, e era preciso exibi-los sobre um mapa interativo para que pudessem ser analisados e corrigidos de forma visual, não apenas como registros em tabela.</p>
 
-										<p>Como solução, desenvolvemos uma aplicação web composta por backend e frontend, com <strong>APIs RESTful</strong>, autenticação, controle de usuários, cadastro de áreas agrícolas, visualização e edição de mapas, aprovação de classificações automáticas e dashboards de acompanhamento. O sistema utilizava banco de dados <strong>Oracle</strong>, integração com JPA/Hibernate e uma interface em Vue.js para permitir que os dados agrícolas fossem manipulados, visualizados e acompanhados de forma mais estruturada.</p>
+										<p>Como solução, desenvolvemos uma aplicação web composta por backend e frontend, com <strong>APIs RESTful</strong>, autenticação, controle de usuários, cadastro de áreas agrícolas, visualização e edição de mapas, aprovação de classificações automáticas e dashboards de acompanhamento. O sistema utilizava banco de dados <strong>Oracle</strong>, integração com <strong>JPA/Hibernate</strong> e uma interface em <strong>Vue.js</strong>. Os dados GeoJSON eram plotados em camadas sobre um mapa interativo, permitindo que os analistas sobrepusessem a marcação automática das ervas daninhas a uma imagem de base da área e comparassem o que era produção real e o que era erva daninha. A partir dessa análise, o analista editava as marcações e gerava um novo dado contendo apenas a área de produção, transformando a classificação automática bruta em uma base validada e confiável para acompanhamento.</p>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>
@@ -340,38 +390,38 @@ function App() {
 
 										<h6 className="section-title">Tecnologias Utilizadas</h6>
 										<div className="tech-list">
-											<div className="tech-item">
+											<a className="tech-item" href="https://docs.oracle.com/en/java/javase/22/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Java 22</span>
 												<span className="tech-desc">Linguagem base do backend</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Spring Boot</span>
 												<span className="tech-desc">APIs RESTful e arquitetura modular</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.oracle.com/en/database/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Oracle</span>
 												<span className="tech-desc">Banco de dados relacional</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://hibernate.org/orm/documentation/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">JPA/Hibernate</span>
 												<span className="tech-desc">Persistência e mapeamento relacional</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://spring.io/projects/spring-security" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Spring Security</span>
 												<span className="tech-desc">Autenticação e controle de acesso</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Vue.js</span>
 												<span className="tech-desc">Interface web e gerenciamento de estado</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Docker</span>
 												<span className="tech-desc">Apoio à containerização do ambiente</span>
-											</div>
-											<div className="tech-item">
+											</a>
+											<a className="tech-item" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">GitHub Projects</span>
 												<span className="tech-desc">Organização das sprints e tarefas</span>
-											</div>
+											</a>
 										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
@@ -390,10 +440,19 @@ function App() {
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
-										<div className="contribution-text">
-											<p>As principais hard skills trabalhadas foram <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>APIs RESTful</strong>, <strong>JPA/Hibernate</strong>, <strong>Oracle</strong> e <strong>Spring Security</strong>. O projeto aprofundou minha experiência com backend, banco relacional e organização de camadas da aplicação, principalmente na separação entre domínio, controllers, services e DTOs.</p>
-											<p>Também pratiquei <strong>Vue.js</strong>, integração entre frontend e backend, dashboards, relatórios, controle de permissões, versionamento com <strong>Git/GitHub</strong> e organização de tarefas pelo GitHub Projects. O uso de Oracle foi importante para ampliar meu contato com bancos relacionais além do MySQL, incluindo uma visão mais próxima de administração e manipulação de dados.</p>
-										</div>
+										<ul className="skill-level-list">
+											<li><strong>Java</strong> — avançado</li>
+											<li><strong>Spring Boot</strong> — avançado</li>
+											<li><strong>APIs RESTful</strong> — avançado</li>
+											<li><strong>JPA/Hibernate</strong> — intermediário/avançado</li>
+											<li><strong>Oracle</strong> — intermediário</li>
+											<li><strong>Spring Security</strong> — intermediário</li>
+											<li><strong>Vue.js</strong> — intermediário</li>
+											<li><strong>Docker</strong> — básico/intermediário</li>
+											<li><strong>Dashboards e relatórios</strong> — intermediário</li>
+											<li><strong>GitHub Projects</strong> — intermediário</li>
+											<li><strong>Git e GitHub</strong> — avançado</li>
+										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -408,34 +467,89 @@ function App() {
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem5Heading">
 									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem5Collapse" aria-expanded="false" aria-controls="sem5Collapse">
-										Semestre 5 — API 5 (2025-2)
+										Semestre 5 — Athos Insight (2025-2)
 									</button>
 								</h2>
 								<div id="sem5Collapse" className="accordion-collapse collapse" aria-labelledby="sem5Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p className="project-placeholder">Conteúdo em desenvolvimento. Esta seção será preenchida com o resumo do projeto, tecnologias utilizadas, contribuições pessoais, hard skills e soft skills trabalhadas.</p>
+										<p>No quinto semestre (2025-2), desenvolvemos o <strong>Athos Insight</strong>, uma ferramenta analítica para gestão de projetos. O desafio era consumir dados de um sistema de gestão via API, consolidá-los em um <strong>Data Warehouse</strong> e, a partir dessa base, gerar indicadores, dashboards e relatórios gerenciais. A solução precisava permitir o acompanhamento de horas lançadas, custos, prazos, produtividade individual e por equipe, além de diferenciar perfis de acesso como Gerente, Líder e Membro, garantindo segurança e privacidade das informações.</p>
+										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em um Data Warehouse, transformando-os em informações estratégicas para tomada de decisão. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial.</p>
 
-										<div className="project-link-box project-link-box-muted">
+										<div className="project-link-box">
 											<span>Repositório do projeto</span>
-											<span className="project-link-pending">A definir</span>
+											<a href="https://github.com/RuthMira/API5BD" target="_blank" rel="noopener noreferrer">Acessar no GitHub</a>
 										</div>
 
 										<h6 className="section-title">Tecnologias Utilizadas</h6>
-										<p className="project-placeholder">Adicionar as principais tecnologias utilizadas no projeto.</p>
+										<div className="tech-list">
+											<a className="tech-item" href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Python 3.11</span>
+												<span className="tech-desc">Linguagem base da aplicação</span>
+											</a>
+											<a className="tech-item" href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Django</span>
+												<span className="tech-desc">Framework web do backend</span>
+											</a>
+											<a className="tech-item" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">JavaScript</span>
+												<span className="tech-desc">Interatividade na interface</span>
+											</a>
+											<a className="tech-item" href="https://htmx.org/docs/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">HTMX</span>
+												<span className="tech-desc">Atualizações dinâmicas no front-end</span>
+											</a>
+											<a className="tech-item" href="https://www.postgresql.org/docs/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">PostgreSQL</span>
+												<span className="tech-desc">Banco de dados relacional</span>
+											</a>
+											<a className="tech-item" href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Docker</span>
+												<span className="tech-desc">Containerização do ambiente</span>
+											</a>
+											<a className="tech-item" href="https://azure.microsoft.com/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Microsoft Azure</span>
+												<span className="tech-desc">Hospedagem em máquina virtual</span>
+											</a>
+											<a className="tech-item" href="https://www.sonarsource.com/products/sonarcloud/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">SonarQube</span>
+												<span className="tech-desc">Monitoramento da qualidade do código</span>
+											</a>
+										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>Adicionar a narrativa da sua participação no projeto, destacando responsabilidades, desafios, evolução técnica e entregas realizadas.</p>
+											<p>Nessa API, atuei como <strong>Product Owner</strong>, com foco em transformar as necessidades do projeto em requisitos, histórias e entregas organizadas. Participei da definição do backlog, priorização das funcionalidades, critérios de aceite e alinhamento da solução com os objetivos de gestão de projetos, produtividade e análise financeira.</p>
+											<p>Também contribuí para a documentação, entendimento das regras de negócio e acompanhamento das entregas relacionadas aos dashboards, relatórios, perfis de usuário e organização dos dados. Como o projeto envolvia Data Warehouse e indicadores gerenciais, foi importante conectar a visão de negócio com a estrutura técnica necessária para transformar dados brutos em informação útil.</p>
+											<div className="project-media">
+												<img
+													src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
+													alt="Modelo OLAP do Data Warehouse do Athos Insight"
+													className="project-image"
+												/>
+												<p className="project-caption">Modelo OLAP utilizado para estruturar o Data Warehouse e apoiar a análise de horas, custos, colaboradores e projetos.</p>
+											</div>
+											<p>O projeto também exigiu atenção à organização do fluxo de trabalho, documentação do produto, integração com dados externos e comunicação com a equipe para garantir que as entregas técnicas refletissem as necessidades de acompanhamento gerencial.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
-										<div className="contribution-text">
-											<p>Adicionar as habilidades técnicas desenvolvidas, com as principais tecnologias e práticas em <strong>negrito</strong>.</p>
-										</div>
+										<ul className="skill-level-list">
+											<li><strong>Python</strong> — intermediário</li>
+											<li><strong>Django</strong> — intermediário</li>
+											<li><strong>PostgreSQL</strong> — intermediário</li>
+											<li><strong>Data Warehouse</strong> — intermediário</li>
+											<li><strong>Modelagem OLAP</strong> — intermediário</li>
+											<li><strong>Consumo de APIs</strong> — intermediário</li>
+											<li><strong>Dashboards e relatórios gerenciais</strong> — intermediário/avançado</li>
+											<li><strong>Docker</strong> — intermediário</li>
+											<li><strong>Microsoft Azure</strong> — básico/intermediário</li>
+											<li><strong>SonarQube</strong> — básico/intermediário</li>
+											<li><strong>Git e GitHub</strong> — avançado</li>
+										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Adicionar o contexto do semestre e explicar como ele contribuiu para desenvolver habilidades comportamentais.</p>
+											<p>Esse semestre desenvolveu principalmente minha <strong>organização</strong>, <strong>comunicação</strong> e <strong>visão de produto</strong>. Atuar como Product Owner exigiu entender o problema, priorizar entregas, alinhar expectativas e manter o backlog claro para que a equipe conseguisse transformar requisitos em funcionalidades úteis.</p>
+											<p>Também trabalhei <strong>liderança</strong>, <strong>responsabilidade</strong> e <strong>tomada de decisão</strong>, porque o projeto envolvia muitas camadas: dados, dashboards, permissões, relatórios e infraestrutura. Foi uma experiência importante para amadurecer minha capacidade de conectar necessidade de negócio, planejamento de produto e execução técnica.</p>
 										</div>
 									</div>
 								</div>
@@ -445,34 +559,107 @@ function App() {
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem6Heading">
 									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem6Collapse" aria-expanded="false" aria-controls="sem6Collapse">
-										Semestre 6 — API 6 (2026-1)
+										Semestre 6 — ZEUS (2026-1)
 									</button>
 								</h2>
 								<div id="sem6Collapse" className="accordion-collapse collapse" aria-labelledby="sem6Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p className="project-placeholder">Conteúdo em desenvolvimento. Esta seção será preenchida com o resumo do projeto, tecnologias utilizadas, contribuições pessoais, hard skills e soft skills trabalhadas.</p>
+										<p>No sexto semestre (2026-1), o projeto foi desenvolvido para a <strong>Tecsys do Brasil</strong>, empresa que atua com soluções de monitoramento em tempo real para redes de distribuição de energia. O desafio era superar uma barreira estratégica: a ausência de um processo estruturado para ingerir, tratar e analisar dados públicos da <strong>ANEEL</strong>. Sem esse processo, a identificação de regiões críticas dependia de análises manuais, pouco escaláveis e sujeitas a erro, dificultando a priorização de mercado e a definição de estratégias comerciais baseadas em dados.</p>
+										<p>Como solução, desenvolvemos o <strong>ZEUS</strong>, uma plataforma web voltada a transformar grandes volumes de dados públicos da ANEEL em inteligência de mercado. A aplicação centraliza o processamento por meio de pipelines de ETL versionados, calcula indicadores como TAM físico, ranking de criticidade baseado em DEC/FEC e previsões por modelos de séries temporais, além de disponibilizar essas informações em APIs e dashboards intuitivos. A arquitetura utiliza MongoDB para dados públicos analíticos e PostgreSQL para dados sensíveis, com requisitos de LGPD tratados como parte do produto.</p>
 
-										<div className="project-link-box project-link-box-muted">
+										<div className="project-link-box">
 											<span>Repositório do projeto</span>
-											<span className="project-link-pending">A definir</span>
+											<a href="https://github.com/RuthMira/API6BD" target="_blank" rel="noopener noreferrer">Acessar no GitHub</a>
 										</div>
 
 										<h6 className="section-title">Tecnologias Utilizadas</h6>
-										<p className="project-placeholder">Adicionar as principais tecnologias utilizadas no projeto.</p>
+										<div className="tech-list">
+											<a className="tech-item" href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">React</span>
+												<span className="tech-desc">Interface web do dashboard</span>
+											</a>
+											<a className="tech-item" href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">TypeScript</span>
+												<span className="tech-desc">Tipagem no front-end</span>
+											</a>
+											<a className="tech-item" href="https://vite.dev/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Vite</span>
+												<span className="tech-desc">Build e ambiente front-end</span>
+											</a>
+											<a className="tech-item" href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Tailwind CSS</span>
+												<span className="tech-desc">Estilização da interface</span>
+											</a>
+											<a className="tech-item" href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Python</span>
+												<span className="tech-desc">Processamento e backend</span>
+											</a>
+											<a className="tech-item" href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">FastAPI</span>
+												<span className="tech-desc">APIs de dados e análise</span>
+											</a>
+											<a className="tech-item" href="https://www.postgresql.org/docs/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">PostgreSQL</span>
+												<span className="tech-desc">Dados sensíveis e auditoria</span>
+											</a>
+											<a className="tech-item" href="https://www.mongodb.com/docs/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">MongoDB</span>
+												<span className="tech-desc">Dados públicos analíticos</span>
+											</a>
+											<a className="tech-item" href="https://www.keycloak.org/documentation" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Keycloak</span>
+												<span className="tech-desc">Autenticação e segurança</span>
+											</a>
+											<a className="tech-item" href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Docker</span>
+												<span className="tech-desc">Containerização dos serviços</span>
+											</a>
+											<a className="tech-item" href="https://docs.github.com/en/actions" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">GitHub Actions</span>
+												<span className="tech-desc">Automação e CI/CD</span>
+											</a>
+											<a className="tech-item" href="https://turbo.build/repo/docs" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Turborepo</span>
+												<span className="tech-desc">Organização do monorepo</span>
+											</a>
+										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>Adicionar a narrativa da sua participação no projeto, destacando responsabilidades, desafios, evolução técnica e entregas realizadas.</p>
+											<p>Nessa API, minha contribuição esteve ligada ao entendimento do problema de negócio, organização das entregas e conexão entre dados públicos, requisitos de análise e experiência do usuário. O projeto exigia transformar informações brutas e dispersas da ANEEL em indicadores claros para apoiar decisões comerciais e técnicas da Tecsys.</p>
+											<p>Também participei da estruturação das funcionalidades relacionadas a dashboards, indicadores DEC/FEC, ranking de criticidade, TAM físico e requisitos de segurança e LGPD. Como o produto envolvia dados públicos, dados sensíveis, autenticação e rastreabilidade, foi necessário pensar a solução não apenas como um dashboard, mas como uma base analítica confiável, auditável e escalável.</p>
+											<div className="project-media">
+												<img
+													src={`${process.env.PUBLIC_URL}/assets/api6/dashboard-zeus.png`}
+													alt="Dashboard do projeto ZEUS com indicadores DEC, FEC e áreas críticas"
+													className="project-image"
+												/>
+												<p className="project-caption">Dashboard do ZEUS com indicadores de rede, regiões críticas e dados consolidados para priorização técnica e comercial.</p>
+											</div>
+											<p>O projeto também teve um módulo de apoio para acompanhamento de burndown, usando Java, GitHub Actions e GitHub API, além de comunicação e organização do time por Slack. Essa combinação reforçou a importância de integrar produto, dados, segurança e automação em uma solução única.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
-										<div className="contribution-text">
-											<p>Adicionar as habilidades técnicas desenvolvidas, com as principais tecnologias e práticas em <strong>negrito</strong>.</p>
-										</div>
+										<ul className="skill-level-list">
+											<li><strong>React</strong> — intermediário</li>
+											<li><strong>TypeScript</strong> — intermediário</li>
+											<li><strong>FastAPI</strong> — intermediário</li>
+											<li><strong>Python</strong> — intermediário/avançado</li>
+											<li><strong>PostgreSQL</strong> — intermediário/avançado</li>
+											<li><strong>MongoDB</strong> — intermediário</li>
+											<li><strong>Keycloak</strong> — básico/intermediário</li>
+											<li><strong>Docker</strong> — intermediário</li>
+											<li><strong>GitHub Actions</strong> — intermediário</li>
+											<li><strong>ETL e versionamento de cargas</strong> — intermediário/avançado</li>
+											<li><strong>LGPD, auditoria e consentimento</strong> — intermediário</li>
+											<li><strong>Indicadores DEC/FEC, TAM e SAM</strong> — intermediário</li>
+											<li><strong>Séries temporais</strong> — básico/intermediário</li>
+										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Adicionar o contexto do semestre e explicar como ele contribuiu para desenvolver habilidades comportamentais.</p>
+											<p>Essa API exigiu bastante <strong>visão estratégica</strong>, <strong>organização</strong> e <strong>comunicação</strong>, porque o problema não era apenas técnico: ele envolvia transformar dados regulatórios em inteligência de mercado para apoiar decisões reais de expansão comercial.</p>
+											<p>Também desenvolvi <strong>pensamento analítico</strong>, <strong>responsabilidade</strong> e <strong>atenção aos detalhes</strong>, principalmente por lidar com dados sensíveis, requisitos de LGPD, rastreabilidade e previsibilidade dos resultados. O projeto reforçou minha capacidade de conectar tecnologia, dados, segurança e tomada de decisão em um produto com impacto direto para o cliente.</p>
 										</div>
 									</div>
 								</div>

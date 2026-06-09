@@ -165,7 +165,8 @@ function App() {
 								<div id="sem2Collapse" className="accordion-collapse collapse" aria-labelledby="sem2Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 
-										<p>Durante o segundo semestre (2024-1), desenvolvemos a aplicação <strong>EMA (Estação Meteorológica Automatizada)</strong>, um sistema desktop voltado à <strong>consolidação e análise de dados climáticos</strong> de cidades do estado de São Paulo. O projeto foi construído em Java, com integração a banco de dados relacional e geração de relatórios estatísticos, como médias, periodicidades e boxplots, para apoiar análises acadêmicas.</p>
+										<p>No segundo semestre (2024-1), o projeto foi desenvolvido para um professor que atuou como cliente, trazendo a necessidade de uma ferramenta desktop para consolidar dados climáticos de cidades do estado de São Paulo. O problema envolvia importar arquivos CSV de estações meteorológicas, validar os registros recebidos, separar valores suspeitos para revisão e armazenar as informações em um banco de dados relacional estruturado.</p>
+										<p>Como solução, desenvolvemos a <strong>EMA (Estação Meteorológica Automatizada)</strong>, nome da aplicação criada em Java Desktop com persistência via <strong>JDBC</strong>. O sistema permitia gerenciar estações, cidades e unidades de medida, carregar e validar dados climáticos, revisar registros suspeitos e gerar relatórios de apoio à análise, como médias por cidade e período, relatório de situação das últimas medidas e informações necessárias para construção de boxplots.</p>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>

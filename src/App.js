@@ -243,7 +243,8 @@ function App() {
 								</h2>
 								<div id="sem3Collapse" className="accordion-collapse collapse show" aria-labelledby="sem3Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
-										<p>No terceiro semestre (2024-2), em parceria com a GSW (Global Solutions & Web), desenvolvemos a <strong>Porygon2</strong>, uma aplicação web para captura, organização e consulta de grandes volumes de notícias e dados estratégicos vindos de portais e APIs públicas. O objetivo era permitir que pesquisadores filtrassem, categorizassem e acessassem informações automaticamente, com boa performance, rastreabilidade e usabilidade.</p>
+										<p>No terceiro semestre (2024-2), o projeto foi desenvolvido em parceria com a <strong>GSW (Global Solutions & Web)</strong>, que trouxe a necessidade de uma ferramenta para capturar, armazenar e organizar notícias estratégicas e dados relevantes vindos de diferentes fontes. O problema envolvia lidar com portais de notícias e APIs públicas, cada um com formatos, estruturas e frequências de atualização diferentes, tornando difícil acompanhar informações de interesse de forma manual, padronizada e confiável.</p>
+										<p>Como solução, desenvolvemos o projeto da <strong>Porygon</strong>, uma aplicação web em Java com Spring Boot voltada ao cadastro de tags, portais, seletores HTML e APIs externas. O sistema permitia configurar fontes de dados, validar URLs e seletores, realizar web scraping com Jsoup, consumir APIs em formatos como JSON, XML e CSV, armazenar as informações em banco relacional e organizar os dados coletados por tags e sinônimos. Com isso, a aplicação transformava fontes dispersas em uma base consultável, estruturada e mais útil para análise.</p>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>
@@ -328,82 +329,77 @@ function App() {
 								<div id="sem4Collapse" className="accordion-collapse collapse" aria-labelledby="sem4Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 
-										<p>
-										No quarto semestre (2025-1), em parceria com a <strong>Visiona</strong>, desenvolvemos a <strong>AgroDataAPI</strong>, uma solução voltada à manipulação e visualização de <strong>dados agrícolas armazenados em banco relacional</strong>. A aplicação foi composta por
-										módulos <strong>backend e frontend</strong>, permitindo acesso aos dados tanto via <strong>interface web interativa</strong> quanto por meio de <strong>APIs RESTful</strong>.
-										</p>
+										<p>No quarto semestre (2025-1), o projeto foi desenvolvido em parceria com a <strong>Visiona</strong>, com o tema de manipulação de dados armazenados em banco relacional com visualização em tela e acesso por meio de APIs. O problema envolvia apoiar o acompanhamento de áreas agrícolas, mapas de classificação automática, atividades de analistas e métricas de produtividade, garantindo que consultores, analistas e administradores tivessem acesso às informações corretas conforme suas permissões.</p>
 
-										<p>
-										O principal objetivo do projeto foi criar uma plataforma capaz de consolidar informações sobre
-										áreas, safras e produtividade, oferecendo aos analistas e consultores ferramentas de apoio à
-										decisão por meio de dashboards, relatórios de desempenho e mapas interativos. O projeto reforçou
-										a integração entre <strong>banco de dados, API e visualização em tempo real</strong>,
-										seguindo práticas ágeis e padrões de arquitetura modular.
-										</p>
+										<p>Como solução, desenvolvemos uma aplicação web composta por backend e frontend, com <strong>APIs RESTful</strong>, autenticação, controle de usuários, cadastro de áreas agrícolas, visualização e edição de mapas, aprovação de classificações automáticas e dashboards de acompanhamento. O sistema utilizava banco de dados <strong>Oracle</strong>, integração com JPA/Hibernate e uma interface em Vue.js para permitir que os dados agrícolas fossem manipulados, visualizados e acompanhados de forma mais estruturada.</p>
 
-										<p>GitHub do Projeto: <a href="#https://github.com/RuthMira/API4BD" target="_blank" rel="noopener noreferrer">ver repositório</a></p>
+										<div className="project-link-box">
+											<span>Repositório do projeto</span>
+											<a href="https://github.com/RuthMira/API4BD" target="_blank" rel="noopener noreferrer">Acessar no GitHub</a>
+										</div>
 
-										<h6 className="mt-3">Tecnologias Utilizadas</h6>
-										<ul>
-											<li>Java 22 e Spring Boot 3.3.3 (Web, Data JPA, Security, DevTools)</li>
-											<li>MySQL – banco de dados relacional</li>
-											<li>Docker – containerização do ambiente</li>
-											<li>Vue.js – interface web dinâmica e reativa</li>
-											<li>Spring Security – autenticação JWT</li>
-											<li>Hibernate e JPA – persistência de dados</li>
-											<li>GitHub Projects e Issues – controle das Sprints</li>
-										</ul>
+										<h6 className="section-title">Tecnologias Utilizadas</h6>
+										<div className="tech-list">
+											<div className="tech-item">
+												<span className="tech-name">Java 22</span>
+												<span className="tech-desc">Linguagem base do backend</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Spring Boot</span>
+												<span className="tech-desc">APIs RESTful e arquitetura modular</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Oracle</span>
+												<span className="tech-desc">Banco de dados relacional</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">JPA/Hibernate</span>
+												<span className="tech-desc">Persistência e mapeamento relacional</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Spring Security</span>
+												<span className="tech-desc">Autenticação e controle de acesso</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Vue.js</span>
+												<span className="tech-desc">Interface web e gerenciamento de estado</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">Docker</span>
+												<span className="tech-desc">Apoio à containerização do ambiente</span>
+											</div>
+											<div className="tech-item">
+												<span className="tech-name">GitHub Projects</span>
+												<span className="tech-desc">Organização das sprints e tarefas</span>
+											</div>
+										</div>
 
-										<h6 className="mt-3">Contribuições Pessoais</h6>
-										<p><strong>🧩 Backend e Integrações</strong></p>
-										<ul>
-											<li>Criação e manutenção de endpoints RESTful com Spring Boot.</li>
-											<li>Implementação de entidades e relacionamentos (Safra, Talhão, Área, Usuário).</li>
-											<li>Refatoração de serviços e controllers para padronização da nomenclatura.</li>
-											<li>Correção de queries SQL e Dtos para relatórios de produtividade e quantitativo.</li>
-											<li>Criação de endpoints para exportação de dados (GeoJSON) e relatórios.</li>
-											<li>Integração com camadas de segurança (JWT e controle de perfis).</li>
-										</ul>
+										<h6 className="section-title">Contribuições Pessoais</h6>
+										<div className="contribution-text">
+											<p>Na API 4, atuei tanto na parte técnica quanto na organização do projeto. No backend, contribuí com a criação e manutenção de endpoints RESTful em Spring Boot, implementação de entidades e relacionamentos, padronização de services, controllers e DTOs, além de ajustes em queries e estruturas voltadas aos relatórios de produtividade e acompanhamento.</p>
+											<p>Também participei da integração entre backend, banco Oracle e frontend em Vue.js, apoiando telas relacionadas ao cadastro e visualização de áreas agrícolas, dashboards e relatórios. O projeto exigia que os dados fossem acessados por perfis diferentes, então a organização de permissões, autenticação e fluxo de uso também foi uma parte importante da solução.</p>
+											<div className="project-media">
+												<img
+													src={`${process.env.PUBLIC_URL}/assets/api4/wireframe-analista.png`}
+													alt="Wireframe das telas do perfil analista na API 4"
+													className="project-image"
+												/>
+												<p className="project-caption">Wireframe usado para planejar a experiência do analista na visualização, edição e aprovação de mapas de classificação.</p>
+											</div>
+											<p>Além do desenvolvimento, também tive participação em organização ágil. Atuei como Scrum Master no início do projeto, conduzindo cerimônias e acompanhando o andamento das entregas. Depois, assumi atividades próximas ao papel de Product Owner, ajudando na priorização do backlog, refinamento de histórias, validação de entregas e atualização da documentação técnica.</p>
+										</div>
 
-										<p><strong>🌐 Front-end e Integração com a API</strong></p>
-										<ul>
-											<li>Participação nas telas de cadastro e visualização de áreas agrícolas.</li>
-											<li>Implementação de componentes Vue para dashboards e relatórios.</li>
-											<li>Integração das rotas do front com endpoints do backend.</li>
-											<li>Ajustes de layout e feedback visual com base em testes de usabilidade.</li>
-										</ul>
+										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>As principais hard skills trabalhadas foram <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>APIs RESTful</strong>, <strong>JPA/Hibernate</strong>, <strong>Oracle</strong> e <strong>Spring Security</strong>. O projeto aprofundou minha experiência com backend, banco relacional e organização de camadas da aplicação, principalmente na separação entre domínio, controllers, services e DTOs.</p>
+											<p>Também pratiquei <strong>Vue.js</strong>, integração entre frontend e backend, dashboards, relatórios, controle de permissões, versionamento com <strong>Git/GitHub</strong> e organização de tarefas pelo GitHub Projects. O uso de Oracle foi importante para ampliar meu contato com bancos relacionais além do MySQL, incluindo uma visão mais próxima de administração e manipulação de dados.</p>
+										</div>
 
-										<p><strong>🧭 Gestão Ágil e Liderança</strong></p>
-										<ul>
-											<li>Atuação como <strong>Scrum Master</strong> no início do projeto, conduzindo cerimônias ágeis (daily, review e retrospective).</li>
-											<li>Posteriormente, assumi o papel de <strong>Product Owner</strong>, priorizando backlog, refinando histórias e validando entregas de sprint.</li>
-											<li>Responsável pela atualização do <strong>README</strong> e documentação técnica das entregas.</li>
-											<li>Supervisão das branches, merges e padronização de commits nas PRs.</li>
-										</ul>
-
-										<h6 className="mt-3">🧪 Organização e Estruturação do Código</h6>
-										<ul>
-											<li>Separação entre camadas de domínio, controller e service.</li>
-											<li>Criação e padronização dos DTOs e Controllers no backend.</li>
-											<li>Documentação de rotas e endpoints principais.</li>
-										</ul>
-
-										<h6 className="mt-3">💡 Hard Skills</h6>
-										<ul>
-											<li>Java (JDK 22) – nível avançado</li>
-											<li>Spring Boot 3.3.3 – nível avançado</li>
-											<li>Vue.js – nível intermediário</li>
-											<li>Docker – nível intermediário</li>
-											<li>MySQL – nível avançado</li>
-											<li>Git/GitHub – nível avançado (branches, merges e versionamento)</li>
-										</ul>
-
-										<h6 className="mt-3">🤝 Soft Skills</h6>
-										<ul>
-											<li>
-											Liderança, Organização, Comunicação, Trabalho em Equipe, Proatividade, Resolução de Conflitos, Atenção aos Detalhes
-											</li>
-										</ul>
+										<h6 className="section-title">Soft Skills Trabalhadas</h6>
+										<div className="contribution-text">
+											<p>Essa API desenvolveu bastante minha <strong>liderança</strong>, <strong>organização</strong> e <strong>comunicação</strong>, porque precisei transitar entre papéis técnicos e de gestão. Atuar como Scrum Master e depois apoiar atividades de Product Owner exigiu acompanhar entregas, entender demandas, organizar prioridades e manter o time alinhado.</p>
+											<p>Também trabalhei <strong>proatividade</strong>, <strong>resolução de conflitos</strong> e <strong>atenção aos detalhes</strong>, principalmente por lidar com um sistema que envolvia diferentes perfis de usuário, regras de permissão, visualização de mapas e métricas de produtividade. Foi um semestre importante para consolidar minha capacidade de conectar requisitos de negócio, organização de equipe e implementação técnica.</p>
+										</div>
 									</div>
 								</div>
 							</div>

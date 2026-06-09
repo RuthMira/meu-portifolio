@@ -72,34 +72,6 @@ function App() {
 					<div className="card p-3 mb-4">
 						<h4 className="mb-3">Meus Projetos / Semestres</h4>
 
-						<div className="skill-legend mb-4">
-							<h6>Legenda dos níveis técnicos</h6>
-							<div className="table-responsive">
-								<table className="table table-sm align-middle mb-0">
-									<thead>
-										<tr>
-											<th>Nível</th>
-											<th>Descrição</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td><strong>Básico</strong></td>
-											<td>Contato inicial com a ferramenta, apoio em tarefas simples e aprendizado guiado.</td>
-										</tr>
-										<tr>
-											<td><strong>Intermediário</strong></td>
-											<td>Uso prático em entregas do projeto, com autonomia parcial e apoio em funcionalidades reais.</td>
-										</tr>
-										<tr>
-											<td><strong>Avançado</strong></td>
-											<td>Atuação com maior autonomia, resolução de problemas, decisões técnicas e apoio à equipe.</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-
 						<div className="accordion" id="semestersAccordion">
 
 							{/* Semestre 1 (modelo: texto do Semestre 3) */}
@@ -659,6 +631,45 @@ function App() {
 										<div className="contribution-text">
 											<p>Essa API exigiu bastante <strong>visão estratégica</strong>, <strong>organização</strong> e <strong>comunicação</strong>, porque o problema não era apenas técnico: ele envolvia transformar dados regulatórios em inteligência de mercado para apoiar decisões reais de expansão comercial.</p>
 											<p>Também desenvolvi <strong>pensamento analítico</strong>, <strong>responsabilidade</strong> e <strong>atenção aos detalhes</strong>, principalmente por lidar com dados sensíveis, requisitos de LGPD, rastreabilidade e previsibilidade dos resultados. O projeto reforçou minha capacidade de conectar tecnologia, dados, segurança e tomada de decisão em um produto com impacto direto para o cliente.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							{/* Legenda dos níveis técnicos */}
+							<div className="accordion-item">
+								<h2 className="accordion-header" id="skillLegendHeading">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillLegendCollapse" aria-expanded="false" aria-controls="skillLegendCollapse">
+										Legenda dos níveis técnicos
+									</button>
+								</h2>
+								<div id="skillLegendCollapse" className="accordion-collapse collapse" aria-labelledby="skillLegendHeading" data-bs-parent="#semestersAccordion">
+									<div className="accordion-body">
+										<div className="skill-legend">
+											<div className="table-responsive">
+												<table className="table table-sm align-middle mb-0">
+													<thead>
+														<tr>
+															<th>Nível</th>
+															<th>Descrição</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td><strong>Básico</strong></td>
+															<td>Contato inicial com a ferramenta, apoio em tarefas simples e aprendizado guiado.</td>
+														</tr>
+														<tr>
+															<td><strong>Intermediário</strong></td>
+															<td>Uso prático em entregas do projeto, com autonomia parcial e apoio em funcionalidades reais.</td>
+														</tr>
+														<tr>
+															<td><strong>Avançado</strong></td>
+															<td>Atuação com maior autonomia, resolução de problemas, decisões técnicas e apoio à equipe.</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
 										</div>
 									</div>
 								</div>

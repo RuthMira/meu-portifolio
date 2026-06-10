@@ -425,9 +425,9 @@ function App() {
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>No início da API 4, decidi assumir o papel de <strong>Scrum Master</strong> porque, depois de três semestres atuando principalmente como desenvolvedora, queria experimentar uma responsabilidade diferente dentro do time. A mudança não foi simples: eu ainda era uma referência técnica para bugs, organização e apoio aos desenvolvedores, então precisei aprender a equilibrar a facilitação do processo ágil com o suporte prático às entregas.</p>
-											<p>Nas primeiras sprints, meu trabalho como Scrum Master foi acompanhar o andamento das tarefas, ajudar a remover impedimentos e manter a equipe alinhada. Como o time estava comprometido e o período foi relativamente tranquilo, consegui apoiar o desenvolvimento sem abandonar totalmente minha atuação técnica, principalmente em dúvidas, correções e organização das entregas.</p>
-											<p>A maior virada aconteceu no final da segunda sprint, quando a Product Owner saiu do curso. Como Scrum Master, precisei assumir temporariamente parte das responsabilidades de PO durante o fechamento da sprint e a semana de planning. Isso me colocou em uma situação difícil: precisei acumular papéis, priorizar o que era mais importante e conversar com os membros que mais codavam para redistribuir tarefas e garantir a entrega. Foi um momento de "apagar incêndio", mas também de entender melhor como decisões de produto afetam diretamente o desenvolvimento.</p>
+											<p>No início da API 4, tomei uma decisão deliberada: assumir o papel de <strong>Scrum Master</strong>. Depois de três semestres atuando principalmente como desenvolvedora, e tendo sido referência técnica no semestre anterior, eu queria experimentar um tipo diferente de responsabilidade dentro do time. A mudança não foi trivial, porque eu continuava sendo procurada para bugs, organização e apoio aos desenvolvedores. O desafio, desde o começo, foi equilibrar a facilitação do processo ágil com o suporte técnico prático que a equipe ainda esperava de mim.</p>
+											<p>Nas primeiras sprints, meu trabalho se concentrou em acompanhar o andamento das tarefas, remover impedimentos e manter a equipe alinhada. Como o time estava comprometido e o período foi relativamente tranquilo, consegui exercer o papel de Scrum Master sem abandonar minha atuação técnica, ajudando em dúvidas, correções e na organização das entregas.</p>
+											<p>A virada veio no fim da segunda sprint, quando a Product Owner saiu do curso. Como Scrum Master, precisei assumir temporariamente parte das responsabilidades de PO durante o fechamento da sprint e a semana de planning. Foi a situação mais difícil do semestre: acumulei papéis, tive que priorizar o que era essencial e conversar com os membros que mais codavam para redistribuir tarefas e garantir a entrega. Foi um momento de "apagar incêndio", e foi exatamente nele que mais desenvolvi minha <strong>tomada de decisão sob pressão</strong>, porque não havia margem para travar: era decidir, comunicar e seguir. Também foi onde entendi, na prática, como decisões de produto afetam diretamente o desenvolvimento.</p>
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api4/wireframe-analista.png`}
@@ -436,7 +436,8 @@ function App() {
 												/>
 												<p className="project-caption">Wireframe usado para planejar a experiência do analista na visualização, edição e aprovação de mapas de classificação.</p>
 											</div>
-											<p>Depois que outro membro assumiu oficialmente o papel de Product Owner, voltei a focar como Scrum Master e desenvolvedora de apoio. Na terceira sprint, enquanto o time se adaptava à nova organização, ajudei o PO com informações que eu já tinha acompanhado, mantive a comunicação entre papéis e segui apoiando tecnicamente quando necessário. Essa API foi marcante porque me obrigou a sair apenas da execução técnica e enxergar o projeto pela ótica de processo, comunicação, prioridade e responsabilidade coletiva.</p>
+											<p>Quando outro membro assumiu oficialmente o papel de PO, voltei a focar como Scrum Master e desenvolvedora de apoio. Na terceira sprint, enquanto o time se adaptava à nova organização, passei ao novo PO o contexto que eu já vinha acompanhando, mantive a comunicação entre os papéis e segui dando suporte técnico quando necessário. Para planejar a experiência do analista, também participei da construção do wireframe que guiou a visualização, edição e aprovação dos mapas de classificação.</p>
+											<p>Essa API foi marcante porque me obrigou a sair da execução puramente técnica e enxergar o projeto pela ótica de processo, comunicação, prioridade e responsabilidade coletiva, uma camada de maturidade que os semestres anteriores, mais focados em código, ainda não tinham me exigido.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
@@ -450,15 +451,16 @@ function App() {
 											<li><strong>Vue.js</strong> — intermediário</li>
 											<li><strong>Docker</strong> — básico/intermediário</li>
 											<li><strong>Dashboards e relatórios</strong> — intermediário</li>
+											<li><strong>Wireframing</strong> — intermediário</li>
 											<li><strong>GitHub Projects</strong> — intermediário</li>
 											<li><strong>Git e GitHub</strong> — avançado</li>
 										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Essa API desenvolveu principalmente minha <strong>liderança</strong>, <strong>organização</strong> e <strong>comunicação</strong>. Como Scrum Master, precisei entender que liderar o processo não era apenas cobrar tarefas, mas acompanhar impedimentos, criar clareza para o time e ajudar as pessoas a avançarem sem perder de vista o objetivo da sprint.</p>
-											<p>A saída da PO fortaleceu minha <strong>tomada de decisão</strong> e minha <strong>proatividade</strong>, porque precisei priorizar entregas em um cenário de urgência, conversar com o time e reorganizar o trabalho sem deixar o projeto parar. Também desenvolvi <strong>responsabilidade</strong> e <strong>resolução de problemas</strong>, já que acumular temporariamente os papéis de Scrum Master e PO exigiu separar o que era essencial do que poderia esperar.</p>
-											<p>No fim, essa experiência amadureceu minha visão de <strong>trabalho em equipe</strong>. Entendi melhor a importância de papéis bem definidos, comunicação constante e apoio entre pessoas técnicas e de produto. Mesmo voltando a atuar como desenvolvedora de apoio depois, passei a enxergar as entregas com mais contexto, considerando não só o código, mas também organização, prioridade e impacto para o time.</p>
+											<p>Essa API desenvolveu principalmente minha <strong>liderança</strong>, <strong>organização</strong> e <strong>comunicação</strong>, mas de um tipo diferente do semestre anterior. No S3 minha liderança era técnica, ligada a destravar código; aqui ela passou a ser de processo: entender que liderar não é apenas cobrar tarefas, e sim acompanhar impedimentos, criar clareza para o time e ajudar as pessoas a avançarem sem perder de vista o objetivo da sprint.</p>
+											<p>A saída da PO fortaleceu minha <strong>tomada de decisão</strong> e minha <strong>proatividade</strong>, porque precisei priorizar entregas em cenário de urgência, conversar com o time e reorganizar o trabalho sem deixar o projeto parar. Acumular temporariamente Scrum Master e PO também exercitou minha <strong>responsabilidade</strong> e minha <strong>resolução de problemas</strong>, já que exigiu separar o essencial do que podia esperar.</p>
+											<p>No fim, a experiência amadureceu minha visão de <strong>trabalho em equipe</strong>. Entendi o peso de papéis bem definidos, comunicação constante e apoio entre pessoas técnicas e de produto. Mesmo voltando a atuar como desenvolvedora de apoio, passei a enxergar as entregas com mais contexto, considerando não só o código, mas organização, prioridade e impacto para o time.</p>
 										</div>
 									</div>
 								</div>
@@ -474,7 +476,7 @@ function App() {
 								<div id="sem5Collapse" className="accordion-collapse collapse show" aria-labelledby="sem5Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 										<p>No quinto semestre (2025-2), desenvolvemos o <strong>Athos Insight</strong>, uma ferramenta analítica para gestão de projetos. O desafio era consumir dados de um sistema de gestão via API, consolidá-los em um <strong>Data Warehouse</strong> e, a partir dessa base, gerar indicadores, dashboards e relatórios gerenciais. A solução precisava permitir o acompanhamento de horas lançadas, custos, prazos, produtividade individual e por equipe, além de diferenciar perfis de acesso como Gerente, Líder e Membro, garantindo segurança e privacidade das informações.</p>
-										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em um Data Warehouse, transformando-os em informações estratégicas para tomada de decisão. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial.</p>
+										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em duas camadas: uma base relacional em <strong>PostgreSQL</strong>, voltada ao funcionamento transacional do sistema, e um <strong>Data Warehouse</strong> em modelo <strong>OLAP</strong>, estruturado em schema snowflake para análise gerencial. Os dados eram extraídos, tratados e carregados por processos de <strong>ETL</strong> com execução agendada por cron, permitindo transformar dados operacionais em indicadores consolidados. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial.</p>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>
@@ -503,6 +505,22 @@ function App() {
 												<span className="tech-name">PostgreSQL</span>
 												<span className="tech-desc">Banco de dados relacional</span>
 											</a>
+											<a className="tech-item" href="https://www.postgresql.org/docs/current/ddl-schemas.html" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Data Warehouse</span>
+												<span className="tech-desc">Base analítica em schema snowflake</span>
+											</a>
+											<a className="tech-item" href="https://en.wikipedia.org/wiki/Online_analytical_processing" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">OLAP</span>
+												<span className="tech-desc">Modelagem para análise multidimensional</span>
+											</a>
+											<a className="tech-item" href="https://airflow.apache.org/docs/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">ETL</span>
+												<span className="tech-desc">Extração, tratamento e carga dos dados</span>
+											</a>
+											<a className="tech-item" href="https://man7.org/linux/man-pages/man5/crontab.5.html" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Cron</span>
+												<span className="tech-desc">Agendamento das rotinas de carga</span>
+											</a>
 											<a className="tech-item" href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">Docker</span>
 												<span className="tech-desc">Containerização do ambiente</span>
@@ -523,12 +541,21 @@ function App() {
 												<span className="tech-name">SonarQube</span>
 												<span className="tech-desc">Monitoramento da qualidade do código</span>
 											</a>
+											<a className="tech-item" href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Jira</span>
+												<span className="tech-desc">Backlog, tarefas e documentação do produto</span>
+											</a>
+											<a className="tech-item" href="https://docs.github.com/actions" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">GitHub Actions</span>
+												<span className="tech-desc">Pipeline de deploy e automações</span>
+											</a>
 										</div>
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>Nessa API, atuei como <strong>Product Owner</strong>, com foco em transformar as necessidades do projeto em requisitos, histórias e entregas organizadas. Participei da definição do backlog, priorização das funcionalidades, critérios de aceite e alinhamento da solução com os objetivos de gestão de projetos, produtividade e análise financeira.</p>
-											<p>Também contribuí para a documentação, entendimento das regras de negócio e acompanhamento das entregas relacionadas aos dashboards, relatórios, perfis de usuário e organização dos dados. Como o projeto envolvia Data Warehouse e indicadores gerenciais, foi importante conectar a visão de negócio com a estrutura técnica necessária para transformar dados brutos em informação útil.</p>
+											<p>Na API 5, escolhi assumir outro papel dentro do time: <strong>Product Owner</strong>. Depois da experiência como Scrum Master no semestre anterior, entendi que uma das partes que mais me motivava era desmontar o problema, entender as peças do quebra-cabeça e buscar uma solução que fizesse sentido para o cliente. Como entrei em um novo grupo, em um momento em que alguns membros haviam deixado o curso, o Athos Insight nasceu também desse recomeço de equipe e da minha vontade de experimentar a visão de produto.</p>
+											<p>No começo, tive dificuldade para entender exatamente até onde ia a responsabilidade de uma PO, principalmente na parte de documentação, requisitos e tradução da dor do cliente para o time técnico. Com o apoio dos colegas M2 e P2, fui entendendo melhor o papel: ouvir o cliente, separar necessidade real de ideia acessória, priorizar o que gerava mais valor, criar histórias, organizar critérios de aceite e manter o backlog claro. Usei bastante o <strong>Jira</strong> porque queria centralizar as decisões em um lugar acessível, conectado ao fluxo de trabalho e à documentação do produto.</p>
+											<p>A conversa com o cliente fluiu bem desde o início, e isso foi um ponto forte do projeto. Consegui entender a dificuldade principal, transformar as ideias em direção de produto e alinhar as entregas com o que fazia sentido para o Athos Insight: uma plataforma para consolidar dados de projetos, apoiar análise de produtividade, custos, horas e relatórios gerenciais. Esse alinhamento agradou tanto os professores quanto o cliente, porque a solução não ficou apenas técnica; ela respondia à dor apresentada.</p>
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
@@ -537,7 +564,9 @@ function App() {
 												/>
 												<p className="project-caption">Modelo OLAP utilizado para estruturar o Data Warehouse e apoiar a análise de horas, custos, colaboradores e projetos.</p>
 											</div>
-											<p>O projeto também exigiu atenção à organização do fluxo de trabalho, documentação do produto, integração com dados externos e comunicação com a equipe para garantir que as entregas técnicas refletissem as necessidades de acompanhamento gerencial.</p>
+											<p>Essa API também teve uma camada técnica diferente das anteriores. O banco foi pensado em duas frentes: uma base relacional em <strong>PostgreSQL</strong> e um <strong>Data Warehouse</strong> modelado em esquema snowflake, alimentado por processos de <strong>ETL</strong> com execução programada por cron. Em paralelo, o time trabalhou com padrões de qualidade usando <strong>SonarQube</strong>, que ajudou a manter o código mais limpo e alinhado a boas práticas, além do Athos Monitor, criado para apoiar estudos de testes de carga, estresse e acompanhamento.</p>
+											<p>Outra responsabilidade importante que assumi foi a parte de <strong>DevOps</strong>. Fiquei responsável pelo deploy em máquina virtual e pela configuração de rede. Precisei estudar alternativas gratuitas, justificar o uso da VM, avaliar a carga esperada e escolher uma configuração que suportasse a utilização prevista. Também organizei a entrega direta na VM, configurei a pipeline de deploy e deixei a máquina preparada para ligar e desligar automaticamente, reduzindo custo e mantendo o ambiente disponível para apresentação.</p>
+											<p>Ao final da sprint 2, meu trabalho principal como PO já estava estruturado: backlog definido, documentação organizada, fluxo no Jira alinhado e pipeline validada. Na última sprint, como eu estava mais tranquila em relação às responsabilidades de produto e DevOps, voltei a atuar mais próxima do desenvolvimento, ajudando colegas a finalizarem suas partes e apoiando entregas que ficaram pressionadas pela quantidade de frentes do projeto.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
@@ -547,20 +576,27 @@ function App() {
 											<li><strong>PostgreSQL</strong> — intermediário</li>
 											<li><strong>Data Warehouse</strong> — intermediário</li>
 											<li><strong>Modelagem OLAP</strong> — intermediário</li>
+											<li><strong>Schema snowflake</strong> — intermediário</li>
+											<li><strong>ETL e cron</strong> — intermediário</li>
 											<li><strong>Consumo de APIs</strong> — intermediário</li>
 											<li><strong>Dashboards e relatórios gerenciais</strong> — intermediário/avançado</li>
+											<li><strong>Product Owner e backlog</strong> — intermediário/avançado</li>
+											<li><strong>Jira</strong> — intermediário/avançado</li>
 											<li><strong>Docker</strong> — intermediário</li>
 											<li><strong>Microsoft Azure</strong> — básico/intermediário</li>
 											<li><strong>Deploy em máquina virtual</strong> — básico/intermediário</li>
 											<li><strong>Configuração de rede em nuvem</strong> — básico/intermediário</li>
+											<li><strong>Pipeline de deploy</strong> — básico/intermediário</li>
 											<li><strong>SonarQube</strong> — básico/intermediário</li>
+											<li><strong>Testes de carga e estresse</strong> — básico/intermediário</li>
 											<li><strong>Git e GitHub</strong> — avançado</li>
 										</ul>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Esse semestre desenvolveu principalmente minha <strong>organização</strong>, <strong>comunicação</strong> e <strong>visão de produto</strong>. Atuar como Product Owner exigiu entender o problema, priorizar entregas, alinhar expectativas e manter o backlog claro para que a equipe conseguisse transformar requisitos em funcionalidades úteis.</p>
-											<p>Também trabalhei <strong>liderança</strong>, <strong>responsabilidade</strong> e <strong>tomada de decisão</strong>, porque o projeto envolvia muitas camadas: dados, dashboards, permissões, relatórios e infraestrutura. Foi uma experiência importante para amadurecer minha capacidade de conectar necessidade de negócio, planejamento de produto e execução técnica.</p>
+											<p>Esse semestre desenvolveu principalmente minha <strong>visão de produto</strong>, <strong>comunicação</strong> e <strong>organização</strong>. Como PO, precisei aprender a escutar o cliente, transformar conversas em requisitos e organizar o backlog de uma forma que o time conseguisse executar. Foi diferente de liderar processo como Scrum Master: aqui eu precisava defender prioridade, explicar contexto e garantir que cada entrega tivesse relação com a dor real do cliente.</p>
+											<p>Também desenvolvi <strong>tomada de decisão</strong> e <strong>responsabilidade</strong>, porque o projeto tinha várias frentes acontecendo ao mesmo tempo: produto, Data Warehouse, ETL, SonarQube, testes, DevOps, deploy e documentação. Nem tudo podia ter a mesma prioridade, então precisei aprender a decidir o que vinha primeiro, o que precisava estar documentado e o que poderia ser ajustado depois sem prejudicar a entrega.</p>
+											<p>Na reta final, trabalhei bastante <strong>colaboração</strong> e <strong>adaptabilidade</strong>. Mesmo tendo começado como PO, voltei a apoiar tecnicamente quando o time precisou, ajudando colegas a fecharem entregas e mantendo o foco no resultado final. Essa API foi uma das que mais ampliou minha visão profissional, porque conectou produto, dados, infraestrutura e desenvolvimento em uma única entrega.</p>
 										</div>
 									</div>
 								</div>

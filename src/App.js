@@ -54,6 +54,8 @@ function App() {
 							<span className="skill-badge">⚙️ C#</span>
 							<span className="skill-badge">☕ Java / Spring Boot</span>
 							<span className="skill-badge">🌱 Spring Security</span>
+							<span className="skill-badge">🍃 Thymeleaf</span>
+							<span className="skill-badge">📘 Swagger / OpenAPI</span>
 							<span className="skill-badge">🟨 JavaScript</span>
 							<span className="skill-badge">🔷 TypeScript</span>
 							<span className="skill-badge">🖖 Vue.js</span>
@@ -65,17 +67,28 @@ function App() {
 							<span className="skill-badge">🐘 PostgreSQL</span>
 							<span className="skill-badge">🍃 MongoDB</span>
 							<span className="skill-badge">🔶 Oracle</span>
+							<span className="skill-badge">📐 Vertabelo</span>
 							<span className="skill-badge">🗄️ Data Warehouse</span>
 							<span className="skill-badge">📊 OLAP</span>
 							<span className="skill-badge">🧭 ETL</span>
+							<span className="skill-badge">🤖 IA</span>
+							<span className="skill-badge">📈 Machine Learning</span>
 							<span className="skill-badge">🟩 Node.js</span>
 							<span className="skill-badge">🟣 .NET</span>
 							<span className="skill-badge">🧠 Redis</span>
 							<span className="skill-badge">🐳 Docker</span>
+							<span className="skill-badge">☁️ Máquinas Virtuais</span>
+							<span className="skill-badge">🌐 Configuração de Rede</span>
+							<span className="skill-badge">🚀 Deploy em VM</span>
 							<span className="skill-badge">🔐 Keycloak</span>
 							<span className="skill-badge">✅ GitHub Actions</span>
+							<span className="skill-badge">⚙️ DevOps</span>
 							<span className="skill-badge">📌 Jira</span>
+							<span className="skill-badge">📚 Confluence</span>
+							<span className="skill-badge">💬 Slack</span>
 							<span className="skill-badge">🔍 SonarQube</span>
+							<span className="skill-badge">🧪 Testes</span>
+							<span className="skill-badge">🔒 LGPD</span>
 						</div>
 					</div>
 				</div>
@@ -263,11 +276,11 @@ function App() {
 							{/* Semestre 3 (texto original mantido) */}
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem3Heading">
-									<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sem3Collapse" aria-expanded="true" aria-controls="sem3Collapse">
+									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem3Collapse" aria-expanded="false" aria-controls="sem3Collapse">
 										Semestre 3 — Porygon2 (2024-2)
 									</button>
 								</h2>
-								<div id="sem3Collapse" className="accordion-collapse collapse show" aria-labelledby="sem3Heading" data-bs-parent="#semestersAccordion">
+								<div id="sem3Collapse" className="accordion-collapse collapse" aria-labelledby="sem3Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 										<p>No terceiro semestre (2024-2), o projeto foi desenvolvido em parceria com a <strong>GSW (Global Solutions & Web)</strong>, que trouxe a necessidade de uma ferramenta para capturar, armazenar e organizar notícias estratégicas e dados relevantes vindos de diferentes fontes. O problema envolvia lidar com portais de notícias e APIs públicas, cada um com formatos, estruturas e frequências de atualização diferentes, o que tornava inviável acompanhar manualmente, de forma padronizada e confiável, as informações de interesse. Sem uma forma de centralizar e estruturar esse conteúdo disperso, ficava difícil identificar tendências e enxergar o que o mercado dizia sobre determinados assuntos a tempo de embasar decisões.</p>
 										<p>Como solução, desenvolvemos a <strong>Porygon</strong>, uma aplicação web em Java com Spring Boot voltada ao cadastro de tags, portais, seletores HTML e APIs externas. O sistema permitia configurar fontes de dados, validar URLs e seletores, realizar web scraping com Jsoup, consumir APIs em formatos como JSON, XML e CSV, armazenar as informações em banco relacional e organizar os dados coletados por tags e sinônimos. A organização por tags era o que dava inteligência à ferramenta: ao agrupar e cruzar notícias de fontes distintas sobre um mesmo tema, era possível comparar informações e acompanhar tendências de mercado, transformando fontes dispersas em uma base consultável e estruturada que ajudava os usuários a ler o que é relevante sobre um assunto e tomar decisões fundamentadas.</p>
@@ -452,11 +465,11 @@ function App() {
 							{/* Semestre 5 (estrutura para preenchimento) */}
 							<div className="accordion-item">
 								<h2 className="accordion-header" id="sem5Heading">
-									<button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sem5Collapse" aria-expanded="false" aria-controls="sem5Collapse">
+									<button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sem5Collapse" aria-expanded="true" aria-controls="sem5Collapse">
 										Semestre 5 — Athos Insight (2025-2)
 									</button>
 								</h2>
-								<div id="sem5Collapse" className="accordion-collapse collapse" aria-labelledby="sem5Heading" data-bs-parent="#semestersAccordion">
+								<div id="sem5Collapse" className="accordion-collapse collapse show" aria-labelledby="sem5Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 										<p>No quinto semestre (2025-2), desenvolvemos o <strong>Athos Insight</strong>, uma ferramenta analítica para gestão de projetos. O desafio era consumir dados de um sistema de gestão via API, consolidá-los em um <strong>Data Warehouse</strong> e, a partir dessa base, gerar indicadores, dashboards e relatórios gerenciais. A solução precisava permitir o acompanhamento de horas lançadas, custos, prazos, produtividade individual e por equipe, além de diferenciar perfis de acesso como Gerente, Líder e Membro, garantindo segurança e privacidade das informações.</p>
 										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em um Data Warehouse, transformando-os em informações estratégicas para tomada de decisão. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial.</p>
@@ -496,6 +509,14 @@ function App() {
 												<span className="tech-name">Microsoft Azure</span>
 												<span className="tech-desc">Hospedagem em máquina virtual</span>
 											</a>
+											<a className="tech-item" href="https://learn.microsoft.com/azure/virtual-machines/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Máquina Virtual</span>
+												<span className="tech-desc">Deploy e configuração do ambiente</span>
+											</a>
+											<a className="tech-item" href="https://learn.microsoft.com/azure/virtual-network/" target="_blank" rel="noopener noreferrer">
+												<span className="tech-name">Rede em Nuvem</span>
+												<span className="tech-desc">Configuração de acesso e conectividade</span>
+											</a>
 											<a className="tech-item" href="https://www.sonarsource.com/products/sonarcloud/" target="_blank" rel="noopener noreferrer">
 												<span className="tech-name">SonarQube</span>
 												<span className="tech-desc">Monitoramento da qualidade do código</span>
@@ -528,6 +549,8 @@ function App() {
 											<li><strong>Dashboards e relatórios gerenciais</strong> — intermediário/avançado</li>
 											<li><strong>Docker</strong> — intermediário</li>
 											<li><strong>Microsoft Azure</strong> — básico/intermediário</li>
+											<li><strong>Deploy em máquina virtual</strong> — básico/intermediário</li>
+											<li><strong>Configuração de rede em nuvem</strong> — básico/intermediário</li>
 											<li><strong>SonarQube</strong> — básico/intermediário</li>
 											<li><strong>Git e GitHub</strong> — avançado</li>
 										</ul>

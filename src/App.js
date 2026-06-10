@@ -559,10 +559,10 @@ function App() {
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
-													alt="Modelo OLAP do Data Warehouse do Athos Insight"
+													alt="Modelo OLAP em schema snowflake do Data Warehouse do Athos Insight"
 													className="project-image"
 												/>
-												<p className="project-caption">Modelo OLAP utilizado para estruturar o Data Warehouse e apoiar a análise de horas, custos, colaboradores e projetos.</p>
+												<p className="project-caption">Modelo OLAP em schema snowflake, usado junto ao banco relacional PostgreSQL para separar a operação do sistema da camada analítica do Data Warehouse.</p>
 											</div>
 											<p>Essa API também teve uma camada técnica diferente das anteriores. O banco foi pensado em duas frentes: uma base relacional em <strong>PostgreSQL</strong> e um <strong>Data Warehouse</strong> modelado em esquema snowflake, alimentado por processos de <strong>ETL</strong> com execução programada por cron. Em paralelo, o time trabalhou com padrões de qualidade usando <strong>SonarQube</strong>, que ajudou a manter o código mais limpo e alinhado a boas práticas, além do Athos Monitor, criado para apoiar estudos de testes de carga, estresse e acompanhamento.</p>
 											<p>Outra responsabilidade importante que assumi foi a parte de <strong>DevOps</strong>. Fiquei responsável pelo deploy em máquina virtual e pela configuração de rede. Precisei estudar alternativas gratuitas, justificar o uso da VM, avaliar a carga esperada e escolher uma configuração que suportasse a utilização prevista. Também organizei a entrega direta na VM, configurei a pipeline de deploy e deixei a máquina preparada para ligar e desligar automaticamente, reduzindo custo e mantendo o ambiente disponível para apresentação.</p>

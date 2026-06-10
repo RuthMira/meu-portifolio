@@ -222,46 +222,20 @@ body {
   border: 1px solid rgba(0,0,0,0.08);
 }
 
+.project-embed {
+  display: block;
+  width: 100%;
+  min-height: 520px;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+  background: #fff;
+}
+
 .project-caption {
   color: var(--muted);
   font-size: 0.88rem;
   margin: 0.55rem 0 0;
   text-align: center;
-}
-
-.devops-map {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.8rem;
-  padding: 1rem;
-  border: 1px solid rgba(111,66,193,0.14);
-  border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(111,66,193,0.07), rgba(13,110,253,0.05)),
-    rgba(255,255,255,0.7);
-}
-
-.devops-stage {
-  min-height: 112px;
-  padding: 0.85rem;
-  border: 1px solid rgba(111,66,193,0.14);
-  border-left: 4px solid var(--accent);
-  border-radius: 8px;
-  background: rgba(255,255,255,0.82);
-}
-
-.devops-stage strong {
-  display: block;
-  color: #4b2fa3;
-  font-size: 0.98rem;
-  margin-bottom: 0.35rem;
-}
-
-.devops-stage span {
-  display: block;
-  color: #495057;
-  font-size: 0.88rem;
-  line-height: 1.42;
 }
 
 @media (max-width: 576px) {
@@ -272,10 +246,6 @@ body {
 
   .project-link-box a {
     text-align: center;
-  }
-
-  .devops-map {
-    grid-template-columns: 1fr;
   }
 
   .skill-level-list li {

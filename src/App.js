@@ -476,7 +476,7 @@ function App() {
 								<div id="sem5Collapse" className="accordion-collapse collapse show" aria-labelledby="sem5Heading" data-bs-parent="#semestersAccordion">
 									<div className="accordion-body">
 										<p>No quinto semestre (2025-2), desenvolvemos o <strong>Athos Insight</strong>, uma ferramenta analítica para gestão de projetos. O desafio era consumir dados de um sistema de gestão via API, consolidá-los em um <strong>Data Warehouse</strong> e, a partir dessa base, gerar indicadores, dashboards e relatórios gerenciais. A solução precisava permitir o acompanhamento de horas lançadas, custos, prazos, produtividade individual e por equipe, além de diferenciar perfis de acesso como Gerente, Líder e Membro, garantindo segurança e privacidade das informações.</p>
-										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em duas camadas: uma base relacional em <strong>PostgreSQL</strong>, voltada ao funcionamento transacional do sistema, e um <strong>Data Warehouse</strong> em modelo <strong>OLAP</strong>, estruturado em schema snowflake para análise gerencial. Os dados eram extraídos, tratados e carregados por processos de <strong>ETL</strong> com execução agendada por cron, permitindo transformar dados operacionais em indicadores consolidados. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial.</p>
+										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em duas camadas: uma base relacional em <strong>PostgreSQL</strong>, voltada ao funcionamento transacional do sistema, e um <strong>Data Warehouse</strong> em modelo <strong>OLAP</strong>, estruturado em schema snowflake para análise gerencial. Os dados eram extraídos, tratados e carregados por processos de <strong>ETL</strong> com execução agendada por cron, permitindo transformar dados operacionais em indicadores consolidados. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial. Em paralelo, o projeto também incorporou práticas de qualidade com <strong>SonarQube</strong>, estudos de testes de carga e estresse com o Athos Monitor e uma frente de <strong>DevOps</strong> para viabilizar deploy, infraestrutura e operação do ambiente.</p>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>
@@ -551,49 +551,33 @@ function App() {
 											</a>
 										</div>
 
+										<div className="project-media">
+											<img
+												src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
+												alt="Modelo OLAP em schema snowflake do Data Warehouse do Athos Insight"
+												className="project-image"
+											/>
+											<p className="project-caption">Modelo OLAP em schema snowflake, usado junto ao banco relacional PostgreSQL para separar a operação do sistema da camada analítica do Data Warehouse.</p>
+										</div>
+
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
 											<p>Na API 5, escolhi assumir outro papel dentro do time: <strong>Product Owner</strong>. Depois da experiência como Scrum Master no semestre anterior, entendi que uma das partes que mais me motivava era desmontar o problema, entender as peças do quebra-cabeça e buscar uma solução que fizesse sentido para o cliente. Como entrei em um novo grupo, em um momento em que alguns membros haviam deixado o curso, o Athos Insight nasceu também desse recomeço de equipe e da minha vontade de experimentar a visão de produto.</p>
 											<p>No começo, tive dificuldade para entender exatamente até onde ia a responsabilidade de uma PO, principalmente na parte de documentação, requisitos e tradução da dor do cliente para o time técnico. Com o apoio dos colegas M2 e P2, fui entendendo melhor o papel: ouvir o cliente, separar necessidade real de ideia acessória, priorizar o que gerava mais valor, criar histórias, organizar critérios de aceite e manter o backlog claro. Usei bastante o <strong>Jira</strong> porque queria centralizar as decisões em um lugar acessível, conectado ao fluxo de trabalho e à documentação do produto.</p>
 											<p>A conversa com o cliente fluiu bem desde o início, e isso foi um ponto forte do projeto. Consegui entender a dificuldade principal, transformar as ideias em direção de produto e alinhar as entregas com o que fazia sentido para o Athos Insight: uma plataforma para consolidar dados de projetos, apoiar análise de produtividade, custos, horas e relatórios gerenciais. Esse alinhamento agradou tanto os professores quanto o cliente, porque a solução não ficou apenas técnica; ela respondia à dor apresentada.</p>
-											<div className="project-media">
-												<img
-													src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
-													alt="Modelo OLAP em schema snowflake do Data Warehouse do Athos Insight"
-													className="project-image"
-												/>
-												<p className="project-caption">Modelo OLAP em schema snowflake, usado junto ao banco relacional PostgreSQL para separar a operação do sistema da camada analítica do Data Warehouse.</p>
-											</div>
-											<p>Essa API também teve uma camada técnica diferente das anteriores. O banco foi pensado em duas frentes: uma base relacional em <strong>PostgreSQL</strong> e um <strong>Data Warehouse</strong> modelado em esquema snowflake, alimentado por processos de <strong>ETL</strong> com execução programada por cron. Em paralelo, o time trabalhou com padrões de qualidade usando <strong>SonarQube</strong>, que ajudou a manter o código mais limpo e alinhado a boas práticas, além do Athos Monitor, criado para apoiar estudos de testes de carga, estresse e acompanhamento.</p>
+											<p>Dentro desse contexto, minha contribuição foi manter o produto organizado para que essas frentes não se perdessem. Atuei na documentação do que era necessidade real, no refinamento das histórias, na priorização do backlog e no alinhamento entre o que o cliente esperava e o que o time conseguia entregar em cada sprint. Também acompanhei os testes, o cronograma de publicação e a preparação da entrega para que o produto fosse apresentado funcionando no ambiente definido.</p>
 											<p>Outra responsabilidade importante que assumi foi a parte de <strong>DevOps</strong>. Fiquei responsável pelo deploy em máquina virtual e pela configuração de rede. Precisei estudar alternativas gratuitas, justificar o uso da VM, avaliar a carga esperada e escolher uma configuração que suportasse a utilização prevista. Também organizei a entrega direta na VM, configurei a pipeline de deploy e deixei a máquina preparada para ligar e desligar automaticamente, reduzindo custo e mantendo o ambiente disponível para apresentação.</p>
 											<div className="project-media">
-												<div className="devops-map" aria-label="Divisão das práticas de DevOps aplicadas no Athos Insight">
-													<div className="devops-stage">
-														<strong>Planejar</strong>
-														<span>Backlog, histórias, critérios de aceite e priorização no Jira.</span>
-													</div>
-													<div className="devops-stage">
-														<strong>Desenvolver</strong>
-														<span>Implementação em Python/Django, Git/GitHub e organização das entregas.</span>
-													</div>
-													<div className="devops-stage">
-														<strong>Qualidade</strong>
-														<span>SonarQube, boas práticas, testes de carga e testes de estresse.</span>
-													</div>
-													<div className="devops-stage">
-														<strong>Integrar</strong>
-														<span>Pipeline com GitHub Actions para validar e preparar o deploy.</span>
-													</div>
-													<div className="devops-stage">
-														<strong>Implantar</strong>
-														<span>Deploy em VM, Docker, configuração de rede e ambiente publicado.</span>
-													</div>
-													<div className="devops-stage">
-														<strong>Operar</strong>
-														<span>Rotinas de cron, automação de ligar/desligar a VM e acompanhamento do Athos Monitor.</span>
-													</div>
-												</div>
-												<p className="project-caption">Divisão das práticas de DevOps aplicadas no Athos Insight, conectando produto, código, qualidade, deploy, infraestrutura e operação.</p>
+												<iframe
+													className="project-embed"
+													title="Diagrama do ciclo DevOps"
+													src="https://miro.com/app/live-embed/uXjVJrYYTFA=/?focusWidget=3458764648289782622&embedMode=view_only_without_ui&embedId=263031226808"
+													frameBorder="0"
+													scrolling="no"
+													allow="fullscreen; clipboard-read; clipboard-write"
+													allowFullScreen
+												></iframe>
+												<p className="project-caption">Diagrama do ciclo DevOps usado como referência para conectar planejamento, desenvolvimento, qualidade, deploy, operação e monitoramento no Athos Insight.</p>
 											</div>
 											<p>Ao final da sprint 2, meu trabalho principal como PO já estava estruturado: backlog definido, documentação organizada, fluxo no Jira alinhado e pipeline validada. Na última sprint, como eu estava mais tranquila em relação às responsabilidades de produto e DevOps, voltei a atuar mais próxima do desenvolvimento, ajudando colegas a finalizarem suas partes e apoiando entregas que ficaram pressionadas pela quantidade de frentes do projeto.</p>
 										</div>

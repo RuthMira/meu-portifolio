@@ -425,8 +425,9 @@ function App() {
 
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
-											<p>Na API 4, atuei tanto na parte técnica quanto na organização do projeto. No backend, contribuí com a criação e manutenção de endpoints RESTful em Spring Boot, implementação de entidades e relacionamentos, padronização de services, controllers e DTOs, além de ajustes em queries e estruturas voltadas aos relatórios de produtividade e acompanhamento.</p>
-											<p>Também participei da integração entre backend, banco Oracle e frontend em Vue.js, apoiando telas relacionadas ao cadastro e visualização de áreas agrícolas, dashboards e relatórios. O projeto exigia que os dados fossem acessados por perfis diferentes, então a organização de permissões, autenticação e fluxo de uso também foi uma parte importante da solução.</p>
+											<p>No início da API 4, decidi assumir o papel de <strong>Scrum Master</strong> porque, depois de três semestres atuando principalmente como desenvolvedora, queria experimentar uma responsabilidade diferente dentro do time. A mudança não foi simples: eu ainda era uma referência técnica para bugs, organização e apoio aos desenvolvedores, então precisei aprender a equilibrar a facilitação do processo ágil com o suporte prático às entregas.</p>
+											<p>Nas primeiras sprints, meu trabalho como Scrum Master foi acompanhar o andamento das tarefas, ajudar a remover impedimentos e manter a equipe alinhada. Como o time estava comprometido e o período foi relativamente tranquilo, consegui apoiar o desenvolvimento sem abandonar totalmente minha atuação técnica, principalmente em dúvidas, correções e organização das entregas.</p>
+											<p>A maior virada aconteceu no final da segunda sprint, quando a Product Owner saiu do curso. Como Scrum Master, precisei assumir temporariamente parte das responsabilidades de PO durante o fechamento da sprint e a semana de planning. Isso me colocou em uma situação difícil: precisei acumular papéis, priorizar o que era mais importante e conversar com os membros que mais codavam para redistribuir tarefas e garantir a entrega. Foi um momento de "apagar incêndio", mas também de entender melhor como decisões de produto afetam diretamente o desenvolvimento.</p>
 											<div className="project-media">
 												<img
 													src={`${process.env.PUBLIC_URL}/assets/api4/wireframe-analista.png`}
@@ -435,7 +436,7 @@ function App() {
 												/>
 												<p className="project-caption">Wireframe usado para planejar a experiência do analista na visualização, edição e aprovação de mapas de classificação.</p>
 											</div>
-											<p>Além do desenvolvimento, também tive participação em organização ágil. Atuei como Scrum Master no início do projeto, conduzindo cerimônias e acompanhando o andamento das entregas. Depois, assumi atividades próximas ao papel de Product Owner, ajudando na priorização do backlog, refinamento de histórias, validação de entregas e atualização da documentação técnica.</p>
+											<p>Depois que outro membro assumiu oficialmente o papel de Product Owner, voltei a focar como Scrum Master e desenvolvedora de apoio. Na terceira sprint, enquanto o time se adaptava à nova organização, ajudei o PO com informações que eu já tinha acompanhado, mantive a comunicação entre papéis e segui apoiando tecnicamente quando necessário. Essa API foi marcante porque me obrigou a sair apenas da execução técnica e enxergar o projeto pela ótica de processo, comunicação, prioridade e responsabilidade coletiva.</p>
 										</div>
 
 										<h6 className="section-title">Hard Skills Trabalhadas</h6>
@@ -455,8 +456,9 @@ function App() {
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Essa API desenvolveu bastante minha <strong>liderança</strong>, <strong>organização</strong> e <strong>comunicação</strong>, porque precisei transitar entre papéis técnicos e de gestão. Atuar como Scrum Master e depois apoiar atividades de Product Owner exigiu acompanhar entregas, entender demandas, organizar prioridades e manter o time alinhado.</p>
-											<p>Também trabalhei <strong>proatividade</strong>, <strong>resolução de conflitos</strong> e <strong>atenção aos detalhes</strong>, principalmente por lidar com um sistema que envolvia diferentes perfis de usuário, regras de permissão, visualização de mapas e métricas de produtividade. Foi um semestre importante para consolidar minha capacidade de conectar requisitos de negócio, organização de equipe e implementação técnica.</p>
+											<p>Essa API desenvolveu principalmente minha <strong>liderança</strong>, <strong>organização</strong> e <strong>comunicação</strong>. Como Scrum Master, precisei entender que liderar o processo não era apenas cobrar tarefas, mas acompanhar impedimentos, criar clareza para o time e ajudar as pessoas a avançarem sem perder de vista o objetivo da sprint.</p>
+											<p>A saída da PO fortaleceu minha <strong>tomada de decisão</strong> e minha <strong>proatividade</strong>, porque precisei priorizar entregas em um cenário de urgência, conversar com o time e reorganizar o trabalho sem deixar o projeto parar. Também desenvolvi <strong>responsabilidade</strong> e <strong>resolução de problemas</strong>, já que acumular temporariamente os papéis de Scrum Master e PO exigiu separar o que era essencial do que poderia esperar.</p>
+											<p>No fim, essa experiência amadureceu minha visão de <strong>trabalho em equipe</strong>. Entendi melhor a importância de papéis bem definidos, comunicação constante e apoio entre pessoas técnicas e de produto. Mesmo voltando a atuar como desenvolvedora de apoio depois, passei a enxergar as entregas com mais contexto, considerando não só o código, mas também organização, prioridade e impacto para o time.</p>
 										</div>
 									</div>
 								</div>

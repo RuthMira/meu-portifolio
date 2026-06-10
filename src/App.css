@@ -164,30 +164,42 @@ body {
 }
 
 .skill-level-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.65rem;
+  display: block;
   margin: 0;
   padding: 0;
   color: #343a40;
   list-style: none;
+  border: 1px solid rgba(111,66,193,0.14);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.72);
 }
 
 .skill-level-list li {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.75rem;
-  border: 1px solid rgba(111,66,193,0.12);
-  border-left: 3px solid var(--accent);
-  border-radius: 8px;
-  background: rgba(255,255,255,0.62);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(111,66,193,0.1);
+  background: transparent;
   line-height: 1.45;
-  padding: 0.65rem 0.75rem;
+  padding: 0.62rem 0.85rem;
+  font-size: 0.94rem;
+  text-align: right;
+}
+
+.skill-level-list li:nth-child(even) {
+  background: rgba(111,66,193,0.035);
+}
+
+.skill-level-list li:last-child {
+  border-bottom: 0;
 }
 
 .skill-level-list strong {
   color: #343a40;
+  text-align: left;
+  font-weight: 700;
 }
 
 .skill-level-list li::after {
@@ -264,6 +276,12 @@ body {
 
   .devops-map {
     grid-template-columns: 1fr;
+  }
+
+  .skill-level-list li {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    text-align: left;
   }
 }
 

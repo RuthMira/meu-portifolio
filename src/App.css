@@ -163,33 +163,72 @@ body {
   margin-bottom: 0;
 }
 
+.skills-details {
+  margin-top: 1.75rem;
+  margin-bottom: 0.85rem;
+  border: 1px solid rgba(52,58,64,0.12);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.74);
+  overflow: hidden;
+}
+
+.skills-details summary {
+  cursor: pointer;
+  padding: 0.8rem 0.95rem;
+  color: #343a40;
+  font-weight: 700;
+  list-style-position: inside;
+}
+
+.skills-details summary:hover {
+  background: rgba(52,58,64,0.035);
+}
+
+.skills-details .skill-level-list {
+  border: 0;
+  border-top: 1px solid rgba(52,58,64,0.1);
+  border-radius: 0;
+  background: transparent;
+}
+
 .skill-level-list {
   display: block;
   margin: 0;
   padding: 0;
   color: #343a40;
   list-style: none;
-  border: 1px solid rgba(111,66,193,0.14);
+  border: 1px solid rgba(52,58,64,0.12);
   border-radius: 8px;
   overflow: hidden;
-  background: rgba(255,255,255,0.72);
+  background: rgba(255,255,255,0.82);
+}
+
+.skill-level-list::before {
+  content: "Competência técnica";
+  display: block;
+  padding: 0.55rem 0.85rem;
+  background: rgba(52,58,64,0.045);
+  border-bottom: 1px solid rgba(52,58,64,0.1);
+  color: #495057;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .skill-level-list li {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content;
-  align-items: center;
-  gap: 1rem;
-  border-bottom: 1px solid rgba(111,66,193,0.1);
+  display: block;
+  border-bottom: 1px solid rgba(52,58,64,0.08);
   background: transparent;
   line-height: 1.45;
-  padding: 0.62rem 0.85rem;
+  padding: 0.68rem 0.85rem;
   font-size: 0.94rem;
-  text-align: right;
+  text-align: left;
+  color: #6c757d;
 }
 
 .skill-level-list li:nth-child(even) {
-  background: rgba(111,66,193,0.035);
+  background: rgba(52,58,64,0.025);
 }
 
 .skill-level-list li:last-child {
@@ -198,7 +237,6 @@ body {
 
 .skill-level-list strong {
   color: #343a40;
-  text-align: left;
   font-weight: 700;
 }
 
@@ -249,8 +287,6 @@ body {
   }
 
   .skill-level-list li {
-    grid-template-columns: 1fr;
-    gap: 0.2rem;
     text-align: left;
   }
 }

@@ -164,7 +164,8 @@ function App() {
 											<p>À medida que estudei e passei a entender melhor <strong>JavaScript</strong> e a lógica do sistema, migrei para tarefas de <strong>CRUD</strong>, funcionalidades ligadas aos <strong>cálculos de scores</strong> e <strong>testes manuais</strong> da plataforma. Não assumi as decisões técnicas mais complexas no início, mas usei cada oportunidade para aprender programação na prática. Esse foi o ponto de virada do projeto para mim: comecei atuando na interface e na organização e terminei participando da lógica, da validação e do funcionamento da aplicação.</p>
 										</div>
 
-										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<details className="skills-details">
+											<summary>Hard Skills Trabalhadas</summary>
 										<ul className="skill-level-list">
 											<li><strong>HTML5</strong> — básico/intermediário</li>
 											<li><strong>CSS3</strong> — básico/intermediário</li>
@@ -175,6 +176,7 @@ function App() {
 											<li><strong>Documentação técnica</strong> — básico</li>
 											<li><strong>Testes manuais</strong> — básico</li>
 										</ul>
+										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -248,7 +250,8 @@ function App() {
 											<p>Na reta final, concentrei minha atuação nas rotinas de <strong>relatórios</strong>, e foi aqui que mais cresci tecnicamente nesse projeto. Precisei entender de fato a lógica por trás das <strong>médias por cidade e período</strong>, dos <strong>boxplots</strong> e da <strong>identificação de registros suspeitos e valores anômalos</strong>, além de fazer os <strong>testes manuais</strong> da plataforma. Essa API foi importante justamente por isso: me tirou do território apenas da interface e me aproximou da <strong>lógica de negócio</strong>, da <strong>persistência de dados</strong> e da <strong>análise dos dados climáticos</strong>.</p>
 										</div>
 
-										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<details className="skills-details">
+											<summary>Hard Skills Trabalhadas</summary>
 										<ul className="skill-level-list">
 											<li><strong>Java SE</strong> — básico/intermediário</li>
 											<li><strong>JavaFX</strong> — básico/intermediário</li>
@@ -262,6 +265,7 @@ function App() {
 											<li><strong>Git e GitHub</strong> — intermediário</li>
 											<li><strong>Testes manuais</strong> — intermediário</li>
 										</ul>
+										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -342,7 +346,8 @@ function App() {
 											<p>No backend, participei do desenvolvimento dos <strong>CRUDs</strong> e da organização da aplicação com <strong>Spring Boot</strong>, criando estruturas relacionadas a portais, tags, notícias, APIs e jornalistas. Também apoiei a <strong>lógica de raspagem de dados com Jsoup</strong>, uma das partes que mais me chamou atenção, porque envolvia capturar informação de sites reais e transformá-la em algo útil dentro do sistema.</p>
 										</div>
 
-										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<details className="skills-details">
+											<summary>Hard Skills Trabalhadas</summary>
 										<ul className="skill-level-list">
 											<li><strong>Java</strong> — intermediário/avançado</li>
 											<li><strong>Spring Boot</strong> — intermediário</li>
@@ -357,6 +362,7 @@ function App() {
 											<li><strong>Jira</strong> — básico/intermediário</li>
 											<li><strong>Git e GitHub</strong> — intermediário/avançado</li>
 										</ul>
+										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -440,7 +446,8 @@ function App() {
 											<p>Essa API foi marcante porque me obrigou a sair da execução puramente técnica e enxergar o projeto pela ótica de processo, comunicação, prioridade e responsabilidade coletiva, uma camada de maturidade que os semestres anteriores, mais focados em código, ainda não tinham me exigido.</p>
 										</div>
 
-										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<details className="skills-details">
+											<summary>Hard Skills Trabalhadas</summary>
 										<ul className="skill-level-list">
 											<li><strong>Java</strong> — avançado</li>
 											<li><strong>Spring Boot</strong> — avançado</li>
@@ -455,6 +462,7 @@ function App() {
 											<li><strong>GitHub Projects</strong> — intermediário</li>
 											<li><strong>Git e GitHub</strong> — avançado</li>
 										</ul>
+										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -582,7 +590,8 @@ function App() {
 											<p>Ao final da sprint 2, meu trabalho principal como PO já estava estruturado: backlog definido, documentação organizada, fluxo no Jira alinhado e pipeline validada. Na última sprint, como eu estava mais tranquila em relação às responsabilidades de produto e DevOps, voltei a atuar mais próxima do desenvolvimento, ajudando colegas a finalizarem suas partes e apoiando entregas que ficaram pressionadas pela quantidade de frentes do projeto.</p>
 										</div>
 
-										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<details className="skills-details">
+											<summary>Hard Skills Trabalhadas</summary>
 										<ul className="skill-level-list">
 											<li><strong>Python</strong> — intermediário</li>
 											<li><strong>Django</strong> — intermediário</li>
@@ -604,6 +613,7 @@ function App() {
 											<li><strong>Testes de carga e estresse</strong> — básico/intermediário</li>
 											<li><strong>Git e GitHub</strong> — avançado</li>
 										</ul>
+										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
@@ -699,7 +709,8 @@ function App() {
 											<p>O projeto também teve um módulo de apoio para acompanhamento de burndown, usando Java, GitHub Actions e GitHub API, além de comunicação e organização do time por Slack. Essa combinação reforçou a importância de integrar produto, dados, segurança e automação em uma solução única.</p>
 										</div>
 
-										<h6 className="section-title">Hard Skills Trabalhadas</h6>
+										<details className="skills-details">
+											<summary>Hard Skills Trabalhadas</summary>
 										<ul className="skill-level-list">
 											<li><strong>React</strong> — intermediário</li>
 											<li><strong>TypeScript</strong> — intermediário</li>
@@ -715,6 +726,7 @@ function App() {
 											<li><strong>Indicadores DEC/FEC, TAM e SAM</strong> — intermediário</li>
 											<li><strong>Séries temporais</strong> — básico/intermediário</li>
 										</ul>
+										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">

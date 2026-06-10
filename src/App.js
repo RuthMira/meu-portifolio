@@ -566,6 +566,35 @@ function App() {
 											</div>
 											<p>Essa API também teve uma camada técnica diferente das anteriores. O banco foi pensado em duas frentes: uma base relacional em <strong>PostgreSQL</strong> e um <strong>Data Warehouse</strong> modelado em esquema snowflake, alimentado por processos de <strong>ETL</strong> com execução programada por cron. Em paralelo, o time trabalhou com padrões de qualidade usando <strong>SonarQube</strong>, que ajudou a manter o código mais limpo e alinhado a boas práticas, além do Athos Monitor, criado para apoiar estudos de testes de carga, estresse e acompanhamento.</p>
 											<p>Outra responsabilidade importante que assumi foi a parte de <strong>DevOps</strong>. Fiquei responsável pelo deploy em máquina virtual e pela configuração de rede. Precisei estudar alternativas gratuitas, justificar o uso da VM, avaliar a carga esperada e escolher uma configuração que suportasse a utilização prevista. Também organizei a entrega direta na VM, configurei a pipeline de deploy e deixei a máquina preparada para ligar e desligar automaticamente, reduzindo custo e mantendo o ambiente disponível para apresentação.</p>
+											<div className="project-media">
+												<div className="devops-map" aria-label="Divisão das práticas de DevOps aplicadas no Athos Insight">
+													<div className="devops-stage">
+														<strong>Planejar</strong>
+														<span>Backlog, histórias, critérios de aceite e priorização no Jira.</span>
+													</div>
+													<div className="devops-stage">
+														<strong>Desenvolver</strong>
+														<span>Implementação em Python/Django, Git/GitHub e organização das entregas.</span>
+													</div>
+													<div className="devops-stage">
+														<strong>Qualidade</strong>
+														<span>SonarQube, boas práticas, testes de carga e testes de estresse.</span>
+													</div>
+													<div className="devops-stage">
+														<strong>Integrar</strong>
+														<span>Pipeline com GitHub Actions para validar e preparar o deploy.</span>
+													</div>
+													<div className="devops-stage">
+														<strong>Implantar</strong>
+														<span>Deploy em VM, Docker, configuração de rede e ambiente publicado.</span>
+													</div>
+													<div className="devops-stage">
+														<strong>Operar</strong>
+														<span>Rotinas de cron, automação de ligar/desligar a VM e acompanhamento do Athos Monitor.</span>
+													</div>
+												</div>
+												<p className="project-caption">Divisão das práticas de DevOps aplicadas no Athos Insight, conectando produto, código, qualidade, deploy, infraestrutura e operação.</p>
+											</div>
 											<p>Ao final da sprint 2, meu trabalho principal como PO já estava estruturado: backlog definido, documentação organizada, fluxo no Jira alinhado e pipeline validada. Na última sprint, como eu estava mais tranquila em relação às responsabilidades de produto e DevOps, voltei a atuar mais próxima do desenvolvimento, ajudando colegas a finalizarem suas partes e apoiando entregas que ficaram pressionadas pela quantidade de frentes do projeto.</p>
 										</div>
 

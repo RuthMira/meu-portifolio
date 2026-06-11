@@ -698,8 +698,8 @@ function App() {
 										<div className="contribution-text">
 											<p>Na última API, eu queria viver uma experiência menos caótica do que a anterior e focar de forma mais clara no papel de <strong>Product Owner</strong>. Na API 5, por causa de atrasos e da quantidade de entregas, precisei voltar a apoiar desenvolvimento mesmo estando em um time grande. Por isso, no sexto semestre, tentei me afastar um pouco do código e concentrar minha atuação em entender a dor do cliente, organizar requisitos, priorizar entregas e manter a documentação do produto consistente.</p>
 											<p>O desafio técnico do semestre era maior do que o normal: além da aplicação principal, o projeto exigia uso de banco não relacional, integração com dados públicos da ANEEL, requisitos de <strong>LGPD</strong>, automações, indicadores de mercado e recursos ligados a <strong>IA e Machine Learning</strong>. Mesmo atuando como PO, tive contato com essas tecnologias ao validar funcionalidades, testar telas, entender regras de negócio e traduzir necessidades técnicas em histórias mais claras para o time.</p>
-											<p>No início, enfrentei uma dificuldade importante em outro grupo: apesar de o planejamento estar organizado, a primeira sprint não cumpriu o combinado e o time parecia cansado, com baixa adesão aos prazos. Tentei conversar, ajustar a abordagem e reorganizar expectativas, mas percebi que o trabalho de documentação e priorização que eu vinha fazendo não estava gerando o comprometimento necessário. A partir disso, decidi mudar de grupo na segunda sprint e entrei no projeto <strong>ZEUS</strong>.</p>
-											<p>A entrada no ZEUS exigiu uma adaptação diferente: eu não conhecia a maior parte das pessoas e o projeto já estava em andamento. A parte de PO ainda não estava totalmente estruturada, então precisei fazer o caminho inverso: entender o que já havia sido entregue, reconstruir o backlog a partir do estado real do produto, documentar decisões, organizar histórias e alinhar prioridades com o time. Foi um desafio maior do que começar do zero, mas também foi muito produtivo, porque me obrigou a transformar um projeto já em movimento em um fluxo mais claro de produto.</p>
+											<p>O semestre começou difícil em outro grupo. O planejamento estava organizado, mas a primeira sprint não cumpriu o combinado e o time demonstrava cansaço e baixa adesão aos prazos. Tentei conversar, ajustar a abordagem e reorganizar expectativas, mas aprendi uma lição importante: documentação e planejamento, sozinhos, não garantem entrega se o time não está comprometido. Reconheci que insistir naquele contexto não estava gerando resultado e tomei a decisão de mudar de grupo na segunda sprint, entrando no projeto <strong>ZEUS</strong>. Não encarei isso como desistência, mas como uma decisão profissional sobre onde eu conseguiria contribuir melhor.</p>
+											<p>A entrada no ZEUS exigiu uma adaptação mais difícil do que começar do zero. Eu não conhecia a maior parte das pessoas, o projeto já estava em andamento e a parte de PO ainda não estava totalmente estruturada. Precisei fazer o caminho inverso: entender o que já havia sido entregue, reconstruir o backlog a partir do estado real do produto, documentar decisões, organizar histórias e alinhar prioridades com o time. Transformar um projeto já em movimento em um fluxo claro de produto foi um dos maiores desafios que tive como PO e também um dos mais produtivos.</p>
 											<p>Depois dessa reorganização, consegui atuar de forma mais estável. O time do ZEUS estava comprometido, o Scrum Master dava bastante apoio e havia abertura para conversar quando algo saía do combinado. Em alguns momentos, aplicamos penalidades quando necessário, mas o restante das sprints fluiu melhor e conseguimos entregar bem. Também participei da frente de <strong>LGPD</strong>, dividindo validações com os membros do time e apoiando a implementação de requisitos ligados a consentimento, auditoria, rastreabilidade e proteção de dados.</p>
 											<div className="project-media">
 												<img
@@ -715,29 +715,27 @@ function App() {
 										<details className="skills-details">
 											<summary>Competências técnicas: dados, LGPD e IA</summary>
 										<ul className="skill-level-list">
-											<li><strong>React</strong> — intermediário</li>
-											<li><strong>TypeScript</strong> — intermediário</li>
-											<li><strong>FastAPI</strong> — intermediário</li>
-											<li><strong>Python</strong> — intermediário/avançado</li>
-											<li><strong>PostgreSQL</strong> — intermediário/avançado</li>
-											<li><strong>MongoDB</strong> — intermediário</li>
-											<li><strong>Keycloak</strong> — básico/intermediário</li>
-											<li><strong>Docker</strong> — intermediário</li>
-											<li><strong>GitHub Actions</strong> — intermediário</li>
-											<li><strong>ETL e versionamento de cargas</strong> — intermediário/avançado</li>
+											<li><strong>Product Owner e backlog</strong> — avançado</li>
+											<li><strong>Jira e documentação de produto</strong> — avançado</li>
+											<li><strong>Requisitos e critérios de aceite</strong> — avançado</li>
 											<li><strong>LGPD, auditoria e consentimento</strong> — intermediário</li>
+											<li><strong>MongoDB</strong> — básico/intermediário</li>
+											<li><strong>PostgreSQL</strong> — intermediário</li>
+											<li><strong>ETL e versionamento de cargas</strong> — básico/intermediário</li>
 											<li><strong>Indicadores DEC/FEC, TAM e SAM</strong> — intermediário</li>
-											<li><strong>IA e Machine Learning</strong> — básico/intermediário</li>
-											<li><strong>Séries temporais</strong> — básico/intermediário</li>
-											<li><strong>Product Owner e backlog</strong> — intermediário/avançado</li>
-											<li><strong>Jira e documentação de produto</strong> — intermediário/avançado</li>
+											<li><strong>Séries temporais, IA e Machine Learning</strong> — básico</li>
+											<li><strong>Validação de APIs com FastAPI</strong> — básico/intermediário</li>
+											<li><strong>Validação de front-end com React/TypeScript</strong> — básico</li>
+											<li><strong>Keycloak</strong> — básico/intermediário</li>
+											<li><strong>Docker</strong> — básico/intermediário</li>
+											<li><strong>Git e GitHub</strong> — avançado</li>
 										</ul>
 										</details>
 
 										<h6 className="section-title">Soft Skills Trabalhadas</h6>
 										<div className="contribution-text">
-											<p>Essa API desenvolveu principalmente minha <strong>resiliência</strong>, <strong>comunicação</strong> e <strong>organização</strong>. A primeira sprint mostrou que documentação e planejamento, sozinhos, não garantem entrega se o time não estiver comprometido. Precisei reconhecer que minha abordagem não estava funcionando naquele contexto, conversar, tentar ajustar e, depois, tomar a decisão de mudar para um ambiente em que eu pudesse contribuir melhor.</p>
-											<p>No ZEUS, trabalhei muito minha <strong>adaptabilidade</strong> e minha <strong>visão de produto</strong>. Entrar em um projeto já iniciado exigiu escuta, leitura rápida do que já existia e capacidade de transformar informações dispersas em backlog, histórias e documentação. Foi uma situação diferente das APIs anteriores: em vez de construir a organização desde o início, precisei recuperar e estruturar um fluxo que já estava andando.</p>
+											<p>Essa API desenvolveu principalmente minha <strong>resiliência</strong>, <strong>comunicação</strong> e <strong>organização</strong>. A primeira sprint mostrou, na prática, que planejamento sozinho não entrega: foi preciso reconhecer que minha abordagem não funcionava naquele contexto, tentar ajustar e, por fim, decidir mudar para um ambiente em que eu pudesse contribuir de verdade. Tomar essa decisão, sem me prender ao esforço já investido, foi um exercício direto de maturidade profissional.</p>
+											<p>No ZEUS, trabalhei muito minha <strong>adaptabilidade</strong> e minha <strong>visão de produto</strong>. Entrar em um projeto já iniciado exigiu escuta, leitura rápida do que existia e capacidade de transformar informações dispersas em backlog, histórias e documentação. Diferente das APIs anteriores, eu não construí a organização desde o início: precisei recuperar e estruturar um fluxo que já estava andando, o que considero a forma mais avançada do trabalho de produto que exerci no curso.</p>
 											<p>Também desenvolvi <strong>responsabilidade</strong>, <strong>pensamento analítico</strong> e <strong>atenção aos detalhes</strong>, principalmente pela frente de LGPD e pelo contato com dados sensíveis, rastreabilidade, auditoria, banco não relacional e recursos de IA. O semestre consolidou minha evolução como PO porque me mostrou que produto não é apenas definir prioridade, mas também criar clareza em contextos complexos, lidar com mudanças de equipe e manter a entrega conectada ao valor para o cliente.</p>
 										</div>
 									</div>

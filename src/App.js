@@ -165,7 +165,7 @@ function App() {
 										</div>
 
 										<details className="skills-details">
-											<summary>Hard Skills Trabalhadas</summary>
+											<summary>Competências técnicas: front-end, organização e testes</summary>
 										<ul className="skill-level-list">
 											<li><strong>HTML5</strong> — básico/intermediário</li>
 											<li><strong>CSS3</strong> — básico/intermediário</li>
@@ -251,7 +251,7 @@ function App() {
 										</div>
 
 										<details className="skills-details">
-											<summary>Hard Skills Trabalhadas</summary>
+											<summary>Competências técnicas: Java desktop, JDBC e relatórios</summary>
 										<ul className="skill-level-list">
 											<li><strong>Java SE</strong> — básico/intermediário</li>
 											<li><strong>JavaFX</strong> — básico/intermediário</li>
@@ -347,7 +347,7 @@ function App() {
 										</div>
 
 										<details className="skills-details">
-											<summary>Hard Skills Trabalhadas</summary>
+											<summary>Competências técnicas: backend, banco de dados e scraping</summary>
 										<ul className="skill-level-list">
 											<li><strong>Java</strong> — intermediário/avançado</li>
 											<li><strong>Spring Boot</strong> — intermediário</li>
@@ -447,7 +447,7 @@ function App() {
 										</div>
 
 										<details className="skills-details">
-											<summary>Hard Skills Trabalhadas</summary>
+											<summary>Competências técnicas: APIs REST, Oracle e Vue.js</summary>
 										<ul className="skill-level-list">
 											<li><strong>Java</strong> — avançado</li>
 											<li><strong>Spring Boot</strong> — avançado</li>
@@ -485,6 +485,15 @@ function App() {
 									<div className="accordion-body">
 										<p>No quinto semestre (2025-2), desenvolvemos o <strong>Athos Insight</strong>, uma ferramenta analítica para gestão de projetos. O desafio era consumir dados de um sistema de gestão via API, consolidá-los em um <strong>Data Warehouse</strong> e, a partir dessa base, gerar indicadores, dashboards e relatórios gerenciais. A solução precisava permitir o acompanhamento de horas lançadas, custos, prazos, produtividade individual e por equipe, além de diferenciar perfis de acesso como Gerente, Líder e Membro, garantindo segurança e privacidade das informações.</p>
 										<p>Como solução, o Athos Insight foi construído como uma plataforma web em modelo <strong>SaaS</strong>, hospedada em uma máquina virtual na Microsoft Azure. A aplicação centraliza e organiza dados de projetos em duas camadas: uma base relacional em <strong>PostgreSQL</strong>, voltada ao funcionamento transacional do sistema, e um <strong>Data Warehouse</strong> em modelo <strong>OLAP</strong>, estruturado em schema snowflake para análise gerencial. Os dados eram extraídos, tratados e carregados por processos de <strong>ETL</strong> com execução agendada por cron, permitindo transformar dados operacionais em indicadores consolidados. O sistema permite monitorar produtividade, comparar custos previstos e realizados, visualizar dashboards financeiros e operacionais, acompanhar tarefas, bugs e issues, exportar relatórios em PDF e manter os dados organizados para análise gerencial. Em paralelo, o projeto também incorporou práticas de qualidade com <strong>SonarQube</strong>, estudos de testes de carga e estresse com o Athos Monitor e uma frente de <strong>DevOps</strong> para viabilizar deploy, infraestrutura e operação do ambiente.</p>
+
+										<div className="project-media">
+											<img
+												src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
+												alt="Modelo OLAP em schema snowflake do Data Warehouse do Athos Insight"
+												className="project-image"
+											/>
+											<p className="project-caption">Modelo OLAP em schema snowflake, usado junto ao banco relacional PostgreSQL para separar a operação do sistema da camada analítica do Data Warehouse.</p>
+										</div>
 
 										<div className="project-link-box">
 											<span>Repositório do projeto</span>
@@ -559,15 +568,6 @@ function App() {
 											</a>
 										</div>
 
-										<div className="project-media">
-											<img
-												src={`${process.env.PUBLIC_URL}/assets/api5/olap-data-warehouse.webp`}
-												alt="Modelo OLAP em schema snowflake do Data Warehouse do Athos Insight"
-												className="project-image"
-											/>
-											<p className="project-caption">Modelo OLAP em schema snowflake, usado junto ao banco relacional PostgreSQL para separar a operação do sistema da camada analítica do Data Warehouse.</p>
-										</div>
-
 										<h6 className="section-title">Contribuições Pessoais</h6>
 										<div className="contribution-text">
 											<p>Na API 5, escolhi assumir mais um papel novo: <strong>Product Owner</strong>. Depois da experiência como Scrum Master no semestre anterior, percebi que a parte que mais me motivava era desmontar o problema, entender as peças do quebra-cabeça e buscar uma solução que fizesse sentido para o cliente. Entrei em um novo grupo, em um momento em que alguns membros haviam deixado o curso, então o Athos Insight nasceu também desse recomeço de equipe e da minha vontade de experimentar uma visão mais próxima de produto.</p>
@@ -591,7 +591,7 @@ function App() {
 										</div>
 
 										<details className="skills-details">
-											<summary>Hard Skills Trabalhadas</summary>
+											<summary>Competências técnicas: produto, Data Warehouse e DevOps</summary>
 										<ul className="skill-level-list">
 											<li><strong>Python</strong> — intermediário</li>
 											<li><strong>Django</strong> — intermediário</li>
@@ -713,7 +713,7 @@ function App() {
 										</div>
 
 										<details className="skills-details">
-											<summary>Hard Skills Trabalhadas</summary>
+											<summary>Competências técnicas: dados, LGPD e IA</summary>
 										<ul className="skill-level-list">
 											<li><strong>React</strong> — intermediário</li>
 											<li><strong>TypeScript</strong> — intermediário</li>

@@ -11,10 +11,10 @@ function App() {
 						<div className="text-center">
 							<img
 								src="https://avatars.githubusercontent.com/RuthMira"
-								alt="Ruth Mira"
+								alt="Ruth da Silva Mira"
 								className="avatar mb-3"
 							/>
-							<h3>Ruth Mira</h3>
+							<h3>Ruth da Silva Mira</h3>
 							<p className="text-muted">Estudante de Banco de Dados | Desenvolvedora Full Stack</p>
 						</div>
 
@@ -22,7 +22,7 @@ function App() {
 
 						<h5>Introdução</h5>
 						<p style={{ textAlign: "justify" }}>
-							Sou Ruth Mira, estudante do 6º semestre de Banco de Dados e desenvolvedora full stack no Grupo TXAI. Minha trajetória na tecnologia começou durante minha primeira graduação em Engenharia na UNIFESP, onde tive contato com lógica de programação e algoritmos. Apesar de sempre gostar de computadores e games, foi nesse período que descobri maior interesse pela área de desenvolvimento.
+							Sou Ruth da Silva Mira, estudante do 6º semestre de Banco de Dados e desenvolvedora full stack no Grupo TXAI. Minha trajetória na tecnologia começou durante minha primeira graduação em Engenharia na UNIFESP, onde tive contato com lógica de programação e algoritmos. Apesar de sempre gostar de computadores e games, foi nesse período que descobri maior interesse pela área de desenvolvimento.
 						</p>
 						<p style={{ textAlign: "justify" }}>
 							Antes de migrar para TI, trabalhei com recrutamento e seleção. Depois decidi seguir carreira em tecnologia, ingressei na FATEC e iniciei o curso de Banco de Dados. Desde então, participei de projetos acadêmicos e profissionais, atuando como desenvolvedora no 1º Cartório de Registro de Imóveis de São José dos Campos ainda no primeiro ano da faculdade, e posteriormente no Grupo TXAI, empresa voltada a soluções para cartórios.
